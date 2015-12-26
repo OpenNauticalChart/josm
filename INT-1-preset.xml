@@ -2335,9 +2335,9 @@
       
     </group>
     
-    <!---***********************Section Q: Buoys, Beacons***************************-->
+    <!---***********************Section Q: Buoys, Beacons & Notices***************************-->
     
-    <group name="Q: Buoys, Beacons" de.name="Q: Bojen, Schilder" icon="https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/Q/pillar/horizontal/yellow_black_yellow.svg">
+    <group name="Q: Buoys, Beacons & Notices" de.name="Q: Bojen, Schilder & Hinweise" icon="https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/Q/pillar/horizontal/yellow_black_yellow.svg">
       
       <chunk id="lateraltops">
         <list_entry value="cone, point up" icon="https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/Q/Q9/cone_point_up/generic.svg" icon_size="16"/>
