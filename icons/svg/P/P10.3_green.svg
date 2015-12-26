@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:ns="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="102.3125"
+   height="145.575"
+   id="svg2"
+   inkscape:version="0.45pre1"
+   sodipodi:docname="P10.3_green.svg"
+   sodipodi:version="0.32"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   sodipodi:docbase="D:\Documents\OpenStreetMap\INT-1\SVG\P"
+   sodipodi:modified="true">
+  <metadata
+     id="metadata3323">
+    <rdf:RDF>
+      <ns:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <ns:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+        <dc:title />
+      </ns:Work>
+      <ns:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <ns:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <ns:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <ns:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </ns:License>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="802"
+     inkscape:window-height="575"
+     id="namedview3321"
+     showgrid="false"
+     inkscape:zoom="0.60546763"
+     inkscape:cx="200"
+     inkscape:cy="200"
+     inkscape:window-x="156"
+     inkscape:window-y="154"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <defs
+     id="defs4" />
+  <path
+     d="M 22.35,111.2 L 92.15,42.2875 L 97.25,37.225 L 100.9,31.275 L 102.3125,24.2 L 101.475,16.925 L 98.5125,10.375 L 93.625,5.0875 L 87.15,1.5125 L 79.9125,-1.4210855e-014 L 72.9875,0.85 L 67.2,4.175 L 62.375,9.275 L 58.0875,15.325 L 57.2625,16.5875 L 22.35,111.2 L 22.35,111.2 z M 0,141.575 C 0,143.783 1.792,145.575 4,145.575 C 6.208,145.575 8,143.783 8,141.575 C 8,139.367 6.208,137.575 4,137.575 C 1.792,137.575 0,139.367 0,141.575 z "
+     id="path25338"
+     style="fill:#00ff00;fill-opacity:1;fill-rule:evenodd;stroke:none"
+     inkscape:connector-curvature="0" />
+</svg>

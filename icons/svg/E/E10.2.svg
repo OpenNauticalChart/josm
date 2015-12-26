@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="100"
+   height="100"
+   id="svg2">
+  <title
+     id="title2985">E10.2: Church with Tower</title>
+  <metadata
+     id="metadata13">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>E10.2: Church with Tower</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs11" />
+  <path
+     d="m 29,0 0,2.0625 C 35.1706,2.57342 40,7.6926 40,14 l 0,9.75 -15,0 -1.25,0 0,1.25 0,15 L 14,40 C 7.6931,40 2.5735,35.1706 2.0625,29 L 0,29 0,71 2.0625,71 C 2.57342,64.8294 7.6926,60 14,60 l 9.75,0 0,15 0,1.25 1.25,0 15,0 0,9.75 c 0,6.3069 -4.8294,11.4265 -11,11.9375 l 0,2.0625 42,0 0,-2.0625 C 64.83,97.4275 60,92.31 60,86 l 0,-9.75 15,0 1.25,0 0,-1.25 0,-15 9.75,0 c 6.3069,0 11.4265,4.8294 11.9375,11 L 100,71 100,29 97.9375,29 C 97.42658,35.1706 92.3074,40 86,40 l -9.75,0 0,-15 0,-1.25 -1.25,0 -15,0 L 60,14 C 60,7.6931 64.8294,2.5735 71,2.0625 L 71,0 29,0 z m -2.75,26.25 13.75,0 0,13.75 -13.75,0 0,-13.75 z m 33.75,0 13.75,0 0,13.75 L 60,40 60,26.25 z M 26.25,60 40,60 l 0,13.75 -13.75,0 0,-13.75 z m 33.75,0 13.75,0 0,13.75 L 60,73.75 60,60 z"
+     id="path7" />
+</svg>

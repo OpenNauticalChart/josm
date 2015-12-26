@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="71.136459"
+   height="71.136353"
+   id="svg15055"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="L10.svg">
+  <title
+     id="title2984">L10: Offshore Platform</title>
+  <defs
+     id="defs15057" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="6.9022375"
+     inkscape:cx="-15.429726"
+     inkscape:cy="35.568176"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1440"
+     inkscape:window-height="808"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata15060">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>L10: Offshore Platform</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-401.57463,-379.65115)">
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.27461472;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:22.9260006;stroke-opacity:1;stroke-dasharray:none"
+       d="M 4.375 0.5 C 4.26209 0.4987 4.17415 0.51475 4.0625 0.53125 C 3.95086 0.54655 3.82786 0.56195 3.71875 0.59375 C 3.60965 0.62302 3.51028 0.643 3.40625 0.6875 C 3.30348 0.73082 3.19015 0.78765 3.09375 0.84375 C 2.99606 0.90108 2.9026 0.96245 2.8125 1.03125 C 2.72369 1.10005 2.6412 1.1697 2.5625 1.25 C 2.48257 1.33026 2.41225 1.44205 2.34375 1.53125 C 2.27524 1.62171 2.21205 1.7157 2.15625 1.8125 C 2.09791 1.9106 2.0431 1.98928 2 2.09375 C 1.95556 2.19823 1.93415 2.32794 1.90625 2.4375 C 1.87445 2.54707 1.8265 2.63788 1.8125 2.75 C 1.7973 2.86084 1.8125 2.98036 1.8125 3.09375 L 1.8125 66.75 C 1.8111 66.86212 1.796 66.95038 1.8125 67.0625 C 1.8277 67.17461 1.87455 67.29669 1.90625 67.40625 C 1.93536 67.51455 1.9556 67.61428 2 67.71875 C 2.04314 67.82322 2.09925 67.93445 2.15625 68.03125 C 2.21208 68.12936 2.27525 68.2233 2.34375 68.3125 C 2.41226 68.40296 2.4825 68.4835 2.5625 68.5625 C 2.64116 68.64404 2.7237 68.71115 2.8125 68.78125 C 2.90257 68.85005 2.99615 68.91265 3.09375 68.96875 C 3.19017 69.02733 3.30222 69.0817 3.40625 69.125 C 3.51029 69.1683 3.60965 69.222 3.71875 69.25 C 3.82786 69.2806 3.95086 69.2972 4.0625 69.3125 C 4.17414 69.3278 4.26209 69.34275 4.375 69.34375 L 4.40625 69.34375 L 67.75 69.34375 C 67.86292 69.34375 67.98211 69.329 68.09375 69.3125 C 68.2054 69.2971 68.32839 69.2806 68.4375 69.25 C 68.54661 69.22073 68.64597 69.1683 68.75 69.125 C 68.85403 69.08168 68.9649 69.02615 69.0625 68.96875 C 69.15892 68.91269 69.25495 68.85005 69.34375 68.78125 C 69.43382 68.71245 69.51375 68.644 69.59375 68.5625 C 69.67367 68.48351 69.744 68.4017 69.8125 68.3125 C 69.88101 68.22332 69.9442 68.12935 70 68.03125 C 70.05834 67.93443 70.11315 67.82195 70.15625 67.71875 C 70.20069 67.61428 70.2221 67.51455 70.25 67.40625 C 70.2804 67.29669 70.2973 67.17461 70.3125 67.0625 C 70.3283 66.95038 70.34375 66.86212 70.34375 66.75 L 70.34375 3.09375 C 70.34515 2.98036 70.329 2.86084 70.3125 2.75 C 70.2974 2.63788 70.2804 2.54707 70.25 2.4375 C 70.22079 2.32794 70.19935 2.19823 70.15625 2.09375 C 70.11312 1.98928 70.0571 1.9107 70 1.8125 C 69.94418 1.71567 69.881 1.62165 69.8125 1.53125 C 69.74399 1.44207 69.67365 1.3302 69.59375 1.25 C 69.51382 1.16973 69.43385 1.10005 69.34375 1.03125 C 69.25494 0.96245 69.1589 0.90105 69.0625 0.84375 C 68.96481 0.78644 68.85403 0.7308 68.75 0.6875 C 68.64597 0.6429 68.54661 0.62175 68.4375 0.59375 C 68.32839 0.56185 68.2054 0.54655 68.09375 0.53125 C 67.98211 0.51535 67.86292 0.5 67.75 0.5 L 4.375 0.5 z M 11.9375 11.9375 L 59.21875 11.9375 L 59.21875 59.21875 L 11.9375 59.21875 L 11.9375 11.9375 z M 35.5625 24.53125 C 29.47375 24.53125 24.53125 29.475 24.53125 35.5625 C 24.53125 41.65 29.47375 46.59375 35.5625 46.59375 C 41.65125 46.59375 46.59375 41.65 46.59375 35.5625 C 46.59375 29.475 41.65125 24.53125 35.5625 24.53125 z "
+       transform="translate(401.57463,379.65115)"
+       id="path7842" />
+    <g
+       id="g7864"
+       transform="matrix(0,1.25,1.25,0,437.14223,404.19375)"
+       style="fill:#000000;stroke:#000000" />
+  </g>
+</svg>

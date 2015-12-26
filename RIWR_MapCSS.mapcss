@@ -1,0 +1,62 @@
+/* MapCSS scheme for rendering INT-1 style maps based on OpenStreetMap data
+ *
+ * The best way to check marine map data quality is to compare with existing map with
+ * similar rendering. Also for maritime personel wanting to verify if what is in the
+ * database corresponds with reality, seeing it rendered in a standardized and familiar
+ * way is the best option.
+ *
+ */
+
+/* Meta data */
+meta {
+	title:				"RIWR Rendering (standarized symbols)";
+	icon:				"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/IHO_c.svg";
+	author:				"Aun (Skippern) Johnsen";
+	version:			"0.1";
+	description:		"JOSM rendering of nautical symbols according to RIWR standard";
+	min-josm-version:	8087;
+}
+
+/* For JOSM, creating a light background color */
+canvas {
+	antialiasing:		'full';
+	default-points: 	true; /* show points */
+	default-lines: 		true; /* show lines */
+}
+/* Erase generic */
+*["seamark:notice:system"=riwr].notice::int1_notice {
+icon-opacity:   0.0;
+}
+
+node["seamark:type"=notice]["seamark:notice:system"=riwr]::riwr_notice {
+z-index:        1;
+icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/Q/Q126/generic.svg";
+icon-height:	16;
+icon-offset-x:  0;
+set				notice;
+}
+node["seamark:notice:1:category"]["seamark:notice:system"=riwr]::riwr_notice_left {
+z-index:        3;
+icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/Q/Q126/generic.svg";
+icon-height:	16;
+icon-offset-x:	8;
+set				notice_left;
+}
+node["seamark:notice:2:category"]["seamark:notice:system"=riwr]::riwr_notice_right {
+z-index:        3;
+icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/Q/Q126/generic.svg";
+icon-height:	16;
+icon-offset-x:	-8;
+set				notice_right;
+}
+*["seamark:notice:system"=riwr]["seamark:notice:category"].notice::riwr_notice {
+icon-image:		eval(concat("https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/Q/Q126/RIWR/", tag("seamark:notice:category"), ".svg"));
+}
+*["seamark:notice:1:system"=riwr]["seamark:notice:1:category"].notice_left::riwr_notice_left {
+icon-image:		eval(concat("https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/Q/Q126/RIWR/", tag("seamark:notice:1:category"), ".svg"));
+}
+*["seamark:notice:2:system"=riwr]["seamark:notice:2:category"].notice_right::riwr_notice_right {
+icon-image:		eval(concat("https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/Q/Q126/RIWR/", tag("seamark:notice:2:category"), ".svg"));
+}
+
+/* END */

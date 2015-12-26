@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="11.96875"
+   height="19.5625"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.48.2 r9819"
+   version="1.0"
+   sodipodi:docname="E17.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   sodipodi:modified="true">
+  <title
+     id="title2984">E17: Mosque</title>
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="15.266667"
+     inkscape:cx="-8.056768"
+     inkscape:cy="15"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="843"
+     inkscape:window-height="680"
+     inkscape:window-x="74"
+     inkscape:window-y="22"
+     inkscape:window-maximized="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>E17: Mosque</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+      </cc:Work>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-8.8427947,18.27006)">
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 10.624045,-18.27006 L 9.5302952,-18.23881 C 9.6547612,-15.62071 11.69341,-13.510335 14.280295,-13.27006 L 14.280295,-9.30131 C 11.22084,-9.0715162 8.8427947,-6.8495974 8.8427947,-4.14506 C 8.8427947,-1.2887123 11.537716,1.29244 14.842795,1.29244 C 18.147874,1.29244 20.811545,-1.3199623 20.811545,-4.17631 C 20.811545,-6.8448431 18.472169,-9.0257866 15.467795,-9.30131 L 15.467795,-13.30131 C 17.963471,-13.625789 19.90892,-15.685735 20.030295,-18.23881 L 18.686545,-18.23881 C 18.690145,-18.17734 18.717795,-18.113674 18.717795,-18.05131 C 18.717795,-16.31679 16.483564,-14.33256 14.749045,-14.33256 C 13.014525,-14.33256 10.655295,-16.31679 10.655295,-18.05131 C 10.655295,-18.11367 10.620455,-18.208594 10.624045,-18.27006 L 10.624045,-18.27006 z M 14.842795,-8.39506 C 17.423,-8.39506 19.530295,-6.6410647 19.530295,-4.20756 C 19.530295,-1.7740553 17.39175,0.35493996 14.811545,0.35493996 C 12.231339,0.35493996 10.092795,-1.7115553 10.092795,-4.14506 C 10.092795,-6.5785647 12.262589,-8.39506 14.842795,-8.39506 L 14.842795,-8.39506 z M 14.842795,-4.98881 C 14.29051,-4.98881 13.842795,-4.5410947 13.842795,-3.98881 C 13.842795,-3.4365253 14.29051,-2.98881 14.842795,-2.98881 C 15.395079,-2.98881 15.842795,-3.4365253 15.842795,-3.98881 C 15.842795,-4.5410947 15.395079,-4.98881 14.842795,-4.98881 z "
+       id="path2415"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

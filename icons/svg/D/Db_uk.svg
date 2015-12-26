@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+   xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="15.3125"
+   height="15.3125"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   inkscape:export-filename="C:\Dokumente und Einstellungen\Matthias\Desktop\symbols\aeroway_helipad.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90"
+   sodipodi:docname="Db_uk.svg">
+  <title
+     id="title3056">Db: Helipad (British symbol)</title>
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+    <inkscape:perspective
+       id="perspective2824"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2838"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2862"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2862-1"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2894"
+       inkscape:persp3d-origin="240 : 160 : 1"
+       inkscape:vp_z="480 : 240 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 240 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2862-0"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective2932" />
+    <inkscape:perspective
+       id="perspective10-4"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3649"
+       inkscape:persp3d-origin="362.5 : 241.66667 : 1"
+       inkscape:vp_z="725 : 362.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 362.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <marker
+       viewBox="0 0 10 10"
+       refY="5"
+       refX="10"
+       orient="auto"
+       markerWidth="4"
+       markerUnits="strokeWidth"
+       markerHeight="3"
+       id="ArrowStart">
+      <path
+         style="font-size:12px"
+         id="path607"
+         d="M 10,0 0,5 10,10 10,0 z"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       viewBox="0 0 10 10"
+       refY="5"
+       refX="0"
+       orient="auto"
+       markerWidth="4"
+       markerUnits="strokeWidth"
+       markerHeight="3"
+       id="ArrowEnd">
+      <path
+         style="font-size:12px"
+         id="path605"
+         d="M 0,0 10,5 0,10 0,0 z"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <inkscape:perspective
+       id="perspective20"
+       inkscape:persp3d-origin="75 : 41.666667 : 1"
+       inkscape:vp_z="150 : 62.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 62.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3779"
+       inkscape:persp3d-origin="300.022 : 151.66667 : 1"
+       inkscape:vp_z="600.04401 : 227.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 227.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective10-5"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4876"
+       inkscape:persp3d-origin="279.81235 : 124.43199 : 1"
+       inkscape:vp_z="559.62469 : 186.64798 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 186.64798 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3952"
+       inkscape:persp3d-origin="372.04724 : 88.333333 : 1"
+       inkscape:vp_z="744.09448 : 132.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 132.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3645"
+       inkscape:persp3d-origin="261.91162 : 188.09367 : 1"
+       inkscape:vp_z="523.82324 : 282.1405 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 282.1405 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#XMLID_4_"
+       id="linearGradient2993"
+       y2="454.67969"
+       x2="227.37601"
+       y1="423.89941"
+       x1="227.37601" />
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#XMLID_3_"
+       id="linearGradient2991"
+       y2="0.071800001"
+       x2="227.73579"
+       y1="30.8521"
+       x1="227.73579" />
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#XMLID_2_"
+       id="linearGradient2989"
+       y2="227.37601"
+       x2="0.0713"
+       y1="227.37601"
+       x1="30.851601" />
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#XMLID_1_"
+       id="linearGradient2987"
+       y2="227.73579"
+       x2="455.14841"
+       y1="227.73579"
+       x1="424.36719" />
+    <foreignObject
+       id="foreignObject8"
+       y="0"
+       x="0"
+       width="1"
+       requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/"
+       height="1">
+      <i:pgfRef
+         xlink:href="#adobe_illustrator_pgf" />
+    </foreignObject>
+    <inkscape:perspective
+       id="perspective3757"
+       inkscape:persp3d-origin="250 : 166.66667 : 1"
+       inkscape:vp_z="500 : 250 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 250 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       x1="424.36719"
+       y1="227.73579"
+       x2="455.14841"
+       y2="227.73579"
+       id="XMLID_1_"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop16"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop18"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0.1696" />
+      <stop
+         id="stop20"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0.30590001" />
+      <stop
+         id="stop22"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0.43059999" />
+      <stop
+         id="stop24"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0.54839998" />
+      <stop
+         id="stop26"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0.66140002" />
+      <stop
+         id="stop28"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0.77069998" />
+      <stop
+         id="stop30"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0.87720001" />
+      <stop
+         id="stop32"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0.9788" />
+      <stop
+         id="stop34"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="1" />
+      <a:midPointStop
+         style="stop-color:#000000"
+         offset="0" />
+      <a:midPointStop
+         style="stop-color:#000000"
+         offset="0.75" />
+      <a:midPointStop
+         style="stop-color:#000000"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       x1="30.851601"
+       y1="227.37601"
+       x2="0.0713"
+       y2="227.37601"
+       id="XMLID_2_"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop39"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop41"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0.26750001" />
+      <stop
+         id="stop43"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0.4824" />
+      <stop
+         id="stop45"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0.67900002" />
+      <stop
+         id="stop47"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0.8635" />
+      <stop
+         id="stop49"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="1" />
+      <a:midPointStop
+         style="stop-color:#000000"
+         offset="0" />
+      <a:midPointStop
+         style="stop-color:#000000"
+         offset="0.75" />
+      <a:midPointStop
+         style="stop-color:#000000"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       x1="227.73579"
+       y1="30.8521"
+       x2="227.73579"
+       y2="0.071800001"
+       id="XMLID_3_"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop54"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop56"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0.26750001" />
+      <stop
+         id="stop58"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0.4824" />
+      <stop
+         id="stop60"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0.67900002" />
+      <stop
+         id="stop62"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0.8635" />
+      <stop
+         id="stop64"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="1" />
+      <a:midPointStop
+         style="stop-color:#000000"
+         offset="0" />
+      <a:midPointStop
+         style="stop-color:#000000"
+         offset="0.75" />
+      <a:midPointStop
+         style="stop-color:#000000"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       x1="227.37601"
+       y1="423.89941"
+       x2="227.37601"
+       y2="454.67969"
+       id="XMLID_4_"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop69"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop71"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0.1696" />
+      <stop
+         id="stop73"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0.30590001" />
+      <stop
+         id="stop75"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0.43059999" />
+      <stop
+         id="stop77"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0.54839998" />
+      <stop
+         id="stop79"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0.66140002" />
+      <stop
+         id="stop81"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0.77069998" />
+      <stop
+         id="stop83"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0.87720001" />
+      <stop
+         id="stop85"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0.9788" />
+      <stop
+         id="stop87"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="1" />
+      <a:midPointStop
+         style="stop-color:#000000"
+         offset="0" />
+      <a:midPointStop
+         style="stop-color:#000000"
+         offset="0.75" />
+      <a:midPointStop
+         style="stop-color:#000000"
+         offset="1" />
+    </linearGradient>
+    <inkscape:perspective
+       id="perspective2829"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <marker
+       viewBox="0 0 10 10"
+       refY="5"
+       refX="10"
+       orient="auto"
+       markerWidth="4"
+       markerUnits="strokeWidth"
+       markerHeight="3"
+       id="ArrowStart-4">
+      <path
+         id="path2973"
+         d="M 10,0 0,5 10,10 z"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       viewBox="0 0 10 10"
+       refY="5"
+       refX="0"
+       orient="auto"
+       markerWidth="4"
+       markerUnits="strokeWidth"
+       markerHeight="3"
+       id="ArrowEnd-7">
+      <path
+         id="path2970"
+         d="M 0,0 10,5 0,10 z"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <inkscape:perspective
+       id="perspective3778"
+       inkscape:persp3d-origin="220.3455 : 109.16667 : 1"
+       inkscape:vp_z="440.69101 : 163.75 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 163.75 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#000000"
+     bordercolor="#000000"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="30.6875"
+     inkscape:cx="-3.8454684"
+     inkscape:cy="7.9374972"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:snap-grids="false"
+     inkscape:window-width="1440"
+     inkscape:window-height="808"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2852"
+       empspacing="5"
+       dotted="true"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Db: Helipad (British symbol)</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-0.375,-1036.9872)">
+    <path
+       d=""
+       style="fill:#000000"
+       id="path1683"
+       inkscape:connector-curvature="0" />
+    <path
+       d=""
+       style="fill:#000000"
+       id="path1681"
+       inkscape:connector-curvature="0" />
+    <path
+       d=""
+       style="fill:#000000"
+       id="path1678"
+       inkscape:connector-curvature="0" />
+    <path
+       sodipodi:type="arc"
+       style="color:#000000;fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3710"
+       sodipodi:cx="7.71875"
+       sodipodi:cy="7.84375"
+       sodipodi:rx="7.84375"
+       sodipodi:ry="7.84375"
+       d="m 15.5625,7.84375 c 0,4.331984 -3.511766,7.84375 -7.84375,7.84375 C 3.3867665,15.6875 -0.125,12.175734 -0.125,7.84375 -0.125,3.5117665 3.3867665,0 7.71875,0 12.050734,0 15.5625,3.5117665 15.5625,7.84375 z"
+       transform="matrix(0.917603,0,0,0.917603,0.94850187,1037.446)" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 5.4294806,1041.7997 0,5.75 1.03125,0 0,-2.6875 3.7499994,0 0,2.75 0.96875,0 0,-5.8125 -0.96875,0 0,2.3438 -3.7499994,0 0,-2.3438 -1.03125,0 z"
+       id="rect3057"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

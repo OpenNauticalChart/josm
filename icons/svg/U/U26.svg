@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2985"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   width="50"
+   height="55"
+   sodipodi:docname="U26.svg">
+  <title
+     id="title2982">U26: Refuse Bin</title>
+  <metadata
+     id="metadata2991">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>U26: Refuse Bin</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs2989" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1440"
+     inkscape:window-height="808"
+     id="namedview2987"
+     showgrid="false"
+     inkscape:zoom="13.027498"
+     inkscape:cx="-13.8793"
+     inkscape:cy="27.5"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2985" />
+  <path
+     style="fill:#a30075;fill-opacity:1"
+     d="M 12.712448,20 37,20 33.938069,44.076761 16.483787,44 z m 21.738909,2.202205 -19.770154,-0.430376 3.385949,20.993667 14.549044,0 z m -21.528118,-3.243751 0.07521,-1.42324 5.361975,0.0755 c 0.178283,-2.351131 2.359235,-6.125319 6.806194,-6.131925 5.059557,-0.0075 6.737899,4.134432 6.925306,6.154453 l 4.835539,0.209015 -0.08309,1.192957 z m 12.341022,-6.251432 c -4.00137,-0.140544 -5.149927,2.834879 -4.987096,4.838114 l 10.063221,0.06466 c 0.167895,-2.130801 -1.209809,-4.766971 -5.076125,-4.90277 z"
+     id="path2995"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cccccccccccccsccccsccs" />
+</svg>

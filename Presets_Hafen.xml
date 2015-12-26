@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presets shortdescription="Harbours" de.shortdescription="Hafen" description="Harbour elements for OpenSeaMap" author="Malcolm Herring" version="1.0_2013-05-09" xmlns="http://josm.openstreetmap.de/tagging-preset-1.0">
+  <separator/>
+  <group name="Harbour" de.name="Hafen" fr.name="Port" icon="http://dev.openseamap.org/josm/icons/Harbour16.png">
+    <item name="Harbour" de.name="Hafen" fr.name="Port" icon="http://dev.openseamap.org/josm/icons/Harbour16.png" type="node,way,closedway,relation">
+      <link href="http://wiki.openstreetmap.org/wiki/OpenSeaMap/Harbours" />
+      <key key="harbour" value="yes" />
+      <key key="seamark:type" value="harbour" />
+      <text key="name" text="Harbour Name" />
+      <space/>
+      <multiselect key="seamark:harbour:category" text="Harbour type"
+        values="fishing;passenger;ferry;roro;cargo;container;naval;tanker;bulk;marina;marina_no_facilities;timber;quarantine;seaplane;syncrolift;straddle_carrier;lay_up;service_repair;port_support_base;offshore_support"
+        display_values="Fishing Harbour;Passenger Terminal;Ferries;RoRo Terminal;Cargo;Container;Naval Base;Tanker;Bulk;Marina;Marina - berths only;Timber;Quarantine;Seaplane;Syncro Lift;Straddle Carrier;Lay-up;Service and Repair;Port support base;Offshore support base"
+      />
+      <space/>
+      <text key="operator" text="Harbour Operator" />
+      <space/>
+      <check key="port_of_entry" value_on="yes" value_off="no" text="Port of Entry" default="off" />
+      <space/>
+      <label text="Harbour Access Restrictions" />
+      <space />
+      <text key="access:tide" text="Tide state" />
+      <text key="access:tidal_range" text="Tidal range" />
+      <text key="access:sill_height" text="Sill height" />
+      <text key="access:swell" text="Swell conditions" />
+      <text key="access:ice" text="Ice conditions" />
+      <text key="access:time" text="Time limits" />
+      <space/>
+      <label text="Vessel Size Restrictions" />
+      <space/>
+      <text key="maxlength" text="Maximum length" />
+      <text key="maxwidth" text="Maximum beam" />
+      <text key="maxdraft" text="Maximum draft" />
+      <text key="maxairdraft" text="Maximum height" />
+      <text key="maxspeed" text="Speed limit" />
+      <space/>
+      <label text="Contact Information" />
+      <space/>
+      <text key="harbour_master" text="Harbour Master" />
+      <text key="phone" text="Phone" />
+      <text key="fax" text="Fax" />
+      <text key="email" text="Email" />
+      <text key="website" text="Web site" />
+      <text key="vhf_channel" text="VHF channel" />
+      <text key="vhf_mmsi" text="VHF MMSI" />
+      <space/>
+      <text key="harbour:information" text="General Information" />
+    </item>
+    <item name="Anchorage" de.name="Ankerplatz" fr.name="Mouillage" icon="http://dev.openseamap.org/josm/icons/Anchorage_Area16.png" type="node,way,closedway,relation">
+      <link href="http://wiki.openstreetmap.org/wiki/OpenSeaMap/Anchorage" />
+      <key key="seamark:type" value="anchorage" />
+      <space/>
+      <text key="seamark:name" text="Anchorage Name" />
+      <space/>
+      <multiselect key="seamark:anchorage:category" text="Anchorage type"
+        values="small_craft;small_craft_mooring;24_hour;limited_period;unrestricted;deep_water;tanker;explosives;quarantine;seaplane;non_pushing;dry_cargo;raft"
+        display_values="Small craft;Small craft moorings;24 hour stay;Limited period stay;Unrestricted;Deep water;Tankers;Explosive cargos;Quarantine;Seaplane;Non-pushing vessels;Dry cargo vessels;Rafts"
+      />
+      <space/>
+      <text key="seamark:information" text="General Information" />
+    </item>
+    <group name="Marina" icon="http://dev.openseamap.org/josm/icons/Marina16.png" >
+      <item name="General Information" icon="http://dev.openseamap.org/josm/icons/Marina16.png" type="node,way,closedway,relation">
+        <link href="http://wiki.openstreetmap.org/wiki/OpenSeaMap/Harbours" />
+        <key key="leisure" value="marina" />
+        <key key="seamark:type" value="harbour" />
+        <key key="seamark:harbour:category" value="marina" />
+        <text key="name" text="Marina Name" />
+        <space/>
+        <check key="seamark:harbour:category" value_on="marina_no_facilities" value_off="marina" text="Berths only - no facilities" default="off" />
+        <space/>
+        <text key="operator" text="Marina Operator" />
+        <space/>
+        <label text="Marina Access Restrictions" />
+        <space />
+        <text key="access:tide" text="Tide state" />
+        <text key="access:tidal_range" text="Tidal range" />
+        <text key="access:sill_height" text="Sill height" />
+        <text key="access:swell" text="Swell conditions" />
+        <text key="access:ice" text="Ice conditions" />
+        <text key="access:time" text="Time limits" />
+        <space/>
+        <label text="Vessel Size Restrictions" />
+        <space/>
+        <text key="maxlength" text="Maximum length" />
+        <text key="maxwidth" text="Maximum beam" />
+        <text key="maxdraft" text="Maximum draft" />
+        <text key="maxairdraft" text="Maximum height" />
+        <text key="maxspeed" text="Speed limit" />
+        <space/>
+        <label text="Contact Information" />
+        <space/>
+        <text key="harbour_master" text="Harbour Master" />
+        <text key="phone" text="Phone" />
+        <text key="fax" text="Fax" />
+        <text key="email" text="Email" />
+        <text key="website" text="Web site" />
+        <text key="vhf_channel" text="VHF channel" />
+        <text key="vhf_mmsi" text="VHF MMSI" />
+        <space/>
+        <combo key="internet_access" text="Internet Access">
+          <list_entry value="yes"/>
+          <list_entry value="wlan"/>
+          <list_entry value="wired"/>
+          <list_entry value="terminal"/>
+        </combo>
+        <text key="internet_access:operator" text="Internet Operator"/>
+        <combo key="internet_access:fee" text="Internet Fee">
+          <list_entry value="yes"/>
+          <list_entry value="no"/>
+        </combo>
+        <space/>
+        <text key="harbour:information" text="General Information" />
+      </item>
+      <item name="Marina Facilities" icon="http://dev.openseamap.org/josm/icons/Marina16.png" type="node,way,closedway,relation">
+        <link href="http://wiki.openstreetmap.org/wiki/OpenSeaMap/Harbours" />
+        <label text="Facilities available at or near this marina" />
+        <key key="leisure" value="marina" />
+        <key key="seamark:type" value="harbour" />
+        <key key="seamark:harbour:category" value="marina" />
+        <space/>
+        <text key="harbour:visitor_berth" text="Visitors berth" />
+        <text key="harbour:visitors_mooring" text="Visitors mooring" />
+        <text key="harbour:scrubbing_berth" text="Scrubbing berth" />
+        <text key="harbour:electricity" text="Electricity" />
+        <text key="harbour:water_tap" text="Drinking Water" />
+        <text key="harbour:showers" text="Showers" />
+        <text key="harbour:toilets" text="Toilets" />
+        <text key="harbour:laundrette" text="Laundrette" />
+        <text key="harbour:public_inn" text="Inn" />
+        <text key="harbour:restaurant" text="Restaurant" />
+        <text key="harbour:nautical_club" text="Sailing club" />
+        <text key="harbour:fuel_station" text="Fuel" />
+        <text key="harbour:chandler" text="Chandler" />
+        <text key="harbour:provisions" text="Provisions" />
+        <text key="harbour:bottle_gas" text="Bottled gas" />
+        <text key="harbour:doctor" text="Doctor" />
+        <text key="harbour:pharmacy" text="Pharmacy" />
+        <text key="harbour:emergency_telephone" text="Emergency telephone" />
+        <text key="harbour:post_box" text="Post box" />
+        <text key="harbour:telephone" text="Telephone" />
+        <text key="harbour:refuse_bin" text="Refuse disposal" />
+        <text key="harbour:pump-out" text="Pump-out" />
+        <text key="harbour:car_park" text="Car park" />
+        <text key="harbour:boat_trailers_park" text="Boat trailer park" />
+        <text key="harbour:caravan_site" text="Caravan site" />
+        <text key="harbour:camping_site" text="Camping site" />
+        <text key="harbour:picnic_area" text="Picnic area" />
+        <text key="harbour:sailmaker" text="Sailmaker" />
+        <text key="harbour:boatyard" text="Boatyard" />
+        <text key="harbour:boat_hoist" text="Boat hoist" />
+        <text key="harbour:slipway" text="Slipway" />
+        <text key="harbour:mechanics_workshop" text="Mechanics workshop" />
+      </item>
+    </group>
+    <item name="Small Craft Facility" icon="http://dev.openseamap.org/josm/icons/Marina16.png" type="node,way,closedway,relation">
+      <link href="http://wiki.openstreetmap.org/wiki/OpenSeaMap/Small_Craft_Facilities" />
+      <key key="seamark:type" value="small_craft_facility" />
+      <label text="Location of particular marina facilities" />
+      <space/>
+      <multiselect key="seamark:small_craft_facility:category" text="Facility type(s)"
+      values="visitor_berth;visitors_mooring;scrubbing_berth;electricity;water_tap;showers;toilets;laundrette;nautical_club;fuel_station;chandler;provisions;bottle_gas;refuse_bin;pump-out;sailmaker;boatyard;boat_hoist;slipway"
+      display_values="Visitors berth;Visitors mooring;Scrubbing berth;Electricity;Drinking Water;Showers;Toilets;Laundrette;Sailing club;Fuel;Chandler;Provisions;Bottled gas;Refuse disposal;Pump-out;Sailmaker;Boatyard;Boat hoist;Slipway"
+      />
+      <space/>
+      <text key="seamark:information" text="Supplimentary Information" />
+    </item>
+    <group name="Port Facility" icon="http://dev.openseamap.org/josm/icons/HarbourMaster16.png" type="node,way,closedway,relation">
+      <item name="Port Offices" icon="http://dev.openseamap.org/josm/icons/HarbourMaster16.png" type="node,way,closedway,relation">
+        <link href="http://wiki.openstreetmap.org/wiki/OpenSeaMap/Buildings" />
+        <key key="seamark:type" value="building" />
+        <label text="Location of particular port offices" />
+        <space/>
+        <multiselect key="seamark:building:function" text="Office type(s)"
+        values="harbour_master;customs;health;pilot_office;water-police_station"
+        display_values="Harbour Master;Customs;Health;Pilot;Water Police"
+        />
+        <space/>
+        <text key="seamark:information" text="Supplimentary Information" />
+      </item>
+      <item name="Cranes" icon="http://dev.openseamap.org/josm/icons/Crane16.png" type="node,way,closedway,relation">
+        <key key="seamark:type" value="crane" />
+        <combo key="seamark:crane:category" text="Crane type"
+        values="container,sheerlegs,travelling,a-frame"
+        display_values="Container Crane,Sheerlegs,Travelling Crane,A-Frame"
+        />
+      </item>
+      <item name="Berth" icon="http://dev.openseamap.org/josm/icons/Berth16.png" type="node,way,closedway,relation">
+        <key key="seamark:type" value="berth" />
+        <text key="seamark:name" text="Berth Number" />
+      </item>
+    </group>
+  </group>
+</presets>

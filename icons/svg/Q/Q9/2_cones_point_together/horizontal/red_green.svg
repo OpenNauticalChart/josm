@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="40"
+   height="80"
+   id="svg2"
+   style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;font-family:Dialog"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="red_green.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1332"
+     id="namedview21"
+     showgrid="false"
+     inkscape:zoom="5.9"
+     inkscape:cx="20.509988"
+     inkscape:cy="30.688529"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <metadata
+     id="metadata33">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="genericDefs">
+    <clipPath
+       id="clipPath3020">
+      <rect
+         width="16"
+         height="20"
+         x="43"
+         y="12"
+         id="rect3022"
+         style="fill:#00c000;fill-opacity:0;stroke:none" />
+    </clipPath>
+  </defs>
+  <g
+     transform="matrix(4,0,0,4,-180.08475,-48.417955)"
+     clip-path="url(#clipPath3020)"
+     id="g5"
+     style="stroke-width:0.625;stroke:#000000;stroke-opacity:1;stroke-miterlimit:10;stroke-dasharray:none">
+    <g
+       transform="matrix(0.25,0,0,0.25,50,50)"
+       id="g7"
+       style="stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;stroke-miterlimit:10;stroke-dasharray:none">
+      <line
+         y2="-70"
+         style="fill:none;stroke-width:2.5;stroke:#000000;stroke-opacity:1;stroke-miterlimit:10;stroke-dasharray:none"
+         x1="0"
+         x2="0"
+         y1="0"
+         id="line9" />
+    </g>
+    <g
+       transform="matrix(0.25,0,0,0.25,50,50)"
+       id="g11"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:10;stroke-dasharray:none">
+      <path
+         d="m -2,0 0,-70 4,0 0,70 z"
+         id="path13"
+         style="stroke:#000000;stroke-opacity:1;stroke-width:2.5;stroke-miterlimit:10;stroke-dasharray:none"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       transform="matrix(0.25,0,0,0.25,50,50)"
+       id="g15"
+       style="stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;stroke-miterlimit:10;stroke-dasharray:none">
+      <line
+         y2="0"
+         style="fill:none;stroke-width:2.5;stroke:#000000;stroke-opacity:1;stroke-miterlimit:10;stroke-dasharray:none"
+         x1="-10"
+         x2="10"
+         y1="0"
+         id="line17" />
+    </g>
+    <g
+       transform="matrix(0.25,0,0,0.25,50,32.5)"
+       id="g19"
+       style="fill:#d40000;stroke:#000000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:10;stroke-dasharray:none">
+      <path
+         d="M -15,-78 0,-45 15,-78 z"
+         id="path21"
+         style="stroke:#000000;stroke-opacity:1;stroke-width:2.5;stroke-miterlimit:10;stroke-dasharray:none"
+         inkscape:connector-curvature="0" />
+      <path
+         d="M -15,-10 0,-43 15,-10 z"
+         id="path23"
+         style="fill:#00d400;stroke:#000000;stroke-opacity:1;stroke-width:2.5;stroke-miterlimit:10;stroke-dasharray:none"
+         inkscape:connector-curvature="0" />
+      <line
+         x1="0"
+         x2="0"
+         y1="0"
+         style="fill:none;stroke:#000000;stroke-width:2.5;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:10;stroke-dasharray:none"
+         y2="-10"
+         id="line25" />
+    </g>
+    <g
+       transform="matrix(0.25,0,0,0.25,50,32.5)"
+       id="g27"
+       style="stroke-width:2.5;stroke-linecap:butt;stroke:#000000;stroke-opacity:1;stroke-miterlimit:10;stroke-dasharray:none">
+      <path
+         d="m -15,-10 15,-33 15,33 z m 0,-68 15,33 15,-33 z"
+         id="path29"
+         style="fill:none;stroke-width:2.5;stroke:#000000;stroke-opacity:1;stroke-miterlimit:10;stroke-dasharray:none"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>

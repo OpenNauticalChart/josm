@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="27.84391"
+   height="53.79763"
+   id="svg2"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="red_blue_white.svg"
+   sodipodi:version="0.32"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   sodipodi:modified="true">
+  <title
+     id="title2984">Q9: Topmark, red flag</title>
+  <metadata
+     id="metadata3450">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+        <dc:title>Q9: Topmark, red flag</dc:title>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1258"
+     inkscape:window-height="710"
+     id="namedview3448"
+     showgrid="false"
+     inkscape:zoom="10.167734"
+     inkscape:cx="-20.795712"
+     inkscape:cy="26.898815"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g2982"
+     width="744.09449px"
+     height="1052.3622px" />
+  <defs
+     id="defs4" />
+  <g
+     id="g2982"
+     transform="translate(-181.89398,-63.37654)">
+    <path
+       transform="translate(181.89398,63.37654)"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       d="m 2.065357,18.489862 23.60408,0 0,14.75255 -23.60408,0 z"
+       id="rect3004" />
+    <path
+       style="fill:#d40000;fill-opacity:1;stroke:none"
+       d="m 185.43697,65.266302 -1.41331,16.574344 22.62034,0.161885 0.11998,-16.36624"
+       id="path2983"
+       inkscape:connector-curvature="0" />
+    <path
+       transform="translate(181.89398,63.37654)"
+       style="fill:#0000ff;fill-opacity:1;stroke:none"
+       d="m 2.6554589,13.769046 23.4073791,0 0,9.441631 -23.4073791,0 z"
+       id="rect3007" />
+    <path
+       sodipodi:nodetypes="ccccccccccccccc"
+       inkscape:connector-curvature="0"
+       style="fill:#000407;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       id="path4420"
+       d="M 182.16857,98.934267 L 182.09687,117.17417 L 186.37512,117.04056 L 186.41782,98.909534 L 182.16857,98.934267 z M 181.89398,63.54806 L 182.11341,98.891128 L 209.73789,98.719614 L 209.51844,63.37654 L 181.89398,63.54806 z M 186.92492,68.516914 L 204.54959,68.407492 L 204.70693,93.750754 L 187.08228,93.860183 L 186.92492,68.516914 z " />
+  </g>
+</svg>

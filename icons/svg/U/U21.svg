@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2985"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   width="42.646294"
+   height="92.579132"
+   sodipodi:docname="U21.svg">
+  <title
+     id="title2982">U21: Showers</title>
+  <metadata
+     id="metadata2991">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>U21: Showers</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs2989" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1440"
+     inkscape:window-height="808"
+     id="namedview2987"
+     showgrid="false"
+     inkscape:zoom="5.9408636"
+     inkscape:cx="-8.3021755"
+     inkscape:cy="46.289566"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2985"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <path
+     style="fill:#a3007f;fill-opacity:0.94117647"
+     d="m 0,92.579091 0.035222,-3.78759 5.921178,-0.1744 0,-17.53518 C 5.9564,56.357902 6.198498,52.695809 4.2797,50.987767 2.728598,49.607034 2.993324,46.444868 4.22015,45.27295 7.318007,42.313751 6.053032,39.921951 6.17696,25.400102 6.357096,4.2918367 9.991338,3.4263887 14.266768,1.2867317 c 4.355413,-2.17968497 8.428576,-1.59053397 12.463583,1.770539 1.663876,1.385972 4.620466,2.478933 7.588055,2.805071 5.698168,0.626229 10.194614,3.937261 7.550881,5.7667623 l -16.862521,11.14023 c -2.203235,1.373012 -1.133123,-8.616388 0.104979,-12.16801 1.039796,-2.9827623 0.928704,-3.4977463 -1.110784,-5.1492233 -3.431447,-2.778617 -6.672227,-2.407334 -10.644561,1.565 -3.662304,2.567263 -3.4,12.9534493 -3.4,19.8775553 0,13.426765 0.277722,16.708045 1.5,17.722445 0.825,0.684689 1.5,2.259689 1.5,3.5 0,1.240311 -0.675,2.815311 -1.5,3.5 -1.230974,1.021618 -1.5,4.451235 -1.5,19.12244 l 0,17.87756 5.723797,0.1115 -0.159794,3.85053 z M 8.9564,48.058084 C 9.0329,47.605095 8.382006,47.001642 7.940088,47.127182 7.420582,47.274763 6.858101,48.131635 7.499105,48.686199 8.297382,49.376828 8.868314,48.579663 8.9564,48.058084 z m 28,-38.01183 c 0,-0.2360343 -1.724498,-0.4291533 -3.832219,-0.4291533 -3.508406,0 -3.922984,0.295741 -4.906399,3.5000003 -0.5908,1.925 -0.91386,3.5 -0.717913,3.5 z"
+     id="path2995"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cccsssssssccssccssssccccaasacsscc" />
+</svg>

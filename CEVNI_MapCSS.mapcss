@@ -1,0 +1,226 @@
+/* MapCSS scheme for rendering CEVNI style maps based on OpenStreetMap data
+ *
+ *
+ */
+
+/* Meta data */
+meta {
+	title:				    "CEVNI Rendering (standarized symbols)";
+	author:				    "https://wiki.openstreetmap.org/wiki/User:Kannix";
+	link:             "http://wiki.openstreetmap.org/wiki/OpenSeaMap/CEVNI_Notice_Marks";
+	version:			    "2015-05-15";
+	description:	    "JOSM rendering of nautical symbols according to CEVNI standard";
+	min-josm-version:	8159;
+}
+
+/* Default */
+node["seamark:type"] {
+symbol-shape: circle;
+symbol-size: 8;
+symbol-fill-color: #2ECCFA;
+}
+
+/* Notice Marks */
+
+/* Default */
+node[seamark:notice:category]::cevni_notemark {
+    z-index:       4;
+	icon-image:   "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/OpenSeaMapLogo_16.png";
+	icon-width:   16;
+	icon-height:  16;
+	icon-offset-x: 0;
+	icon-offset-y: 0;
+}
+/* Erase generic */
+*["seamark:notice:system"=cevni].notice::int1_notice {
+icon-opacity:   0.0;
+}
+
+
+/* Addition */
+node["seamark:notice:system"=cevni][seamark:notice:category][seamark:notice:addition=right_triangle]::cevni_addition {
+    z-index:       5;
+	icon-image:    "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_right_triangle.png";
+	icon-width:     8;
+	icon-height:   16;
+	icon-offset-x: 12;
+}
+
+node["seamark:notice:system"=cevni]["seamark:notice:category"]["seamark:notice:addition"=left_triangle]::cevni_addition {
+z-index:       5;
+	icon-image:    "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_left_triangle.png";
+	icon-width:      8;
+	icon-height:    16;
+	icon-offset-x: -12;
+}
+
+node["seamark:notice:system"=cevni]["seamark:notice:category"]["seamark:notice:addition"=bottom_triangle]::cevni_addition {
+z-index:       5;
+	icon-image:   "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_bottom_triangle.png";
+	icon-width:    16;
+	icon-height:    8;
+	icon-offset-y: 12;
+}
+
+node["seamark:notice:system"=cevni]["seamark:notice:category"]["seamark:notice:addition"=bottom_board]::cevni_addition {
+z-index:       5;
+	icon-image:    "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_board.png";
+	icon-width:    16;
+	icon-height:    8;
+	icon-offset-y: 12;
+}
+
+node["seamark:notice:system"=cevni]["seamark:notice:category"]["seamark:notice:addition"=top_board]::cevni_addition {
+z-index:       5;
+	icon-image:     "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_board.png";
+	icon-width:     16;
+	icon-height:     8;
+	icon-offset-y: -12;
+}
+
+/* Multiple Signs (Placeholder) */
+node["seamark:notice:1:system"=cevni]["seamark:notice:1:category"]::cevni_1 {
+z-index:       1;
+	icon-image:    "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/OpenSeaMapLogo_16.png";
+	icon-offset-y: -8;
+	icon-height:   16;
+	icon-width:    16;
+}
+
+node["seamark:notice:2:system"=cevni]["seamark:notice:2:category"]::cevni_2 {
+z-index:       1;
+	icon-image:    "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/OpenSeaMapLogo_16.png";
+	icon-offset-y:  8;
+	icon-width:    16;
+	icon-height:   16;
+}
+
+node["seamark:notice:3:system"=cevni]["seamark:notice:3:category"]::cevni_3 {
+z-index:       1;
+	icon-image:    "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/OpenSeaMapLogo_16.png";
+	icon-offset-y: 24;
+	icon-width:    16;
+	icon-height:   16;
+}
+
+node["seamark:notice:4:system"=cevni]["seamark:notice:4:category"]::cevni_4 {
+z-index:       1;
+	icon-image:    "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/OpenSeaMapLogo_16.png";
+	icon-offset-y: 40;
+	icon-width:    16;
+	icon-height:   16;
+}
+
+node["seamark:notice:5:system"=cevni]["seamark:notice:5:category"]::cevni_5 {
+z-index:       1;
+	icon-image:    "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/OpenSeaMapLogo_16.png";
+	icon-offset-y: 56;
+	icon-width:    16;
+	icon-height:   16;
+}
+
+/* Icons */
+node["seamark:notice:system"=cevni]["seamark:notice:category"=no_entry]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_A1.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=closed_area]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_A1a.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=no_overtaking]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_A2.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=no_convoy_overtaking]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_A3.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=no_passing]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_A4.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=no_convoy_passing]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_A4.1.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=no_berthing]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_A5.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=no_berthing_lateral_limit]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_A5.1.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=no_anchoring]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_A6.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=no_mooring]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_A7.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=no_turning]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_A8.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=no_wash]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_A9.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=no_passage_left]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_A10a.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=no_passage_right]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_A10b.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=no_motor_craft]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_A12.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=no_sport_craft]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_A13.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=no_waterskiing]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_A14.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=no_sailing_craft]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_A15.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=no_unpowered_craft]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_A16.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=no_sailboards]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_A17.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=no_high_speeds]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_A18.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=no_launching_beaching]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_A19.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=no_waterbikes]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_A20.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=move_to_left]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_B1a.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=move_to_right]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_B1b.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=move_to_port]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_B2a.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=move_to_starboard]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_B2b.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=keep_to_port]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_B3a.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=keep_to_starboard]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_B3b.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=cross_to_port]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_B4a.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=cross_to_starboard]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_B4b.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=stop]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_B5.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=speed_limit]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_B6.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=sound_horn]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_B7.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=keep_lookout]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_B8.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=give_way_junction]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_B9a.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=give_way_crossing]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_B9b.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=make_radio_contact]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_B11.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=limited_depth]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_C1.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=limited_headroom]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_C2.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=limited_width]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_C3.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=navigation_restrictions]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_C4.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=channel_distance_left]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_C5a.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=channel_distance_right]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_C5b.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=channel_two_way]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_D1a.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=channel_one_way]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_D1b.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=opening_to_right]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_D2a.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=opening_to_left]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_D2b.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=proceed_to_left]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_D3a.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=proceed_to_right]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_D3b.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=entry_permitted]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E1.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=overhead_cable]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E2.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=weir]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E3.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=ferry_non_independent]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E4a.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=ferry_independent]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E4b.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=berthing_permitted]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E5.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=berthing_lateral_limit]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E5.1.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=berthing_lateral_limits]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E5.2.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=berthing_rafting_limit]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E5.3.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=berthing_unmarked_pushing]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E5.4.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=berthing_marked_pushing_1]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E5.5.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=berthing_marked_pushing_2]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E5.6.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=berthing_marked_pushing_3]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E5.7.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=berthing_unmarked_non_pushing]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E5.8.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=berthing_marked_non_pushing_1]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E5.9.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=berthing_marked_non_pushing_2]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E5.10.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=berthing_marked_non_pushing_3]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E5.11.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=berthing_unmarked]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E5.12.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=berthing_marked_1]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E5.13.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=berthing_marked_2]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E5.14.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=berthing_marked_3]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E5.15.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=anchoring_permitted]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E6.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=mooring_permitted]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E7.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=vehicle_loading_berth]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E7.1.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=turning_area]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E8.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=secondary_waterway_crossing]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E9a.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=secondary_waterway_right]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E9b.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=secondary_waterway_left]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E9c.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=main_waterway_right_secondary_ahead]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E9d.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=main_waterway_left_secondary_ahead]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E9e.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=main_waterway_right_secondary_left]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E9f.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=main_waterway_left_secondary_right]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E9g.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=main_waterway_right_secondary_ahead_left]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E9h.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=main_waterway_left_secondary_ahead_right]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E9i.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=main_waterway_crossing]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E10a.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=main_waterway_junction]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E10b.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=main_waterway_ahead_right]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E10c.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=main_waterway_ahead_left]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E10d.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=main_waterway_ahead_right_secondary_left]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E10e.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=main_waterway_ahead_left_secondary_right]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E10f.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=prohibition_ends]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E11.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=drinking_water]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E13.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=telephone]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E14.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=motor_craft_permitted]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E15.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=sport_craft_permitted]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E16.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=waterskiing_permitted]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E17.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=sailing_craft_permitted]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E18.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=unpowered_craft_permitted]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E19.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=sailboards_permitted]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E20.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=high_speeds_permitted]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E21.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=launching_beaching_permitted]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E22.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=radio_information]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E23.png";}
+node["seamark:notice:system"=cevni]["seamark:notice:category"=waterbikes_permitted]::cevni_notemark {icon-image: "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/png/Notice_E24.png";}
+

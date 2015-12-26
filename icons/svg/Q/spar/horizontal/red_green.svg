@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="59.96875"
+   height="115.28125"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="red_white.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   sodipodi:modified="true">
+  <title
+     id="title2985">Q24: Red and white spar buoy</title>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Q24: Red and white spar buoy</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+      </cc:Work>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:window-height="830"
+     inkscape:window-width="1440"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     showgrid="false"
+     inkscape:zoom="4.7709406"
+     inkscape:cx="-43.795626"
+     inkscape:cy="57.640625"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:current-layer="svg2"
+     inkscape:window-maximized="1" />
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 160 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="320 : 160 : 1"
+       inkscape:persp3d-origin="160 : 106.66667 : 1"
+       id="perspective9" />
+  </defs>
+  <path
+     style="fill:#00f400;fill-opacity:1;stroke:none"
+     d="M 17.92045,92.59332 L 48.22165,0.322752 L 59.38525,4.195837 L 27.94491,96.4664 L 17.92045,92.59332 z "
+     id="path3755"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#d40000;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 32.95714,46.57195 L 43.89291,50.21721 L 59.38525,3.968009 L 48.22165,0.322752 L 32.95714,46.57195 z "
+     id="path2984"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
+     d="M 47.9375,0 L 17.84375,90.625 C 13.25518,91.72332 9.6304,95.36544 8.5625,99.96875 L 0.125,99.96875 L 0,105.625 L 8.5625,105.625 C 9.84982,111.15795 14.79577,115.28124 20.71875,115.28125 C 26.6437,115.28125 31.5897,111.16073 32.875,105.625 L 41.1875,105.5938 L 41.1875,99.93755 L 32.875,99.96875 C 32.3855,97.85444 31.37651,95.93061 29.96875,94.375 L 59.96875,3.90625 L 47.9375,0 z M 48.64273,1.132863 L 58.71831,4.46869 L 28.10464,93.23146 C 25.1827,91.24821 23.86563,91.02417 19.98693,90.55322 L 48.64273,1.132863 z M 20.71875,95.28125 C 24.85875,95.28125 28.21875,98.64125 28.21875,102.78125 C 28.21875,106.92125 24.85875,110.28125 20.71875,110.28125 C 16.57875,110.28125 13.21875,106.92125 13.21875,102.78125 C 13.21875,98.64125 16.57875,95.28125 20.71875,95.28125 z "
+     id="path27763"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccccccsccccccccccccsssss" />
+</svg>

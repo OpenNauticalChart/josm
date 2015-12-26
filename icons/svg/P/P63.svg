@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="343.125"
+   height="171.53345"
+   id="svg3831"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="P63.svg">
+  <title
+     id="title2983">P63: Floodlight</title>
+  <defs
+     id="defs3833" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.8743189"
+     inkscape:cx="77.661724"
+     inkscape:cy="85.766724"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="776"
+     inkscape:window-height="584"
+     inkscape:window-x="653"
+     inkscape:window-y="109"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata3836">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+        <dc:title>P63: Floodlight</dc:title>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-255.0625,-355.1853)">
+    <path
+       style="fill:#ff00ff;fill-opacity:1;stroke:none"
+       d="m 426.375,355.1875 c -70.0756,0.3347 -137.4899,38.96256 -171.3125,105.78125 l 129.90625,65.75 9.20578,-3.49973 -118.19197,-64.51166 c 19.47314,-30.55352 33.07749,-42.43358 64.82176,-62.85008 l 63.04495,124.74105 10.02715,-1.71192 -62.78203,-129.8195 c 23.31001,-12.62305 38.08357,-15.64261 69.93001,-17.06159 l 3.11502,146.10771 10.38228,0.19492 -0.0587,-146.14131 c 30.58543,1.76439 35.56155,1.9282 67.74756,16.49725 l -57.30379,130.83702 10.2712,2.22077 58.38998,-124.98472 c 30.68422,16.62066 38.42677,22.03726 61.64161,57.8649 L 462.55111,523.66618 468.6875,526.4375 598.1875,459 C 579.56585,423.23629 550.22504,394.21002 514.25,376 486.03766,361.71935 455.96248,355.04618 426.375,355.1875 z"
+       id="path3839"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sccccccccccccccccccccss" />
+  </g>
+</svg>

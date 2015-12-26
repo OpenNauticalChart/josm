@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="71.136459"
+   height="71.136353"
+   id="svg15055"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="L17.svg">
+  <title
+     id="title2988">L17: Floating Storage Unit, FPSO</title>
+  <defs
+     id="defs15057" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="6.9022375"
+     inkscape:cx="10.069252"
+     inkscape:cy="35.568176"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1440"
+     inkscape:window-height="808"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:snap-grids="true"
+     inkscape:snap-page="true"
+     showguides="true"
+     inkscape:snap-global="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-center="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2995" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata15060">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>L17: Floating Storage Unit, FPSO</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-401.57463,-379.65115)"
+     style="opacity:1">
+    <path
+       d="m 426.65267,401.83071 0,23.79369 24.48753,0 0,-23.79369 -24.48753,0 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path7862"
+       inkscape:connector-curvature="0" />
+    <g
+       id="g2987"
+       transform="matrix(0.49363797,0,0,0.47965107,223.10613,214.56714)">
+      <g
+         id="g2991">
+        <path
+           style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.13138045;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:22.9260006;stroke-opacity:1;stroke-dasharray:none"
+           d="M 37.5 18.46875 C 26.024306 18.47542 14.53125 18.5 14.53125 18.5 C 14.503804 18.5 5.125 33.8125 5.125 33.8125 L 14.5625 49.65625 C 14.5625 49.709012 60.4375 49.65625 60.4375 49.65625 C 61.653237 44.483626 64.452153 39.430609 64.40625 33.78125 C 64.453787 27.814065 61.721694 23.44561 60.4375 18.5 C 60.4375 18.473319 48.975694 18.46208 37.5 18.46875 z M 17.9375 22.75 L 57.0625 22.75 C 58.703664 26.408812 60.077973 28.035501 60.03125 33.8125 C 60.077998 38.658731 58.347484 41.990223 57.0625 45.40625 L 17.9375 45.40625 L 10.78125 33.9375 L 17.9375 22.75 z M 37.3125 28.78125 C 34.306862 28.78125 31.875 31.142624 31.875 34.0625 C 31.875 36.982376 34.306862 39.375 37.3125 39.375 C 40.318138 39.375 42.75 36.982376 42.75 34.0625 C 42.75 31.142624 40.318138 28.78125 37.3125 28.78125 z "
+           transform="matrix(2.0257761,0,0,2.0848489,361.53722,344.17521)"
+           id="path7842" />
+      </g>
+    </g>
+    <g
+       id="g7864"
+       transform="matrix(0,0.59956384,0.61704746,0,438.89613,408.4391)"
+       style="fill:#000000;stroke:#000000" />
+  </g>
+</svg>
