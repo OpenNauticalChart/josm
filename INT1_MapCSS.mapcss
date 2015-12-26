@@ -10,7 +10,7 @@
 /* Meta data */
 meta {
 	title:				"INT 1 Rendering (IHO standarized symbols) PD";
-	icon:				"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/IHO_c.svg";
+	icon:				"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/IHO_c.svg";
 	author:				"Aun (Skippern) Johnsen";
 	version:			"0.2";
 	description:		"JOSM rendering of nautical symbols according to IHO standard INT-1";
@@ -148,7 +148,7 @@ way["seamark:type"=cable_overhead]::int1_cable {
 	fill-opacity:	0.0;
 }
 node["seamark:type"=pylon]::int1_pylon {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/D/D26.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/D/D26.svg";
 	icon-width:		12;
 }
 node["seamark:bridge:clearance_height"]::int1_sailing_height,
@@ -157,7 +157,7 @@ node["seamark:bridge:clearance_height_open"]::int1_sailing_height,
 node["seamark:cable_overhead:clearance_height"]::int1_sailing_height,
 node["seamark:cable_overhead:clearance_height_safe"]::int1_sailing_height,
 node["seamark:pipeline_overhead:clearance_height"]::int1_sailing_height {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/D/D20.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/D/D20.svg";
 	icon-width:		24;
 	text-color:		cond(tag(concat("seamark:", tag("seamark:type"), ":clearance_height_safe")) > 0, darkmagenta, black );
 	text:			any(tag(concat("seamark:", tag("seamark:type"), ":clearance_height")),tag(concat("seamark:", tag("seamark:type"), ":clearance_height_safe")),tag(concat("seamark:", tag("seamark:type"), ":clearance_height_closed")),tag(concat("seamark:", tag("seamark:type"), ":clearance_height_open")));
@@ -182,58 +182,58 @@ node["seamark:type"=landmark]::int1_landmark {
 	set				landmark;
 }
 node["seamark:landmark:function"=church].landmark::int1_landmark {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/E/E10.1.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E10.1.svg";
 	icon-width:		32;
 	set				.church;
 }
 node["seamark:landmark:function"=chapel].landmark::int1_landmark {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/E/E11.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E11.svg";
 }
 node["seamark:landmark:category"=tower].church::int1_landmark {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/E/E10.2.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E10.2.svg";
 }
 node["seamark:landmark:category"=spire].church::int1_landmark {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/E/E10.3.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E10.3.svg";
 }
 node["seamark:landmark:category"=dome].church::int1_landmark {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/E/E10.4.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E10.4.svg";
 }
 node["seamark:landmark:function"=temple].landmark::int1_landmark {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/E/E13.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E13.svg";
 }
 node["seamark:landmark:function"=pagoda].landmark::int1_landmark {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/E/E14.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E14.svg";
 }
 node["seamark:landmark:function"=shinto_shrine].landmark::int1_landmark {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/E/E15.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E15.svg";
 }
 node["seamark:landmark:function"=buddhist_temple].landmark::int1_landmark {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/E/E16.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E16.svg";
 }
 node["seamark:landmark:function"=mosque].landmark::int1_landmark {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/E/E17.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E17.svg";
 }
 node["seamark:landmark:category"=minaret].landmark::int1_landmark {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/E/E17.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E17.svg";
 }
 node["seamark:landmark:function"=marabout].landmark::int1_landmark {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/E/E18.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E18.svg";
 }
 relation[landuse=cemetery] > way::int1_landmark, area[landuse=cemetery]::int1_landmark {
-    fill-image:     "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/E/E19.svg";
+    fill-image:     "https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E19.svg";
 }
 node["seamark:landmark:category"=tower][!"seamark:landmark:function"].landmark::int1_landmark {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/E/E20.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E20.svg";
 }
 node["seamark:landmark:category"=tower]["seamark:landmark:function"=communication].landmark::int1_landmark,
 node["seamark:landmark:category"=tower]["seamark:landmark:function"=radio].landmark::int1_landmark,
 node["seamark:landmark:category"=tower]["seamark:landmark:function"=radar].landmark::int1_landmark,
 node["seamark:landmark:category"=tower]["seamark:landmark:function"=microwave].landmark::int1_landmark,
 node["seamark:landmark:category"=tower]["seamark:landmark:function"=television].landmark::int1_landmark {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/E/E30.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E30.svg";
 }
 node["seamark:landmark:category"=mast][!"seamark:landmark:function"].landmark::int1_landmark {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/E/E28.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E28.svg";
     icon-width:     16;
     icon-offset-y:  -11;
 }
@@ -242,28 +242,28 @@ node["seamark:landmark:category"=mast]["seamark:landmark:function"=radio].landma
 node["seamark:landmark:category"=mast]["seamark:landmark:function"=radar].landmark::int1_landmark,
 node["seamark:landmark:category"=mast]["seamark:landmark:function"=microwave].landmark::int1_landmark,
 node["seamark:landmark:category"=mast]["seamark:landmark:function"=television].landmark::int1_landmark {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/E/E28_.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E28_.svg";
     icon-width:     16;
     icon-offset-y:  -11;
 }
 
 node["seamark:landmark:category"=water_tower].landmark::int1_landmark {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/E/E21.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E21.svg";
 }
 node["seamark:landmark:category"=chimney].landmark::int1_landmark {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/E/E22.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E22.svg";
 }
 node["seamark:landmark:category"=flare_stack].landmark::int1_landmark {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/E/E23.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E23.svg";
 }
 node["seamark:landmark:category"=windmill].landmark::int1_landmark {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/E/E25.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E25.svg";
 }
 node["seamark:landmark:category"=windmotor].landmark::int1_landmark {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/E/E26.1.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E26.1.svg";
 }
 node["seamark:landmark:category"=flagstaff].landmark::int1_landmark {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/E/E27.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E27.svg";
 }
 
 /* F: Ports */
@@ -277,13 +277,13 @@ node["seamark:type"=mooring]::int1_mooring {
 }
 node["seamark:type"=harbour]::int1_harbour {
 	set				harbour;
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/F/F.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/F/F.svg";
 	icon-width:		32;
 	text:			"seamark:name";
 	text-color:		black;
 }
 node["seamark:harbour:category"=fishing].harbour::int1_harbour {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/F/F10.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/F/F10.svg";
 }
 node["seamark:type"=berth]::int1_mooring {
     symbol-shape:   circle;
@@ -316,60 +316,60 @@ node["depth"]::int1_depth {
 /* J: Nature of seabed */
 /* K: Rocks, Wrecks, Obstructions */
 node["seamark:type"=obstruction]::int1_obstruction {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/K/K40.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/K/K40.svg";
 	icon-width:		16;
 }
 node["seamark:type"=rock]::int1_obstruction {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/K/K13_.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/K/K13_.svg";
 	icon-width:		12;
     set             .rock;
 }
 node["seamark:type"=rock]["seamark:rock:water_level"=dry].rock::int1_obstruction {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/K/K10.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/K/K10.svg";
 }
 node["seamark:type"=rock]["seamark:rock:water_level"=submerged].rock::int1_obstruction {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/K/K13.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/K/K13.svg";
 }
 node["seamark:type"=rock]["seamark:rock:water_level"=awash].rock::int1_obstruction {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/K/K12.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/K/K12.svg";
 }
 node["seamark:type"=rock]["seamark:rock:water_level"=covers].rock::int1_obstruction {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/K/K11.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/K/K11.svg";
 }
 
 node["seamark:type"=marine_farm]::int1_marine_farm {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/K/K48.1_no_red.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/K/K48.1_no_red.svg";
 	icon-width:		28;
 }
 node["seamark:type"=wreck]::int1_obstruction {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/K/K29.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/K/K29.svg";
 	icon-width:		16;
 	text-color:		black;
 	font-size:		12;
 	set				.wreck;
 }
 node["seamark:wreck:category"=non-dangerous].wreck::int1_obstruction {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/K/K29.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/K/K29.svg";
 }
 node["seamark:wreck:category"=dangerous].wreck::int1_obstruction {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/K/K28.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/K/K28.svg";
 }
 node["seamark:wreck:category"=distributed_remains].wreck::int1_obstruction {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/K/K29.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/K/K29.svg";
 }
 node["seamark:wreck:category"=mast_showing].wreck::int1_obstruction {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/K/K28.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/K/K28.svg";
 	text:			eval("masts");
 }
 node["seamark:wreck:category"=hull_showing].wreck::int1_obstruction {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/K/K24.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/K/K24.svg";
 }
 node["seamark:wreck:category"=funnel_showing].wreck::int1_obstruction {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/K/K28.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/K/K28.svg";
 	text:			eval("funnel");
 }
 node["seamark:type"=restricted_area]["seamark:restricted_area:category"=foul_ground]::int1_obstruction {
-    icon-image:     "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/K/K31.svg";
+    icon-image:     "https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/K/K31.svg";
     text:           eval("foul");
     text-color:     black;
     text-anchor-vertical:    center;
@@ -377,12 +377,12 @@ node["seamark:type"=restricted_area]["seamark:restricted_area:category"=foul_gro
 
 /* L: Offshore Installations */
 way["seamark:type"=cable_submarine]::int1_cable {
-	repeat-image:			"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/L/L31.svg";
+	repeat-image:			"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/L/L31.svg";
 	repeat-image-width:		16;
 	repeat-image-spacing:	0;
 }
 way["seamark:type"=pipeline_submarine]::int1_pipeline {
-	repeat-image:			"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/L/L40.svg";
+	repeat-image:			"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/L/L40.svg";
 	repeat-image-width:		32;
 	repeat-image-spacing:	2;
 }
@@ -401,12 +401,12 @@ way["seamark:type"=navigation_line]::int1_navigation_line {
     opacity:        1.0;
 }
 way["seamark:type"=separation_lane]::int1_separation_lane {
-    repeat-image:      "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/M/M10.svg";
+    repeat-image:      "https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/M/M10.svg";
     repeat-image-width: 128;
     repeat-image-spacing: 32;
 }
 way["seamark:type"=recommended_traffic_lane]::int1_separation_lane {
-    repeat-image:      "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/M/M11.svg";
+    repeat-image:      "https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/M/M11.svg";
     repeat-image-width: 128;
     repeat-image-spacing: 32;
 }
@@ -421,7 +421,7 @@ way["seamark:type"=separation_zone]:closed::int1_separation_zone {
     fill-opacity:   0.5;
 }
 node["seamark:type"=calling-in_point]::int1_RDOCAL {
-	icon-image:		eval(concat("https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/M/M40.", cond(tag("seamark:calling-in_point:traffic_flow") == "one-way", "1", "2") , ".svg"));
+	icon-image:		eval(concat("https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/M/M40.", cond(tag("seamark:calling-in_point:traffic_flow") == "one-way", "1", "2") , ".svg"));
 	icon-height:	24;
     icon-orientation: eval(tag("seamark:calling-in_point:orientation"));
 	text:			"seamark:name";
@@ -441,45 +441,45 @@ way["seamark:type"=ferry_route]::int1_ferry_route {
 
 /* N: Areas, Limites */
 way["seamark:type"=restricted_area]::restricted_area_base {
-    repeat-image:           "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/N/N2.1.svg";
+    repeat-image:           "https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/N/N2.1.svg";
     repeat-image-width:     18;
     repeat-image-spacing:   8;
 }
 relation[boundary=protected_area] > way::protected_area_base,
 way[boundary=protected_area]::protected_area_base,
 way["seamark:type"=natural_reserve]::protected_area_base {
-    repeat-image:           "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/N/N22.svg";
+    repeat-image:           "https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/N/N22.svg";
     repeat-image-width:     18;
     repeat-image-spacing:   8;
 }
 way["seamark:restricted_area:restriction"=no_entry]::restricted_area {
-    repeat-image:           "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/N/N2.2.svg";
+    repeat-image:           "https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/N/N2.2.svg";
     repeat-image-width:     20;
     repeat-image-spacing:   80;
 }
 way["seamark:type"=anchorage]::anchorage_base {
-    repeat-image:           "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/N/N2.1.svg";
+    repeat-image:           "https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/N/N2.1.svg";
     repeat-image-width:     18;
     repeat-image-spacing:   8;
 }
 way["seamark:type"=anchorage]::anchorage_area {
-    repeat-image:           "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/N/N12.svg";
+    repeat-image:           "https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/N/N12.svg";
     repeat-image-width:     28;
     repeat-image-spacing:   80;
 }
 way["seamark:restricted_area:restriction"~=no_anchoring]::anchorage_area {
-    repeat-image:           "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/N/N20.svg";
+    repeat-image:           "https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/N/N20.svg";
     repeat-image-width:     28;
     repeat-image-spacing:   80;
 }
 way["seamark:restricted_area:restriction"~=no_fishing]::no_fishing {
-    repeat-image:           "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/N/N21.svg";
+    repeat-image:           "https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/N/N21.svg";
     repeat-image-width:     28;
     repeat-image-spacing:   80;
     repeat-image-phase:    20;
 }
 node["seamark:type"=anchorage]::anchorage {
-    icon-image:             "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/N/N12.svg";
+    icon-image:             "https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/N/N12.svg";
     icon-height:            32;
 }
 
@@ -492,7 +492,7 @@ relation[boundary] > way::int1_border {
 *[boundary=administrative][admin_level=2][maritime?!].border::int1_border,
 relation[boundary=administrative][admin_level=2] > way[!maritime].border::int1_border,
 relation[boundary=administrative][admin_level=2] > way[maritime?!].border::int1_border {
-	repeat-image:			"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/N/N40.svg";
+	repeat-image:			"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/N/N40.svg";
 	repeat-image-width:		150;
 	repeat-image-spacing:	3;
 	opacity:				0.05;
@@ -501,7 +501,7 @@ relation[boundary=administrative][admin_level=2] > way[maritime?!].border::int1_
 *[boundary=administrative][admin_level=2][maritime?].border::int1_border,
 relation[boundary=administrative][admin_level=2] > way[maritime?].border::int1_border,
 relation[boundary=administrative][admin_level=2] > way[border_type=territorial].border::int1_border {
-	repeat-image:			"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/N/N41.svg";
+	repeat-image:			"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/N/N41.svg";
 	repeat-image-width:		150;
 	repeat-image-spacing:	3;
 	opacity:				0.05;
@@ -509,33 +509,33 @@ relation[boundary=administrative][admin_level=2] > way[border_type=territorial].
 /* O: Hydrographic Terms */
 /* P: Lights */
 node[man_made=lighthouse]::int1_lighthouse {
-	icon-image:				"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/P/P1.major.disused.svg";
+	icon-image:				"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/P/P1.major.disused.svg";
 }
 node[man_made=lighthouse]["seamark:type"]::int1_lighthouse {
-    icon-image:				"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/P/P1.minor.svg";
+    icon-image:				"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/P/P1.minor.svg";
 }
 node["seamark:type"=light_major]::int1_lighthouse {
-	icon-image:				"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/P/P1.major.svg";
+	icon-image:				"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/P/P1.major.svg";
 }
 node["seamark:type"=light_minor]::int1_lighthouse {
-	icon-image:				"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/P/P1.minor.svg";
+	icon-image:				"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/P/P1.minor.svg";
 }
 
 node["seamark:light:colour"]::int1_light {
-	icon-image:				eval(concat("https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/P/P10.1_",tag("seamark:light:colour"),".svg"));
+	icon-image:				eval(concat("https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/P/P10.1_",tag("seamark:light:colour"),".svg"));
     icon-offset-x:          -5;
     icon-offset-y:          -6;
 }
 
 node["seamark:light:category"=spotlight]::int1_light {
-    icon-image:             eval(concat("https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/P/P11_", any(tag("seamark:light:colour"), "white"), ".svg"));
+    icon-image:             eval(concat("https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/P/P11_", any(tag("seamark:light:colour"), "white"), ".svg"));
     icon-offset-x:          0;
     icon-offset-y:          0;
 }
 
 /* Q: Buoys, Beacons */
 node["seamark:daymark:shape"]::int1_daymark {
-	icon-image:		eval(concat("https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/Q/Q9/", replace(replace(tag("seamark:daymark:shape"), " ", "_"), ",", ""), "/", any(replace(tag("seamark:daymark:colour"), ";", "_"), "generic"), ".svg"));
+	icon-image:		eval(concat("https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q9/", replace(replace(tag("seamark:daymark:shape"), " ", "_"), ",", ""), "/", any(replace(tag("seamark:daymark:colour"), ";", "_"), "generic"), ".svg"));
 	icon-width:		16;
 }
 node["seamark:type"=buoy_lateral]["seamark:daymark:shape"]::int1_daymark,
@@ -562,7 +562,7 @@ node["seamark:type"=buoy_safe_water]::int1_buoy,
 node["seamark:type"=beacon_safe_water]::int1_buoy,
 node["seamark:type"=buoy_special_purpose]::int1_buoy,
 node["seamark:type"=beacon_special_purpose]::int1_buoy {
-	icon-image:		eval(concat("https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/Q/", any(replace(tag(concat("seamark:",tag("seamark:type"),":shape")), "pile", "buoyant"), "buoyant"), "/", cond(has_tag_key(concat("seamark:",tag("seamark:type"),":colour_pattern")),concat(tag(concat("seamark:",tag("seamark:type"),":colour_pattern")),"/"), ""), any(replace(tag(concat("seamark:",tag("seamark:type"),":colour")),";","_"), "generic"), ".svg" ));
+	icon-image:		eval(concat("https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/", any(replace(tag(concat("seamark:",tag("seamark:type"),":shape")), "pile", "buoyant"), "buoyant"), "/", cond(has_tag_key(concat("seamark:",tag("seamark:type"),":colour_pattern")),concat(tag(concat("seamark:",tag("seamark:type"),":colour_pattern")),"/"), ""), any(replace(tag(concat("seamark:",tag("seamark:type"),":colour")),";","_"), "generic"), ".svg" ));
 	icon-height:	16;
 	icon-opacity:	1;
     icon-offset-x:  1;
@@ -577,7 +577,7 @@ node["seamark:type"=buoy_cardinal]["seamark:topmark:shape"]::int1_topmark,
 node["seamark:type"=buoy_isolated_danger]["seamark:topmark:shape"]::int1_topmark,
 node["seamark:type"=buoy_safe_water]["seamark:topmark:shape"]::int1_topmark,
 node["seamark:type"=buoy_special_purpose]["seamark:topmark:shape"]::int1_topmark {
-    icon-image:     eval(concat("https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/Q/Q9/", any(replace(replace(tag("seamark:topmark:shape"), ",", ""), " ", "_"), "sphere"), "/", cond(has_tag_key("seamark:topmark:colour_pattern"), concat(tag("seamark:topmark:colour_pattern"), "/")), any(replace(tag("seamark:topmark:colour"),";","_"), "generic"), ".svg"));
+    icon-image:     eval(concat("https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q9/", any(replace(replace(tag("seamark:topmark:shape"), ",", ""), " ", "_"), "sphere"), "/", cond(has_tag_key("seamark:topmark:colour_pattern"), concat(tag("seamark:topmark:colour_pattern"), "/")), any(replace(tag("seamark:topmark:colour"),";","_"), "generic"), ".svg"));
     icon-width:    6;
     icon-offset-x:  4;
     icon-offset-y:  -20;
@@ -587,7 +587,7 @@ node["seamark:type"=beacon_cardinal]["seamark:topmark:shape"]::int1_topmark,
 node["seamark:type"=beacon_isolated_danger]["seamark:topmark:shape"]::int1_topmark,
 node["seamark:type"=beacon_safe_water]["seamark:topmark:shape"]::int1_topmark,
 node["seamark:type"=beacon_special_purpose]["seamark:topmark:shape"]::int1_topmark {
-    icon-image:     eval(concat("https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/Q/Q9/", any(replace(replace(tag("seamark:topmark:shape"), ",", ""), " ", "_"), "sphere"), "/", cond(has_tag_key("seamark:topmark:colour_pattern"), concat(tag("seamark:topmark:colour_pattern"), "/")), any(replace(tag("seamark:topmark:colour"),";","_"), "generic"), ".svg"));
+    icon-image:     eval(concat("https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q9/", any(replace(replace(tag("seamark:topmark:shape"), ",", ""), " ", "_"), "sphere"), "/", cond(has_tag_key("seamark:topmark:colour_pattern"), concat(tag("seamark:topmark:colour_pattern"), "/")), any(replace(tag("seamark:topmark:colour"),";","_"), "generic"), ".svg"));
     icon-width:    6;
     icon-offset-x:  1;
     icon-offset-y:  -20;
@@ -598,27 +598,27 @@ node["seamark:beacon_cardinal:shape"=lattice]::int1_buoy,
 node["seamark:beacon_isolated_danger:shape"=lattice]::int1_buoy,
 node["seamark:beacon_safe_water:shape"=lattice]::int1_buoy,
 node["seamark:beacon_special_purpose:shape"=lattice]::int1_buoy{
-    icon-image:     "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/Q/Q111/generic.svg";
+    icon-image:     "https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q111/generic.svg";
     icon-height:    16;
 }
 
 
 node["seamark:type"=notice]::int1_notice {
     z-index:        1;
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/Q/Q126/generic.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q126/generic.svg";
 	icon-height:	12;
     icon-offset-x:  0;
     set				notice;
 }
 /* Generic notice marks, try system specific marks if these don't do */
 *["seamark:notice:2:category"].notice::int1_notice {
-    icon-image:     eval(concat("http://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/Q/Q126/generic/", tag("seamark:notice:2:category"), ".svg"));
+    icon-image:     eval(concat("http://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q126/generic/", tag("seamark:notice:2:category"), ".svg"));
 }
 *["seamark:notice:1:category"].notice::int1_notice {
-    icon-image:     eval(concat("http://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/Q/Q126/generic/", tag("seamark:notice:1:category"), ".svg"));
+    icon-image:     eval(concat("http://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q126/generic/", tag("seamark:notice:1:category"), ".svg"));
 }
 *["seamark:notice:category"].notice::int1_notice {
-    icon-image:     eval(concat("http://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/Q/Q126/generic/", tag("seamark:notice:category"), ".svg"));
+    icon-image:     eval(concat("http://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q126/generic/", tag("seamark:notice:category"), ".svg"));
 }
 
 /* See BNIWR_MapCSS.mapcss for BNIWR marks */
@@ -631,7 +631,7 @@ node["seamark:type"=notice]::int1_notice {
 
 /* R: Fog Signals */
 node["seamark:fog_signal:category"]::int1_fog_signal {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/R/R1.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/R/R1.svg";
 	icon-height:	12;
     icon-offset-x:  -10;
     icon-offset-y:  6;
@@ -639,39 +639,39 @@ node["seamark:fog_signal:category"]::int1_fog_signal {
 /* S: Electronic Position-Fixing Systems */
 /* T: Services */
 node["seamark:type"=pilot_boarding]::int1_pilot {
-    icon-image:     "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/T/T1.1.svg";
+    icon-image:     "https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/T/T1.1.svg";
     icon-height:    12;
 }
 node["seamark:type"=signal_station_traffic]::int1_signal_station,
 node["seamark:type"=signal_station_warning]::int1_signal_station {
-    icon-image:     "https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/T/T20.svg";
+    icon-image:     "https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/T/T20.svg";
     icon-height:    12;
 }
 /* U: Small Craft (Leisure) Facilities */
 node["seamark:harbour:category"=marina].harbour::int1_harbour {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/U/U1.1.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/U/U1.1.svg";
 }
 node["seamark:harbour:category"=marina_no_facilities].harbour::int1_harbour {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/U/U1.2.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/U/U1.2.svg";
 }
 
 node["seamark:type"=small_craft_facility]::int1_small_craft {
 	set				small_craft;
 	text:			"seamark:name";
 	text-color:		black;
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/U/U32.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/U/U32.svg";
 	icon-height:	8;
 }
 node["seamark:small_craft_facility:category"=nautical_club].small_craft::int1_small_craft {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/U/U4_br.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/U/U4_br.svg";
 	icon-height:	16;
 }
 node["seamark:small_craft_facility:category"=restaurant].small_craft::int1_small_craft {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/U/U11.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/U/U11.svg";
 	icon-height:	16;
 }
 node["seamark:small_craft_facility:category"=slipway].small_craft::int1_small_craft {
-	icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/U/U5.svg";
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/U/U5.svg";
 	icon-width:		32;
 }
 /* END */

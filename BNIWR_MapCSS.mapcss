@@ -10,7 +10,7 @@
 /* Meta data */
 meta {
 	title:				"BNIWR Rendering (standarized symbols)";
-	icon:				"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/IHO_c.svg";
+	icon:				"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/IHO_c.svg";
 	author:				"Aun (Skippern) Johnsen";
 	version:			"0.1";
 	description:		"JOSM rendering of nautical symbols according to BNIWR standard";
@@ -31,36 +31,36 @@ canvas {
 
 node["seamark:notice:system"=bniwr]["seamark:type"=notice]::bniwr_notice {
 z-index:        4;
-icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/Q/Q126/generic.svg";
+icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q126/generic.svg";
 icon-height:	16;
 icon-offset-x:  0;
 set				notice;
 }
 node["seamark:notice:system"=bniwr]["seamark:notice:1:category"]::bniwr_notice_left {
 z-index:        5;
-icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/Q/Q126/generic.svg";
+icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q126/generic.svg";
 icon-height:	16;
 icon-offset-x:	8;
 set				notice_left;
 }
 node["seamark:notice:system"=bniwr]["seamark:notice:2:category"]::bniwr_notice_right {
 z-index:        5;
-icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/Q/Q126/generic.svg";
+icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q126/generic.svg";
 icon-height:	16;
 icon-offset-x:	-8;
 set				notice_right;
 }
 *["seamark:notice:system"=bniwr]["seamark:notice:category"].notice::bniwr_notice,
 *["seamark:notice:system"=bniwr2]["seamark:notice:category"].notice::bniwr_notice {
-icon-image:		eval(concat("https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/Q/Q126/BNIWR/", tag("seamark:notice:bank"), "/", tag("seamark:notice:category"), ".svg"));
+icon-image:		eval(concat("https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q126/BNIWR/", tag("seamark:notice:bank"), "/", tag("seamark:notice:category"), ".svg"));
 }
 *["seamark:notice:1:system"=bniwr]["seamark:notice:1:category"].notice_left::bniwr_notice_left,
 *["seamark:notice:1:system"=bniwr2]["seamark:notice:1:category"].notice_left::bniwr_notice_left {
-icon-image:		eval(concat("https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/Q/Q126/BNIWR/", tag("seamark:notice:1:bank"), "/", tag("seamark:notice:1:category"), ".svg"));
+icon-image:		eval(concat("https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q126/BNIWR/", tag("seamark:notice:1:bank"), "/", tag("seamark:notice:1:category"), ".svg"));
 }
 *["seamark:notice:2:system"=bniwr]["seamark:notice:2:category"].notice_right::bniwr_notice_right,
 *["seamark:notice:2:system"=bniwr2]["seamark:notice:2:category"].notice_right::bniwr_notice_right {
-icon-image:		eval(concat("https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/Q/Q126/BNIWR/", tag("seamark:notice:2:bank"), "/", tag("seamark:notice:2:category"), ".svg"));
+icon-image:		eval(concat("https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q126/BNIWR/", tag("seamark:notice:2:bank"), "/", tag("seamark:notice:2:category"), ".svg"));
 }
 
 /* END */

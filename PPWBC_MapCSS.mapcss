@@ -10,7 +10,7 @@
 /* Meta data */
 meta {
 	title:				"PPWBC Rendering (standarized symbols)";
-	icon:				"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/IHO_c.svg";
+	icon:				"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/IHO_c.svg";
 	author:				"Aun (Skippern) Johnsen";
 	version:			"0.1";
 	description:		"JOSM rendering of nautical symbols according to PPWBC standard";
@@ -32,7 +32,7 @@ icon-opacity:   0.0;
 
 node["seamark:type"=notice]["seamark:notice:system"=ppwbc][!"seamark:notice:1:system"]::ppwbc_notice {
 z-index:        2;
-icon-image:		"https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/Q/Q126/generic.svg";
+icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q126/generic.svg";
 icon-height:	16;
 icon-offset-x:  0;
 set				notice;
@@ -51,15 +51,15 @@ set				notice_right;
 }
 *["seamark:notice:system"=ppwbc]["seamark:notice:category"].notice::ppwbc_notice {
 z-index:    4;
-icon-image:		eval(concat("https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/Q/Q126/PPWBC/", tag("seamark:notice:bank"), "/", tag("seamark:notice:category"), ".svg"));
+icon-image:		eval(concat("https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q126/PPWBC/", tag("seamark:notice:bank"), "/", tag("seamark:notice:category"), ".svg"));
 }
 *["seamark:notice:1:system"=ppwbc]["seamark:notice:1:category"].notice_left::ppwbc_notice_left {
 z-index:    5;
-icon-image:		eval(concat("https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/Q/Q126/PPWBC/", tag("seamark:notice:1:bank"), "/", tag("seamark:notice:1:category"), ".svg"));
+icon-image:		eval(concat("https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q126/PPWBC/", tag("seamark:notice:1:bank"), "/", tag("seamark:notice:1:category"), ".svg"));
 }
 *["seamark:notice:2:system"=ppwbc]["seamark:notice:2:category"].notice_right::ppwbc_notice_right {
 z-index:    5;
-icon-image:		eval(concat("https://raw.githubusercontent.com/OpenSeaMap/josm/master/icons/svg/Q/Q126/PPWBC/", tag("seamark:notice:2:bank"), "/", tag("seamark:notice:2:category"), ".svg"));
+icon-image:		eval(concat("https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q126/PPWBC/", tag("seamark:notice:2:bank"), "/", tag("seamark:notice:2:category"), ".svg"));
 }
 
 /* END */
