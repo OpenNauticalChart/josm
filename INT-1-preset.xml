@@ -4685,7 +4685,7 @@
         <label text="T20-T36: Signal Station" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/T/T20.svg"/>
         <space/>
         <key key="seamark:type" value="signal_station_traffic"/>
-        <multiselect key="seamark:signal_station_trafic:category" text="Type"  default="yes" >
+        <multiselect key="seamark:signal_station_trafic:category" text="Type" >
           <list_entry value="port_control"/>
           <list_entry value="port_entry_departure"/>
           <list_entry value="ipt"/>
