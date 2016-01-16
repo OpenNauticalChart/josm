@@ -549,7 +549,7 @@
         <label text="E13: Temple" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E13.svg"/>
         <space/>
         <key key="seamark:type" value="building"/>
-        <key key="seamakr:building:function" value="temple"/>
+        <key key="seamark:building:function" value="temple"/>
         <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Buildings" text="Buildings"/>
       </item>
       
