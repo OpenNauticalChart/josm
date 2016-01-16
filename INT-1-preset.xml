@@ -328,7 +328,7 @@
       <item name="Single Buildings (D2, D5, D6)" icon="presets/empty.png" type="node,closedway">
         <label text="D2: Single Buildings"/>
         <key key="seamark:type" value="building"/>
-        <multiselect key="seamark:building:function" text="Seamark Building Function" default="" >
+        <multiselect key="seamark:building:function" text="Seamark Building Function" >
           <reference ref="function"/>
         </multiselect>
         <combo key="seamark:building:shape" text="Seamark Building Shape" default="">
@@ -4708,7 +4708,7 @@
         <label text="T20-T36: Signal Station" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/T/T20.svg"/>
         <space/>
         <key key="seamark:type" value="signal_station_warning"/>
-        <multiselect key="seamark:signal_station_warning:category" text="Type" default="yes" >
+        <multiselect key="seamark:signal_station_warning:category" text="Type" >
           <list_entry value="danger"/>
           <list_entry value="maritime_obstruction"/>
           <list_entry value="cable"/>
