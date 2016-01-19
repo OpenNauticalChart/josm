@@ -1165,12 +1165,12 @@
     
     <group name="J: Nature of Seabed" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J15.svg">
       
-      <item name="Seabed Surface (J1-J15)+(J30-J39)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J14.svg" type="node,closedway">
-        <label text="J1-J15, J30-J39: Seabed Surface" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J14.svg"/>
+      <item name="Seabed Surface (J1-J12)+(J30-J39)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J14.svg" type="node,closedway">
+        <label text="J1-J12, J30-J39: Seabed Surface" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J14.svg"/>
         <space/>
         <key key="seamark:type" value="seabed_area"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Key:seabed_surface"/>
-        <combo key="seamark:seabed_area:surface" text="Surface Material"  use_last_as_default="force" >
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Seamark_Objects"/>
+        <multiselect key="seamark:seabed_area:surface" text="Surface Material"  use_last_as_default="force" >
           <list_entry value="sand"/>
           <list_entry value="mud"/>
           <list_entry value="clay"/>
@@ -1183,11 +1183,8 @@
           <list_entry value="boulders"/>
           <list_entry value="coral"/>
           <list_entry value="shells"/>
-          <list_entry value="weed"/>
-          <list_entry value="kelp"/>
-          <list_entry value="mobile_bottom"/>
-          <list_entry value="spring_in_seabed"/>
-        </combo>
+          <list_entry value="lava"/>
+        </multiselect>
         <combo key="seamark:seabed_area:quality" text="Surface Quality" >
           <list_entry value="fine"/>
           <list_entry value="medium"/>
@@ -1201,7 +1198,34 @@
           <list_entry value="hard"/>
         </combo>
       </item>
-      
+
+      <item name="Weed (J13)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J14.svg" type="node,closedway">
+        <label text="J13: Weed" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J14.svg"/>
+        <space/>
+        <key key="seamark:type" value="weed"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Seamark_Objects"/>
+        <combo key="seamark:weed:category" text="Category of Weed" >
+          <list_entry value="kelp"/>
+          <list_entry value="sea_weed"/>
+          <list_entry value="sea_grass"/>
+          <list_entry value="sargasso"/>
+        </combo>
+      </item>
+
+      <item name="Sandwaves (J14)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J14.svg" type="node,closedway">
+        <label text="J14: Sandwaves" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J14.svg"/>
+        <space/>
+        <key key="seamark:type" value="sandwaves"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Seamark_Objects"/>
+      </item>
+
+      <item name="Spring in Seabed (J15)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J14.svg" type="node">
+        <label text="J15: Spring in Seabed" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J14.svg"/>
+        <space/>
+        <key key="seamark:type" value="spring"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Seamark_Objects"/>
+      </item>
+
     </group>
     
     <!---***********************Section K: Rocks, Wrecks, Obstructions***************************-->
