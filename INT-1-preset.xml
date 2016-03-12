@@ -1573,7 +1573,7 @@
     
     <group name="M: Tracks, Routes" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/M/M10.svg">
       
-      <item name="Navigation Lines (M1, M2)" icon="presets/empty.png" type="way,relation">
+      <item name="Navigation Lines (M1, M2)" icon="presets/empty.png" type="way">
         <label text="M1-2: Navigation Lines"/>
         <space/>
         <key key="seamark:type" value="navigation_line"/>
@@ -1581,6 +1581,7 @@
         <combo key="seamark:navigation_line:category" text="Category">
           <list_entry value="leading"/>
           <list_entry value="clearing"/>
+          <list_entry value="transit"/>
         </combo>
         <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Leading_Lines" text="Leading Lines"/>
       </item>
@@ -2728,7 +2729,7 @@
           <item name="Bifurcation Topmark" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q9/2_cones_point_together/red_green.svg" type="node">
             <label text="Bifurcation Topmark" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q9/2_cones_point_together/red_green.svg"/>
             <space/>
-            <key key="seamark:topamrk:shape" value="2 cones point together"/>
+            <key key="seamark:topmark:shape" value="2 cones point together"/>
             <key key="seamark:topmark:colour" value="red;green"/>
             <key key="seamark:topmark:colour_pattern" value=""/>
           </item>
@@ -3748,7 +3749,7 @@
             </combo>
             <key key="seamark:beacon_lateral:system" value="cevni"/>
             <key key="seamark:beacon_lateral:shape" value="stake"/>
-            <key key="seamark:topamrk:shape" value="2 cones point together"/>
+            <key key="seamark:topmark:shape" value="2 cones point together"/>
             <key key="seamark:topmark:colour" value="red;green"/>
             <key key="seamark:topmark:colour_pattern" value=""/>
             <link href="http://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Lateral_Marks" text="CEVNI Lateral Marks"/>
