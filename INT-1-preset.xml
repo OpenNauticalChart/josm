@@ -2575,7 +2575,7 @@
             <item name="Starboard Hand Lateral Topmark" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q9/cone_point_up/green.svg" type="node">
               <label text="Starboard Hand Lateral Topmark" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q9/cone_point_up/green.svg"/>
               <space/>
-              <key key="seamark:topmark:shape" value="cone point up"/>
+              <key key="seamark:topmark:shape" value="cone, point up"/>
               <key key="seamark:topmark:colour" value="green"/>
               <key key="seamark:topmark:colour_patern" value=""/>
             </item>
@@ -2591,7 +2591,7 @@
             <item name="Preferred Channel to Port Topmark" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q9/cone_point_up/green.svg" type="node">
               <label text="Preferred Channel to Port Topmark" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q9/cone_point_up/green.svg"/>
               <space/>
-              <key key="seamark:topmark:shape" value="cone point up"/>
+              <key key="seamark:topmark:shape" value="cone, point up"/>
               <key key="seamark:topmark:colour" value="green"/>
               <key key="seamark:topmark:colour_patern" value=""/>
             </item>
@@ -2611,7 +2611,7 @@
             <item name="Starboard Hand Lateral Topmark" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q9/cone_point_up/red.svg" type="node">
               <label text="Starboard Hand Lateral Topmark" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q9/cone_point_up/red.svg"/>
               <space/>
-              <key key="seamark:topmark:shape" value="cone point up"/>
+              <key key="seamark:topmark:shape" value="cone, point up"/>
               <key key="seamark:topmark:colour" value="red"/>
               <key key="seamark:topmark:colour_patern" value=""/>
             </item>
@@ -2627,7 +2627,7 @@
             <item name="Preferred Channel to Port Topmark" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q9/cone_point_up/red.svg" type="node">
               <label text="Preferred Channel to Port Topmark" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q9/cone_point_up/red.svg"/>
               <space/>
-              <key key="seamark:topmark:shape" value="cone point up"/>
+              <key key="seamark:topmark:shape" value="cone, point up"/>
               <key key="seamark:topmark:colour" value="red"/>
               <key key="seamark:topmark:colour_patern" value=""/>
             </item>
