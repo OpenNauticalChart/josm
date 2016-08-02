@@ -325,7 +325,7 @@
     
     <group name="D: Cultural Features" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/D/Db_uk.svg">
       
-      <item name="Single Buildings (D2, D5, D6)" icon="presets/empty.png" type="node,closedway">
+      <item name="Single Buildings (D2, D5, D6)" type="node,closedway">
         <label text="D2: Single Buildings"/>
         <key key="seamark:type" value="building"/>
         <multiselect key="seamark:building:function" text="Seamark Building Function" >
@@ -344,7 +344,7 @@
         <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Buildings" text="Buildings"/>
       </item>
       
-      <item name="Bridge (D20-D24)" icon="presets/empty.png" type="node,way,closedway">
+      <item name="Bridge (D20-D24)" type="node,way,closedway">
         <label text="D20-D24: Bridge"/>
         <key key="seamark:type" value="bridge"/>
         <combo key="seamark:bridge:category" text="Bridge Type" >
@@ -368,7 +368,7 @@
         <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Bridges" text="Bridges"/>
       </item>
       
-      <item name="Overhead transporter or Telepheric (D25)" icon="presets/empty.png" type="way">
+      <item name="Overhead transporter or Telepheric (D25)" type="way">
         <label text="D25: Overhead transporter or Telepheric"/>
         <key key="seamark:type" value="conveyor"/>
         <key key="seamark:conveyor:category" value="aerial"/>
@@ -421,7 +421,7 @@
         <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Categories_of_Objects#Cables_.28CATCBL.29" text="Cable Categories"/>
       </item>
       
-      <item name="Pipeline (Overhead) (D28)" icon="presets/empty.png" type="way">
+      <item name="Pipeline (Overhead) (D28)" type="way">
         <label text="D28: Pipeline (Overhead)"/>
         <key key="seamark:type" value="pipeline_overhead"/>
         <combo key="seamark:pipeline_overhead:category" text="Category">
@@ -439,7 +439,7 @@
         <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Categories_of_Objects#Pipelines_.28CATPIP.29" text="Pipeline Categories"/>
       </item>
       
-      <item name="Pipeline (On Land) (D29)" icon="presets/empty.png" type="way">
+      <item name="Pipeline (On Land) (D29)" type="way">
         <label text="D29: Pipeline (On Land)"/>
         <key key="seamark:type" value="pipeline_submarine"/>
         <combo key="seamark:pipeline_submarine:category" text="Category">
@@ -775,7 +775,7 @@
         <key key="seamark:tank:category" value="silo"/>
       </item>
       
-      <item name="Fortification (E34)" icon="presets/empty.png" type="node,closedway">
+      <item name="Fortification (E34)" type="node,closedway">
         <label text="E34: Fortification"/>
         <space/>
         <key key="seamark:type" value="fortified_structure"/>
@@ -884,7 +884,7 @@
       <!--****** Wave breaker for beach?! *****-->
       <group name="Protection Structures (F1-6)" de.name="Sichereits Einrichtungen (F1-6)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/F/F.svg">
         
-        <item name="Training Wall (F5)" de.name="Wellenbrecher (F5)" icon="presets/empty.png" type="way,closedway">
+        <item name="Training Wall (F5)" de.name="Wellenbrecher (F5)" type="way,closedway">
           <label text="F5: Training Wall" de.text="F5: Wellenbrecher"/>
           <space/>
           <key key="seamark:type" value="shoreline_contruction"/>
@@ -943,7 +943,7 @@
           <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Harbours" text="Harbours" de.text="Häfen"/>
         </item>
         
-        <item name="Designation of Berth (F19.1)" icon="presets/empty.png" type="node,way,closedway">
+        <item name="Designation of Berth (F19.1)" type="node,way,closedway">
           <label text="Number, Name or Letter of Berth"/>
           <space/>
           <key key="seamark:type" value="berth"/>
@@ -1007,7 +1007,7 @@
           </combo>
         </item>
         
-        <item name="Slipway, Patent Slip or Ramp (F23)" icon="presets/empty.png" type="node,way,closedway">
+        <item name="Slipway, Patent Slip or Ramp (F23)" type="node,way,closedway">
           <label text="F23: Slipway, Patent Slip or Ramp"/>
           <space/>
           <key key="seamark:type" value="shoreline_construction"/>
@@ -1017,14 +1017,14 @@
           </combo>
         </item>
         
-        <item name="Gridiron (F24)" icon="presets/empty.png" type="node">
+        <item name="Gridiron (F24)" type="node">
           <label text="F24: Gridiron"/>
           <space/>
           <key key="seamark:type" value="gridiron"/>
           <key key="seamark:gridiron:water_level" value="covers"/>
         </item>
         
-        <item name="Drydocks and Floating docks (F25-F26)" icon="presets/empty.png" type="node,closedway">
+        <item name="Drydocks and Floating docks (F25-F26)" type="node,closedway">
           <label text="F25-F26: Docks, drydocks and floating"/>
           <space/>
           <combo key="seamark:type" text="Dock Type (seamark)"  use_last_as_default="force" >
@@ -1040,7 +1040,7 @@
           <key key="seamark:type" value="harbour_basin"/>
         </item>
         
-        <item name="Oil Barrier (F29)" icon="presets/empty.png" type="node,way,closedway">
+        <item name="Oil Barrier (F29)" type="node,way,closedway">
           <label text="F29: Oil Barrier"/>
           <space/>
           <key key="seamark:type" value="oil_barrier"/>
@@ -1050,7 +1050,7 @@
           </combo>
         </item>
         
-        <item name="Hulk (F34)" icon="presets/empty.png" type="closedway">
+        <item name="Hulk (F34)" type="closedway">
           <label text="F34: Hulk"/>
           <space/>
           <key key="seamark:type" value="hulk"/>
@@ -1065,7 +1065,7 @@
           </combo>
         </item>
         
-        <item name="Bollard (Fa UK)" icon="presets/empty.png" type="node">
+        <item name="Bollard (Fa UK)" type="node">
           <label text="Fa: Bollard"/>
           <space/>
           <key key="seamark:type" value="mooring"/>
@@ -1076,21 +1076,21 @@
       
       <group name="Transhipment Facilities (F50-53)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/F/F.svg">
         
-        <item name="Ro-Ro Terminal (F50)" icon="presets/empty.png" type="node,closedway">
+        <item name="Ro-Ro Terminal (F50)" type="node,closedway">
           <label text="F50: Ro-Ro Terminal"/>
           <space/>
           <key key="seamark:type" value="harbour"/>
           <key key="seamark:harbour:category" value="roro"/>
         </item>
         
-        <item name="Transit sheds, warehouses (F51)" icon="presets/empty.png" type="closedway">
+        <item name="Transit sheds, warehouses (F51)" type="closedway">
           <label text="F51: Transit sheds, warehouses"/>
           <space/>
           <key key="seamark:type" value="buidling"/>
           <key key="seamark:building:function" value="transit_shed"/>
         </item>
         
-        <item name="Crane (F53)" icon="presets/empty.png" type="node,closedway">
+        <item name="Crane (F53)" type="node,closedway">
           <label text="F53: Crane"/>
           <space/>
           <key key="seamark:type" value="crane"/>
@@ -1147,14 +1147,14 @@
     
     <!---***********************Section I: Depths***************************-->
     
-    <group name="I: Depths" icon="presets/empty.png">
+    <group name="I: Depths">
       
-      <item name="Dredged area (I20-23)" icon="presets/empty.png" type="closedway">
+      <item name="Dredged area (I20-23)" type="closedway">
         <label text="I20-23: Dredged Area"/>
         <key key="seamark:type" value="dredged_area"/>
       </item>
       
-      <item name="Swept area (I24)" icon="presets/empty.png" type="closedway">
+      <item name="Swept area (I24)" type="closedway">
         <label text="I24: Swept Area"/>
         <key key="seamark:type" value="swept_area"/>
       </item>
@@ -1300,7 +1300,7 @@
         </combo>
       </item>
       
-      <item name="Fish Stakes, Traps, Net (K44.*, K45)" icon="presets/empty.png" type="node,closedway">
+      <item name="Fish Stakes, Traps, Net (K44.*, K45)" type="node,closedway">
         <label text="K44.*: Fish Stakes, Traps"/>
         <label text="K45: Tunny net"/>
         <space/>
@@ -1313,7 +1313,7 @@
         </combo>
       </item>
       
-      <item name="Fish Haven, Fish Reef (K46.*)" icon="presets/empty.png" type="node,closedway">
+      <item name="Fish Haven, Fish Reef (K46.*)" type="node,closedway">
         <label text="K46: Fish Haven"/>
         <space/>
         <key key="seamark:type" value="obstruction"/>
@@ -1349,7 +1349,7 @@
     
     <group name="L: Offshore Installations" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/L/L17.svg">
       
-      <item name="Offshore Oil and Gas Field (L1)" icon="presets/empty.png" type="closedway,node">
+      <item name="Offshore Oil and Gas Field (L1)" type="closedway,node">
         <label text="L1: Offshore Oil and Gas Field"/>
         <space/>
         <key key="seamark:type" value="production_area"/>
@@ -1384,7 +1384,7 @@
         </combo>
       </item>
       
-      <item name="Safety Zone (L3)" icon="presets/empty.png" type="closedway">
+      <item name="Safety Zone (L3)" type="closedway">
         <label text="L3: Safety Zone established around this feature"/>
         <space/>
         <key key="seamark:type" value="restricted_area"/>
@@ -1392,7 +1392,7 @@
         <key key="seamark:restricted_area:restriction" value="restricted_entry"/>
       </item>
       
-      <item name="Development Area (L4)" icon="presets/empty.png" type="closedway">
+      <item name="Development Area (L4)" type="closedway">
         <label text="L4: Development Area"/>
         <space/>
         <key key="seamark:type" value="production_area"/>
@@ -1434,7 +1434,7 @@
         <key key="seamark:landmark:category" value="flare_stack"/>
       </item>
       
-      <item name="Single Point Mooring (L12)" icon="presets/empty.png" type="node">
+      <item name="Single Point Mooring (L12)" type="node">
         <label text="L12: Single Point Mooring"/>
         <space/>
         <key key="seamark:type" value="platform"/>
@@ -1445,7 +1445,7 @@
         <text key="seamark:name" text="Name"/>
       </item>
       
-      <item name="Observation Platform(L13)" icon="presets/empty.png" type="node,closedway">
+      <item name="Observation Platform(L13)" type="node,closedway">
         <label text="L13:Observation Platform"/>
         <space/>
         <key key="seamark:type" value="platform"/>
@@ -1453,7 +1453,7 @@
         <text key="seamark:name" text="Name"/>
       </item>
       
-      <item name="Disused Platform(L14)" icon="presets/empty.png" type="node,closedway">
+      <item name="Disused Platform(L14)" type="node,closedway">
         <label text="L14:Disused Platform"/>
         <space/>
         <key key="seamark:type" value="platform"/>
@@ -1462,7 +1462,7 @@
         <text key="seamark:name" text="Name"/>
       </item>
       
-      <item name="Artificial Island(L15)" icon="presets/empty.png" type="node,closedway">
+      <item name="Artificial Island(L15)" type="node,closedway">
         <label text="L15:Artificial Island"/>
         <space/>
         <key key="seamark:type" value="platform"/>
@@ -1492,7 +1492,7 @@
       
       <!-- L18 Mooring ground tackle -->
       
-      <item name="Underwater Installations (L20-23)" icon="presets/empty.png" type="node">
+      <item name="Underwater Installations (L20-23)" type="node">
         <label text="L20-23: Underwater Installations"/>
         <space/>
         <key key="seamark:type" value="obstruction"/>
@@ -1515,7 +1515,7 @@
         </combo>
       </item>
       
-      <item name="Underwater Turbine (L24)" icon="presets/empty.png" type="node">
+      <item name="Underwater Turbine (L24)" type="node">
         <label text="L24: Underwater Turbine"/>
         <space/>
         <key key="seamark:type" value="obstruction"/>
@@ -1573,7 +1573,7 @@
     
     <group name="M: Tracks, Routes" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/M/M10.svg">
       
-      <item name="Navigation Lines (M1, M2)" icon="presets/empty.png" type="way">
+      <item name="Navigation Lines (M1, M2)" type="way">
         <label text="M1-2: Navigation Lines"/>
         <space/>
         <key key="seamark:type" value="navigation_line"/>
@@ -1586,7 +1586,7 @@
         <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Leading_Lines" text="Leading Lines"/>
       </item>
       
-      <item name="Recommended Track (M3-M6)" icon="presets/empty.png" type="way">
+      <item name="Recommended Track (M3-M6)" type="way">
         <label text="M3-4: Recommended Track"/>
         <space/>
         <key key="seamark:type" value="recommended_track"/>
@@ -1619,13 +1619,13 @@
         <text key="seamark:recommended_traffic_lane:orientation" text="Orientation"/>
       </item>
       
-      <item name="Separation Line (M12)" icon="presets/empty.png" type="way">
+      <item name="Separation Line (M12)" type="way">
         <label text="M12: Separation Line"/>
         <space/>
         <key key="seamark:type" value="separation_line"/>
       </item>
       
-      <item name="Separation Zone (M13)" icon="presets/empty.png" type="closedway">
+      <item name="Separation Zone (M13)" type="closedway">
         <label text="M13: Separation Zone"/>
         <space/>
         <key key="seamark:type" value="separation_zone"/>
@@ -1635,20 +1635,20 @@
         </combo>
       </item>
       
-      <item name="Inshore Traffic Zone (M14)" icon="presets/empty.png" type="closedway">
+      <item name="Inshore Traffic Zone (M14)" type="closedway">
         <label text="M14: Inshore Traffic Zone"/>
         <space/>
         <key key="seamark:type" value="inshore_traffic_zone"/>
         <text key="seamark:name" text="Name"/>
       </item>
       
-      <item name="Limit of Routing Measures (M15)" icon="presets/empty.png" type="way,closedway">
+      <item name="Limit of Routing Measures (M15)" type="way,closedway">
         <label text="M15: Limit of Routing Measures"/>
         <space/>
         <key key="seamark:type" value="separation_boundary"/>
       </item>
       
-      <item name="Precautionary Area (M16)" icon="presets/empty.png" type="closedway">
+      <item name="Precautionary Area (M16)" type="closedway">
         <label text="M16: Precautionary Area"/>
         <space/>
         <key key="seamark:type" value="precautionary_area"/>
@@ -1657,38 +1657,38 @@
       
       <!-- M17 Archipelagic Sea Lane (ASL) -->
       
-      <item name="Fairway (M18)" icon="presets/empty.png" type="closedway">
+      <item name="Fairway (M18)" type="closedway">
         <label text="M18: Fairway"/>
         <space/>
         <key key="seamark:type" value="fairway"/>
       </item>
       
-      <item name="Separation Roundabout (M21)" icon="presets/empty.png" type="node,closedway">
+      <item name="Separation Roundabout (M21)" type="node,closedway">
         <label text="M21:Separation Roundabout"/>
         <space/>
         <key key="seamark:type" value="separation_roundabout"/>
       </item>
       
-      <item name="Separation Crossing (M22)" icon="presets/empty.png" type="node,closedway">
+      <item name="Separation Crossing (M22)" type="node,closedway">
         <label text="M22:Separation Crossing"/>
         <space/>
         <key key="seamark:type" value="separation_crossing"/>
       </item>
       
-      <item name="Radar Surveillance Station (M30)" icon="presets/empty.png" type="node">
+      <item name="Radar Surveillance Station (M30)" type="node">
         <label text="M30: Radar Surveillance Station"/>
         <space/>
         <key key="seamark:type" value="radar_station"/>
         <key key="seamark:radar_station:category" value="surveillance"/>
       </item>
       
-      <item name="Radar Range (M31)" icon="presets/empty.png" type="way">
+      <item name="Radar Range (M31)" type="way">
         <label text="M31: Radar Range"/>
         <space/>
         <key key="seamark:type" value="radar_range"/>
       </item>
       
-      <item name="Radar Line (M32)" icon="presets/empty.png" type="way">
+      <item name="Radar Line (M32)" type="way">
         <label text="M31: Radar Line"/>
         <space/>
         <key key="seamark:type" value="radar_line"/>
@@ -1710,7 +1710,7 @@
         <text key="seamark:calling-in_point:callsign" text="Call sign"/>
       </item>
       
-      <item name="Ferry Route (M50-M51)" icon="presets/empty.png" type="way,relation">
+      <item name="Ferry Route (M50-M51)" type="way,relation">
         <label text="M50-M51: Ferry Route"/>
         <space/>
         <key key="seamark:type" value="ferry_route"/>
@@ -1868,7 +1868,7 @@
         </multiselect>
       </item>
       
-      <item name="Explosives Dumping Ground (N23)" icon="presets/empty.png" type="closedway">
+      <item name="Explosives Dumping Ground (N23)" type="closedway">
         <label text="N23: Explosives Dumping Ground"/>
         <space/>
         <key key="seamark:type" value="dumping_ground"/>
@@ -1878,7 +1878,7 @@
         </multiselect>
       </item>
       
-      <item name="Dumping Ground for Harmful Substances (N24)" icon="presets/empty.png" type="closedway">
+      <item name="Dumping Ground for Harmful Substances (N24)" type="closedway">
         <label text="N24: Dumping Ground for Harmful Substances"/>
         <space/>
         <key key="seamark:type" value="dumping_ground"/>
@@ -1888,7 +1888,7 @@
         </multiselect>
       </item>
       
-      <item name="Degaussing Range (N25)" icon="presets/empty.png" type="closedway">
+      <item name="Degaussing Range (N25)" type="closedway">
         <label text="N25: Degaussing Range"/>
         <space/>
         <key key="seamark:type" value="restricted_area"/>
@@ -1898,7 +1898,7 @@
         </multiselect>
       </item>
       
-      <item name="Historic Wreck Area (N26)" icon="presets/empty.png" type="closedway">
+      <item name="Historic Wreck Area (N26)" type="closedway">
         <label text="N26: Historic Wreck Area"/>
         <space/>
         <key key="seamark:type" value="restricted_area"/>
@@ -1916,7 +1916,7 @@
         <text key="seamark:information" text="Speed limit"/>
       </item>
       
-      <item name="Firing Practice Area (N30)" icon="presets/empty.png" type="closedway">
+      <item name="Firing Practice Area (N30)" type="closedway">
         <label text="N30: Firing Practice Area"/>
         <space/>
         <key key="seamark:type" value="military_area"/>
@@ -1926,7 +1926,7 @@
         </multiselect>
       </item>
       
-      <item name="Military Restricted Area (N31)" icon="presets/empty.png" type="closedway">
+      <item name="Military Restricted Area (N31)" type="closedway">
         <label text="N31: Military Restricted Area"/>
         <space/>
         <key key="seamark:type" value="restricted_area"/>
@@ -1934,7 +1934,7 @@
         <key key="seamark:restricted_area:restriction" value="no_entry"/>
       </item>
       
-      <item name="Mine Laying Practice Area (N32)" icon="presets/empty.png" type="closedway">
+      <item name="Mine Laying Practice Area (N32)" type="closedway">
         <label text="N32: Mine Laying Practice Area"/>
         <space/>
         <key key="seamark:type" value="military_area"/>
@@ -1944,7 +1944,7 @@
         </multiselect>
       </item>
       
-      <item name="Submarine Practice Area (N33)" icon="presets/empty.png" type="closedway">
+      <item name="Submarine Practice Area (N33)" type="closedway">
         <label text="N33: Submarine Practice Area"/>
         <space/>
         <key key="seamark:type" value="militay_area"/>
@@ -1954,7 +1954,7 @@
         </multiselect>
       </item>
       
-      <item name="Minefield (N34)" icon="presets/empty.png" type="closedway">
+      <item name="Minefield (N34)" type="closedway">
         <label text="N34: Minefield"/>
         <space/>
         <key key="seamark:type" value="restricted_area"/>
@@ -1964,14 +1964,14 @@
         </multiselect>
       </item>
       
-      <item name="Spoil Ground (N62.*)" icon="presets/empty.png" type="closedway">
+      <item name="Spoil Ground (N62.*)" type="closedway">
         <label text="N62: Spoil Ground"/>
         <space/>
         <key key="seamark:type" value="dumping_ground"/>
         <key key="seamark:dumping_ground:category" value="spoil"/>
       </item>
       
-      <item name="Extraction area (N63)" icon="presets/empty.png" type="closedway">
+      <item name="Extraction area (N63)" type="closedway">
         <label text="N63: Extraction Area"/>
         <space/>
         <key key="seamark:type" value="restricted_area"/>
@@ -2385,24 +2385,24 @@
         <list_entry value="board" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q126/CEVNI/no_entry.svg" icon_size="16"/>
         <list_entry value="cross" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q9/cross/generic.svg" icon_size="16"/>
         <list_entry value="cone, point down" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q9/cone_point_down/generic.svg" icon_size="16"/>
-        <list_entry value="cube, point up" icon="presets/empty.png" icon_size="16"/>
+        <list_entry value="cube, point up" icon_size="16"/>
         <list_entry value="rhombus" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q9/rhombus/generic.svg" icon_size="16"/>
         <list_entry value="flag" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q9/flag/generic.svg" icon_size="16"/>
-        <list_entry value="sphere over rhombus" icon="presets/empty.png" icon_size="16"/>
+        <list_entry value="sphere over rhombus" icon_size="16"/>
         <list_entry value="square" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q9/square/generic.svg" icon_size="16"/>
-        <list_entry value="rectangle, horizontal" icon="presets/empty.png" icon_size="16"/>
-        <list_entry value="rectangle, vertical" icon="presets/empty.png" icon_size="16"/>
-        <list_entry value="trapezium, up" icon="presets/empty.png" icon_size="16"/>
-        <list_entry value="trapezium, down" icon="presets/empty.png" icon_size="16"/>
+        <list_entry value="rectangle, horizontal" icon_size="16"/>
+        <list_entry value="rectangle, vertical" icon_size="16"/>
+        <list_entry value="trapezium, up" icon_size="16"/>
+        <list_entry value="trapezium, down" icon_size="16"/>
         <list_entry value="triangle, point up" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q9/triangle_point_up/generic.svg" icon_size="16"/>
         <list_entry value="triangle, point down" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q9/triangle_point_down/generic.svg" icon_size="16"/>
-        <list_entry value="circle" icon="presets/empty.png" icon_size="16"/>
-        <list_entry value="2 upright crosses" icon="presets/empty.png" icon_size="16"/>
-        <list_entry value="t-shape" icon="presets/empty.png" icon_size="16"/>
-        <list_entry value="triangle, point up over circle" icon="presets/empty.png" icon_size="16"/>
-        <list_entry value="upright cross over circle" icon="presets/empty.png" icon_size="16"/>
-        <list_entry value="rhombus over circle" icon="presets/empty.png" icon_size="16"/>
-        <list_entry value="circle over triangle, point up" icon="presets/empty.png" icon_size="16"/>
+        <list_entry value="circle" icon_size="16"/>
+        <list_entry value="2 upright crosses" icon_size="16"/>
+        <list_entry value="t-shape" icon_size="16"/>
+        <list_entry value="triangle, point up over circle" icon_size="16"/>
+        <list_entry value="upright cross over circle" icon_size="16"/>
+        <list_entry value="rhombus over circle" icon_size="16"/>
+        <list_entry value="circle over triangle, point up" icon_size="16"/>
       </chunk>
       
       <chunk id="topshapes">
@@ -2419,7 +2419,7 @@
         <list_entry value="pillar" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/pillar/generic.svg" icon_size="16"/>
         <list_entry value="spar" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/spar/generic.svg" icon_size="16"/>
         <list_entry value="barrel" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/barrel/generic.svg" icon_size="16"/>
-        <list_entry value="ice-buoy" icon="presets/empty.png" icon_size="16"/>
+        <list_entry value="ice-buoy" icon_size="16"/>
       </chunk>
       
       <chunk id="beaconshapes">
@@ -4826,8 +4826,8 @@
         <space/>
         <multiselect key="seamark:small_craft_facility:category" text="Facility type(s)">
           <list_entry value="visitor_berth" display_value="Visitors berth" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/U/U2.svg" icon_size="16"/>
-          <list_entry value="visitors_mooring" display_value="Visitors mooring" icon="presets/empty.png" icon_size="16"/>
-          <list_entry value="scrubbing_berth" display_value="Scrubbing berth" icon="presets/empty.png" icon_size="16"/>
+          <list_entry value="visitors_mooring" display_value="Visitors mooring" icon_size="16"/>
+          <list_entry value="scrubbing_berth" display_value="Scrubbing berth" icon_size="16"/>
           <list_entry value="electricity" display_value="Electricity" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/U/U19.svg" icon_size="16"/>
           <list_entry value="water_tap" display_value="Drinking Water" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/U/U17.svg" icon_size="16"/>
           <list_entry value="showers" display_value="Showers" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/U/U21.svg" icon_size="16"/>
@@ -4839,24 +4839,24 @@
           <list_entry value="provisions" display_value="Provisions" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/U/U13.svg" icon_size="16"/>
           <list_entry value="bottle_gas" display_value="Bottled gas" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/U/U20.svg" icon_size="16"/>
           <list_entry value="refuse_bin" display_value="Refuse disposal" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/U/U26.svg" icon_size="16"/>
-          <list_entry value="pump-out" display_value="Pump-out" icon="presets/empty.png" icon_size="16"/>
+          <list_entry value="pump-out" display_value="Pump-out" icon_size="16"/>
           <list_entry value="sailmaker" display_value="Sailmaker" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/U/U8.svg" icon_size="16"/>
           <list_entry value="boatyard" display_value="Boatyard" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/U/U9.svg"  icon_size="16"/>
-          <list_entry value="mechanics_workshop" display_value="Mechanics workshop" icon="presets/empty.png" icon_size="16"/>
+          <list_entry value="mechanics_workshop" display_value="Mechanics workshop" icon_size="16"/>
           <list_entry value="boat_hoist" display_value="Boat hoist" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/U/U6.svg" icon_size="16"/>
           <list_entry value="slipway" display_value="Slipway" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/U/U5.svg" icon_size="16"/>
           <list_entry value="public_inn" display_value="Inn" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/U/U10.svg" icon_size="16"/>
           <list_entry value="restaurant" display_value="Restaurant" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/U/U11.svg" icon_size="16"/>
           <list_entry value="doctor" display_value="Doctor" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/U/U15.svg" icon_size="16"/>
           <list_entry value="pharmacy" display_value="" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/U/U16.svg" icon_size="16"/>
-          <list_entry value="emergency_telephone" display_value="Emergency telephone" icon="presets/empty.png" icon_size="16"/>
+          <list_entry value="emergency_telephone" display_value="Emergency telephone" icon_size="16"/>
           <list_entry value="post_box" display_value="Post box" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/U/U24.svg" icon_size="16"/>
           <list_entry value="telephone" display_value="Telephone" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/U/U25.svg" icon_size="16"/>
           <list_entry value="car_park" display_value="Car park" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/U/U27.svg" icon_size="16"/>
-          <list_entry value="boat_trailers_park" display_value="Boat trailer park" icon="presets/empty.png" icon_size="16"/>
+          <list_entry value="boat_trailers_park" display_value="Boat trailer park" icon_size="16"/>
           <list_entry value="caravan_site" display_value="Caravan site" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/U/U29.svg" icon_size="16"/>
           <list_entry value="camping_site" display_value="Camping site" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/U/U30_br.svg" icon_size="16"/>
-          <list_entry value="picnic_area" display_value="Picnic area" icon="presets/empty.png" icon_size="16"/>
+          <list_entry value="picnic_area" display_value="Picnic area" icon_size="16"/>
         </multiselect>
         <space/>
         <text key="seamark:information" text="Supplimentary Information"/>
@@ -4907,7 +4907,7 @@
       
     </group>
     
-    <item name="Supplimentary Information" icon="presets/empty.png" type="node,way,closedway,relation">
+    <item name="Supplimentary Information" type="node,way,closedway,relation">
       <label text="Supplimentary Information"/>
       <space/>
       <text key="seamark:name" text="Name"/>
@@ -4942,7 +4942,7 @@
       </combo>
     </item>
     
-    <item name="FIXMEs" icon="presets/empty.png" type="node,way,closedway,relation">
+    <item name="FIXMEs" type="node,way,closedway,relation">
       <label text="Seamark Fixme's"/>
       <space/>
       <combo key="seamark:fixme"  text="FIXME" use_last_as_default="true" >
