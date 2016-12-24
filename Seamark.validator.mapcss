@@ -4,7 +4,7 @@
  * This validator is meant to identify clearly wrong tagging. Border values where doubt whether can be positive or negative is avoided
  * in order not to generate false-negatives or false-positives.
  *
- * Any short-comings to this validator can be reported as an issue on http://github.com/OpenSeaMap/josm/issues
+ * Any short-comings to this validator can be reported as an issue on http://github.com/OpenNauticalChart/josm/issues
  */
 meta {
     title: "Seamark Validation Rules";
