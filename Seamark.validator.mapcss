@@ -1,5 +1,5 @@
 /*
- * Since the OpenSeaMap tagging scheme is quite complicated, and prone of entering data wrongly, the need for data validation is strong
+ * Since the Seamark tagging scheme is quite complicated, and prone of entering data wrongly, the need for data validation is strong
  *
  * This validator is meant to identify clearly wrong tagging. Border values where doubt whether can be positive or negative is avoided
  * in order not to generate false-negatives or false-positives.
@@ -11,7 +11,7 @@ meta {
     version: "0.1";
     description: "Rules to give warning when tagging of seamarks are not in accordance with standards in the data model";
     author: "Aun (Skippern) Johnsen";
-    link: "http://wiki.openstreetmap.org/wiki/OpenSeaMap/Seamark_Objects";
+    link: "http://wiki.openstreetmap.org/wiki/Seamarks/Seamark_Objects";
     watch-modified: true;
 }
 
