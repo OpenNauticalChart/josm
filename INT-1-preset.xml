@@ -887,8 +887,8 @@
         <item name="Training Wall (F5)" de.name="Wellenbrecher (F5)" type="way,closedway">
           <label text="F5: Training Wall" de.text="F5: Wellenbrecher"/>
           <space/>
-          <key key="seamark:type" value="shoreline_contruction"/>
-          <key key="seamark:shoreline_contruction:category" value="training_wall"/>
+          <key key="seamark:type" value="shoreline_construction"/>
+          <key key="seamark:shoreline_construction:category" value="training_wall"/>
           <combo key="shoreline_construction:water_level" text="Water Level" de.text="Wasserstand">
             <list_entry value="dry" display_value="Dry" de.display_value="Trocken"/>
             <list_entry value="submerged" display_value="Submeged" de.display_value="unter Wasser"/>
