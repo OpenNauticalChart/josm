@@ -11,7 +11,7 @@ meta {
     version: "0.1";
     description: "Rules to give warning when tagging of seamarks are not in accordance with standards in the data model";
     author: "Aun (Skippern) Johnsen";
-    link: "http://wiki.openstreetmap.org/wiki/Seamarks/Seamark_Objects";
+    link: "https://wiki.openstreetmap.org/wiki/Seamarks/Seamark_Objects";
     watch-modified: true;
 }
 
