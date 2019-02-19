@@ -4597,30 +4597,32 @@
       <item name="AIS transmitter (S17.1-S17.2)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/S/S1.svg" type="node">
         <label text="S17: AIS, Automatic Identification System" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/S/S1.svg"/>
         <space/>
-        <check key="seamark:radio_station:category" value_on="s-ais" value_off="ais" text="Synthetic AIS"/>
+        <key key="seamark:type" value="radio_station"/>
+        <check key="seamark:radio_station:category" value_on="ais_base" value_off="ais" text="AIS Base Station"/>
         <text key="seamark:radio_station:mmsi" text="MMSI"/>
         <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Radio_Stations" text="Radio Stations"/>
       </item>
       
-      <item name="Virtual AIS transmitter (S18.1-S18.2)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/S/S1.svg" type="node">
+      <item name="Virtual AIS transmitter (S18.1-S18.7)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/S/S1.svg" type="node">
         <label text="S18: Virtual AIS, Automatic Identification System" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/S/S1.svg"/>
         <space/>
-        <key key="seamark:type" value="radio_station"/>
-        <combo key="seamark:radio_station:category" text="Category" default="v-ais">
-          <list_entry value="v-ais" display_value="Unknown"/>
-          <list_entry value="v-ais_north_cardinal" display_value="North Cardinal"/>
-          <list_entry value="v-ais_south_cardinal" display_value="South Cardinal"/>
-          <list_entry value="v-ais_east_cardinal" display_value="East Cardinal"/>
-          <list_entry value="v-ais_west_cardinal" display_value="West Cardinal"/>
-          <list_entry value="v-ais_port_lateral" display_value="Port Lateral"/>
-          <list_entry value="v-ais_starboard_lateral" display_value="Starboard Lateral"/>
-          <list_entry value="v-ais_isolated_danger" display_value="Isolated Danger"/>
-          <list_entry value="v-ais_safe_water" display_value="Safe Water"/>
-          <list_entry value="v-ais_special_purpose" display_value="Special Purpose"/>
-          <list_entry value="v-ais_wreck" display_value="Wreck"/>
+        <key key="seamark:type" value="virtual_aton"/>
+        <combo key="seamark:virtual_aton:category" text="Category">
+          <list_entry value="north_cardinal" display_value="North Cardinal"/>
+          <list_entry value="south_cardinal" display_value="South Cardinal"/>
+          <list_entry value="east_cardinal" display_value="East Cardinal"/>
+          <list_entry value="west_cardinal" display_value="West Cardinal"/>
+          <list_entry value="port_lateral" display_value="Port Lateral"/>
+          <list_entry value="starboard_lateral" display_value="Starboard Lateral"/>
+          <list_entry value="preferred_port" display_value="Preferred Channel to Port Lateral"/>
+          <list_entry value="preferred_starboard" display_value="Preferred Channel to Starboard Lateral"/>
+          <list_entry value="isolated_danger" display_value="Isolated Danger"/>
+          <list_entry value="safe_water" display_value="Safe Water"/>
+          <list_entry value="special_purpose" display_value="Special Purpose"/>
+          <list_entry value="wreck" display_value="Wreck"/>
         </combo>
         <text key="seamark:radio_station:mmsi" text="MMSI"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Radio_Stations" text="Radio Stations"/>
+        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Virtual_AtoNs" text="Virtual AtoNs"/>
       </item>
       
       <item name="dGPS Correction Transmitter (S51)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/S/S1.svg" type="node">
