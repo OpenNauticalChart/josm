@@ -4584,11 +4584,14 @@
           <list_entry value="commercial_broadcast"/>
           <list_entry value="facsimile"/>
           <list_entry value="time_signal"/>
+          <list_entry value="ais"/>
+          <list_entry value="ais_base"/>
         </combo>
         <text key="seamark:radio_station:group" text="Group"/>
         <text key="seamark:radio_station:orientation" text="Orientation"/>
         <text key="seamark:radio_station:range" text="Estimated Range"/>
         <text key="seamark:radio_station:callsign" text="Callsign/ID"/>
+        <text key="seamark:radio_station:mmsi" text="MMSI"/>
         <text key="seamark:radio_station:frequency" text="Frequency (Hz)"/>
         <text key="seamark:radio_station:channel" text="VHF Channel"/>
         <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Radio_Stations" text="Radio Stations"/>
@@ -4627,7 +4630,6 @@
       <item name="dGPS Correction Transmitter (S51)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/S/S1.svg" type="node">
         <label text="S51: dGPS Correction Transmitter" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/S/S1.svg"/>
         <space/>
-        <key key="seamark:type" value="radio_station"/>
         <key key="seamark:radio_station:category" value="dgps"/>
         <text key="seamark:radio_station:frequency" text="Frequency (Hz)"/>
         <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Radio_Stations" text="Radio Stations"/>
