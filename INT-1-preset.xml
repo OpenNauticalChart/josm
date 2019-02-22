@@ -4627,7 +4627,7 @@
         <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Virtual_AtoNs" text="Virtual AtoNs"/>
       </item>
       
-      <item name="dGPS Correction Transmitter (S51)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/S/S1.svg" type="node">
+      <item name="dGPS Correction Transmitter (S51)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/S/S1.svg" type="node,closedway">
         <label text="S51: dGPS Correction Transmitter" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/S/S1.svg"/>
         <space/>
         <key key="seamark:radio_station:category" value="dgps"/>
