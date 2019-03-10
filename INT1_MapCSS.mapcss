@@ -12,7 +12,7 @@ meta {
 	title:				"INT 1 Rendering (IHO standarized symbols) PD";
 	icon:				"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/IHO_c.svg";
 	author:				"Aun (Skippern) Johnsen";
-	version:			"0.2";
+	version:			"0.2.1";
 	description:		"JOSM rendering of nautical symbols according to IHO standard INT-1";
 	min-josm-version:	8087;
 }
@@ -21,8 +21,8 @@ meta {
 canvas {
     /*	fill-color:			aliceblue; */
 	antialiasing:		'full';
-	default-points: 	false; /* hides points */
-	default-lines: 		false; /* hides lines */
+	default-points:         false; /* hides points */
+	default-lines:          false; /* hides lines */
 	fill-opacity:		1; /* should underlaying layers shine through? */
 }
 
@@ -612,13 +612,13 @@ node["seamark:type"=notice]::int1_notice {
 }
 /* Generic notice marks, try system specific marks if these don't do */
 *["seamark:notice:2:category"].notice::int1_notice {
-    icon-image:     eval(concat("http://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q126/generic/", tag("seamark:notice:2:category"), ".svg"));
+    icon-image:     eval(concat("https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q126/generic/", tag("seamark:notice:2:category"), ".svg"));
 }
 *["seamark:notice:1:category"].notice::int1_notice {
-    icon-image:     eval(concat("http://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q126/generic/", tag("seamark:notice:1:category"), ".svg"));
+    icon-image:     eval(concat("https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q126/generic/", tag("seamark:notice:1:category"), ".svg"));
 }
 *["seamark:notice:category"].notice::int1_notice {
-    icon-image:     eval(concat("http://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q126/generic/", tag("seamark:notice:category"), ".svg"));
+    icon-image:     eval(concat("https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q126/generic/", tag("seamark:notice:category"), ".svg"));
 }
 
 /* See BNIWR_MapCSS.mapcss for BNIWR marks */
