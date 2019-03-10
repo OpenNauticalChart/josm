@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<presets shortdescription="Harbours" de.shortdescription="Hafen" description="Harbour elements for OpenSeaMap" author="Malcolm Herring" version="1.0_2013-05-09" xmlns="http://josm.openstreetmap.de/tagging-preset-1.0">
+<presets shortdescription="Harbours" de.shortdescription="Hafen" description="Harbour elements for OpenSeaMap" author="Malcolm Herring" version="1.0.1_2019-03-10" xmlns="https://josm.openstreetmap.de/tagging-preset-1.0">
   <separator/>
   <group name="Harbour" de.name="Hafen" fr.name="Port" icon="http://dev.openseamap.org/josm/icons/Harbour16.png">
     <item name="Harbour" de.name="Hafen" fr.name="Port" icon="http://dev.openseamap.org/josm/icons/Harbour16.png" type="node,way,closedway,relation">
-      <link href="http://wiki.openstreetmap.org/wiki/OpenSeaMap/Harbours" />
+      <link href="https://wiki.openstreetmap.org/wiki/OpenSeaMap/Harbours" />
       <key key="harbour" value="yes" />
       <key key="seamark:type" value="harbour" />
       <text key="name" text="Harbour Name" />
@@ -47,7 +47,7 @@
       <text key="harbour:information" text="General Information" />
     </item>
     <item name="Anchorage" de.name="Ankerplatz" fr.name="Mouillage" icon="http://dev.openseamap.org/josm/icons/Anchorage_Area16.png" type="node,way,closedway,relation">
-      <link href="http://wiki.openstreetmap.org/wiki/OpenSeaMap/Anchorage" />
+      <link href="https://wiki.openstreetmap.org/wiki/OpenSeaMap/Anchorage" />
       <key key="seamark:type" value="anchorage" />
       <space/>
       <text key="seamark:name" text="Anchorage Name" />
@@ -61,7 +61,7 @@
     </item>
     <group name="Marina" icon="http://dev.openseamap.org/josm/icons/Marina16.png" >
       <item name="General Information" icon="http://dev.openseamap.org/josm/icons/Marina16.png" type="node,way,closedway,relation">
-        <link href="http://wiki.openstreetmap.org/wiki/OpenSeaMap/Harbours" />
+        <link href="https://wiki.openstreetmap.org/wiki/OpenSeaMap/Harbours" />
         <key key="leisure" value="marina" />
         <key key="seamark:type" value="harbour" />
         <key key="seamark:harbour:category" value="marina" />
@@ -113,7 +113,7 @@
         <text key="harbour:information" text="General Information" />
       </item>
       <item name="Marina Facilities" icon="http://dev.openseamap.org/josm/icons/Marina16.png" type="node,way,closedway,relation">
-        <link href="http://wiki.openstreetmap.org/wiki/OpenSeaMap/Harbours" />
+        <link href="https://wiki.openstreetmap.org/wiki/OpenSeaMap/Harbours" />
         <label text="Facilities available at or near this marina" />
         <key key="leisure" value="marina" />
         <key key="seamark:type" value="harbour" />
@@ -154,7 +154,7 @@
       </item>
     </group>
     <item name="Small Craft Facility" icon="http://dev.openseamap.org/josm/icons/Marina16.png" type="node,way,closedway,relation">
-      <link href="http://wiki.openstreetmap.org/wiki/OpenSeaMap/Small_Craft_Facilities" />
+      <link href="https://wiki.openstreetmap.org/wiki/OpenSeaMap/Small_Craft_Facilities" />
       <key key="seamark:type" value="small_craft_facility" />
       <label text="Location of particular marina facilities" />
       <space/>
@@ -167,7 +167,7 @@
     </item>
     <group name="Port Facility" icon="http://dev.openseamap.org/josm/icons/HarbourMaster16.png" type="node,way,closedway,relation">
       <item name="Port Offices" icon="http://dev.openseamap.org/josm/icons/HarbourMaster16.png" type="node,way,closedway,relation">
-        <link href="http://wiki.openstreetmap.org/wiki/OpenSeaMap/Buildings" />
+        <link href="https://wiki.openstreetmap.org/wiki/OpenSeaMap/Buildings" />
         <key key="seamark:type" value="building" />
         <label text="Location of particular port offices" />
         <space/>

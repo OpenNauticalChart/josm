@@ -7,8 +7,8 @@
 meta {
 	title:				    "CEVNI Rendering (standarized symbols)";
 	author:				    "https://wiki.openstreetmap.org/wiki/User:Kannix";
-	link:             "http://wiki.openstreetmap.org/wiki/OpenSeaMap/CEVNI_Notice_Marks";
-	version:			    "2015-05-15";
+	link:             "https://wiki.openstreetmap.org/wiki/OpenSeaMap/CEVNI_Notice_Marks";
+	version:			    "2019-03-10";
 	description:	    "JOSM rendering of nautical symbols according to CEVNI standard";
 	min-josm-version:	8159;
 }

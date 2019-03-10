@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" author="Aun 'Skippern' Johnsen, Malcolm Herring, Translator.DE: S. 'XPcRUSHER' Heilmann" version="1.0" description="Seamark Tagging according to INT-1 symbols" shortdescription="Seamarks" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/png/OpenSeaMapLogo_16.png">
+<presets xmlns="https://josm.openstreetmap.de/tagging-preset-1.0" author="Aun 'Skippern' Johnsen, Malcolm Herring, Translator.DE: S. 'XPcRUSHER' Heilmann" version="1.0.1" description="Seamark Tagging according to INT-1 symbols" shortdescription="Seamarks" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/png/OpenSeaMapLogo_16.png">
   
   <chunk id="function">
     <list_entry value="harbour_master" display_value="Harbour Master" de.display_value="Haupt Hafen"/>
@@ -270,7 +270,7 @@
     <text key="seamark:notice:distance_down" text="Distance downstream" de.text="Abstand Strom abwärts"/>
     <text key="seamark:notice:distance_start" text="Distance to start" de.text="Abstand Start"/>
     <text key="seamark:notice:distance_end" text="Distance to end" de.text="Abstand Ende"/>
-    <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Notice_Marks#Attributes" text="Seamark:notice:* Attributes"/>
+    <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Notice_Marks#Attributes" text="Seamark:notice:* Attributes"/>
   </chunk>
   
   <group name="Seamarks" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/png/OpenSeaMapLogo_16.png">
@@ -292,7 +292,7 @@
           <list_entry value="horizontal_secondary"/>
           <list_entry value="boundary"/>
         </combo>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Categories_of_Objects#Control_Points_.28CATCTR.29" text="Control Point Categories"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Categories_of_Objects#Control_Points_.28CATCTR.29" text="Control Point Categories"/>
       </item>
       
       <item name="Distance Mark (B25)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/B/B25.1.svg" type="node">
@@ -314,7 +314,7 @@
           <list_entry value="meters"/>
           <list_entry value="feet"/>
         </combo>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Distance_Marks" text="Distance Marks"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Distance_Marks" text="Distance Marks"/>
       </item>
       
     </group>
@@ -341,7 +341,7 @@
         <multiselect key="seamark:building:construction" text="Nature of Construction">
           <reference ref="construction"/>
         </multiselect>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Buildings" text="Buildings"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Buildings" text="Buildings"/>
       </item>
       
       <item name="Bridge (D20-D24)" type="node,way,closedway">
@@ -365,7 +365,7 @@
         <text key="seamark:bridge:clearance_height_open" text="Vertical Clearance Open"/>
         <text key="seamark:bridge:clearance_height_closed" text="Vertical Clearance Closed"/>
         <text key="seamark:bridge:clearance_width" text="Horizontal Clearance"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Bridges" text="Bridges"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Bridges" text="Bridges"/>
       </item>
       
       <item name="Overhead transporter or Telepheric (D25)" type="way">
@@ -388,7 +388,7 @@
         </combo>
         <text key="seamark:cable_overhead:clearance_height" text="Vertical Clearance"/>
         <text key="seamark:cable_overhead:clearance_height_safe" text="Safe Vertical Clearance"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Categories_of_Objects#Cables_.28CATCBL.29" text="Cable Categories"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Categories_of_Objects#Cables_.28CATCBL.29" text="Cable Categories"/>
       </item>
       
       <item name="Power Pylon (D26)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/D/D26.svg" type="node">
@@ -404,7 +404,7 @@
           <list_entry value="part-submerged"/>
           <list_entry value="dry"/>
         </combo>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Categories_of_Objects#Pylons_.28CATPYL.29" text="Pylon Categories"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Categories_of_Objects#Pylons_.28CATPYL.29" text="Pylon Categories"/>
       </item>
       
       <item name="Telephone Line (D27)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/D/D26.svg" type="way">
@@ -418,7 +418,7 @@
         </combo>
         <text key="seamark:cable_overhead:vertical:clearance_height" text="Vertical Clearance of Cable"/>
         <text key="seamark:cable_overhead:vertical:clearance_height_safe" text="Safe Clearance of Cable"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Categories_of_Objects#Cables_.28CATCBL.29" text="Cable Categories"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Categories_of_Objects#Cables_.28CATCBL.29" text="Cable Categories"/>
       </item>
       
       <item name="Pipeline (Overhead) (D28)" type="way">
@@ -436,7 +436,7 @@
         </combo>
         <text key="seamark:pipeline_overhead:vertical:clearance_height" text="Vertical Clearance"/>
         <label text="For underwater pipelines, see L40-L44"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Categories_of_Objects#Pipelines_.28CATPIP.29" text="Pipeline Categories"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Categories_of_Objects#Pipelines_.28CATPIP.29" text="Pipeline Categories"/>
       </item>
       
       <item name="Pipeline (On Land) (D29)" type="way">
@@ -453,7 +453,7 @@
           <reference ref="product"/>
         </combo>
         <label text="For underwater pipelines, see L40-L44"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Categories_of_Objects#Pipelines_.28CATPIP.29" text="Pipeline Categories"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Categories_of_Objects#Pipelines_.28CATPIP.29" text="Pipeline Categories"/>
       </item>
       
     </group>
@@ -509,7 +509,7 @@
         <multiselect key="seamark:landmark:construction" text="Construction">
           <reference ref="construction"/>
         </multiselect>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Landmarks" text="Landmarks"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Landmarks" text="Landmarks"/>
       </item>
       
       <item name="Church or Chapel (E10.1/E11)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E10.svg" type="node,closedway">
@@ -520,7 +520,7 @@
           <list_entry value="church"/>
           <list_entry value="chapel"/>
         </combo>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Buildings" text="Buildings"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Buildings" text="Buildings"/>
       </item>
       
       <item name="Landmark Churches (E10.2-E10.4)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E10.svg" type="node,closedway">
@@ -534,7 +534,7 @@
           <list_entry value="spire" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E10.3.svg"  icon_size="16"/>
           <list_entry value="tower" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E10.2.svg"  icon_size="16"/>
         </combo>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Landmarks" text="Landmarks"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Landmarks" text="Landmarks"/>
       </item>
       
       <item name="Cross or Calvary (E12)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E12.svg" type="node">
@@ -542,7 +542,7 @@
         <space/>
         <key key="seamark:type" value="landmark"/>
         <key key="seamark:landmark:category" value="cross"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Landmarks" text="Landmarks"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Landmarks" text="Landmarks"/>
       </item>
       
       <item name="Temple (E13)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E13.svg" type="node,closedway">
@@ -550,7 +550,7 @@
         <space/>
         <key key="seamark:type" value="building"/>
         <key key="seamark:building:function" value="temple"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Buildings" text="Buildings"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Buildings" text="Buildings"/>
       </item>
       
       <item name="Pagoda (E14)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E14.svg" type="node,closedway">
@@ -558,7 +558,7 @@
         <space/>
         <key key="seamark:type" value="building"/>
         <key key="seamark:building:function" value="pagoda"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Buildings" text="Buildings"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Buildings" text="Buildings"/>
       </item>
       
       <item name="Shinto Shrine, Josshouse (E15)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E15.svg" type="node,closedway">
@@ -566,7 +566,7 @@
         <space/>
         <key key="seamark:type" value="building"/>
         <key key="seamark:building:function" value="shinto_shrine"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Buildings" text="Buildings"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Buildings" text="Buildings"/>
       </item>
       
       <item name="Buddhist Temple (E16)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E16.svg" type="node,closedway">
@@ -574,7 +574,7 @@
         <space/>
         <key key="seamark:type" value="building"/>
         <key key="seamark:building:function" value="buddhist_temple"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Buildings" text="Buildings"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Buildings" text="Buildings"/>
       </item>
       
       <item name="Minaret (E17)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E17.svg" type="node,closedway">
@@ -583,7 +583,7 @@
         <key key="seamark:type" value="landmark"/>
         <key key="seamark:landmark:category" value="spire"/>
         <key key="seamark:landmark:function" value="mosque"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Landmarks" text="Landmarks"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Landmarks" text="Landmarks"/>
       </item>
       
       <item name="Mosque (E17)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E17.svg" type="node,closedway">
@@ -591,7 +591,7 @@
         <space/>
         <key key="seamark:type" value="building"/>
         <key key="seamark:building:function" value="mosque"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Buildings" text="Buildings"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Buildings" text="Buildings"/>
       </item>
       
       <item name="Marabout (E18)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E18.svg" type="node,closedway">
@@ -599,7 +599,7 @@
         <space/>
         <key key="seamark:type" value="building"/>
         <key key="seamark:building:function" value="marabout"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Buildings" text="Buildings"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Buildings" text="Buildings"/>
       </item>
       
       <item name="Cemetery (E19)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E19.svg" type="closedway">
@@ -607,7 +607,7 @@
         <space/>
         <key key="seamark:type" value="landmark"/>
         <key key="seamark:landmark:category" value="cemetery"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Landmarks" text="Landmarks"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Landmarks" text="Landmarks"/>
       </item>
       
       <item name="Tower (E20)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E20.svg" type="node,closedway">
@@ -621,7 +621,7 @@
           <list_entry value="radar"/>
           <list_entry value="television"/>
         </combo>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Landmarks" text="Landmarks"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Landmarks" text="Landmarks"/>
       </item>
       
       <item name="Water Tower (E21)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E21.svg" type="node,closedway">
@@ -629,7 +629,7 @@
         <space/>
         <key key="seamark:type" value="tank"/>
         <key key="seamark:tank:category" value="water_tower"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Categories_of_Objects#Silos_and_tanks_.28CATSIL.29" text="Silos and Tanks"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Categories_of_Objects#Silos_and_tanks_.28CATSIL.29" text="Silos and Tanks"/>
       </item>
       
       <item name="Chimney (E22)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E22.svg" type="node">
@@ -637,7 +637,7 @@
         <space/>
         <key key="seamark:type" value="landmark"/>
         <key key="seamark:landmark:category" value="chimney"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Landmarks" text="Landmarks"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Landmarks" text="Landmarks"/>
       </item>
       
       <item name="Flare Stack (E23)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E23.svg" type="node">
@@ -645,7 +645,7 @@
         <space/>
         <key key="seamark:type" value="landmark"/>
         <key key="seamark:landmark:category" value="flare_stack"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Landmarks" text="Landmarks"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Landmarks" text="Landmarks"/>
       </item>
       
       <item name="Monument (E24)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E24.svg" type="node,closedway">
@@ -659,7 +659,7 @@
           <list_entry value="obelisk"/>
           <list_entry value="statue"/>
         </combo>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Landmarks" text="Landmarks"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Landmarks" text="Landmarks"/>
       </item>
       
       <item name="Windmill (E25.1-E25.2)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E25.svg" type="node,closedway">
@@ -667,7 +667,7 @@
         <space/>
         <key key="seamark:type" value="landmark"/>
         <key key="seamark:landmark:category" value="windmill"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Landmarks" text="Landmarks"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Landmarks" text="Landmarks"/>
       </item>
       
       <item name="Wind Turbine (E26.1)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E26.1.svg" type="node,closedway">
@@ -675,7 +675,7 @@
         <space/>
         <key key="seamark:type" value="landmark"/>
         <key key="seamark:landmark:category" value="windmotor"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Landmarks" text="Landmarks"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Landmarks" text="Landmarks"/>
       </item>
       
       <item name="Wind Farm (E26.2)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E26.1.svg" type="node,closedway">
@@ -690,7 +690,7 @@
         <space/>
         <key key="seamark:type" value="landmark"/>
         <key key="seamark:landmark:category" value="flagstaff"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Landmarks" text="Landmarks"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Landmarks" text="Landmarks"/>
       </item>
       
       <item name="Radio or Television Mast (E28)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E28_.svg" type="node">
@@ -702,7 +702,7 @@
           <list_entry value="radio"/>
           <list_entry value="television"/>
         </multiselect>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Landmarks" text="Landmarks"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Landmarks" text="Landmarks"/>
       </item>
       
       <item name="Radio or Television Tower (E29)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E29.svg" type="node">
@@ -714,7 +714,7 @@
           <list_entry value="radio"/>
           <list_entry value="television"/>
         </multiselect>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Landmarks" text="Landmarks"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Landmarks" text="Landmarks"/>
       </item>
       
       <item name="Radar mast (E30.1)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E29.svg" type="node">
@@ -723,7 +723,7 @@
         <key key="seamark:type" value="landmark"/>
         <key key="seamark:landmark:category" value="mast"/>
         <key key="seamark:landmark:function" value="radar"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Landmarks" text="Landmarks"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Landmarks" text="Landmarks"/>
       </item>
       
       <item name="Radar Tower (E30.2)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E29.svg" type="node">
@@ -732,7 +732,7 @@
         <key key="seamark:type" value="landmark"/>
         <key key="seamark:landmark:category" value="tower"/>
         <key key="seamark:landmark:function" value="radar"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Landmarks" text="Landmarks"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Landmarks" text="Landmarks"/>
       </item>
       
       <item name="Radar Scanner (E30.3)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E29.svg" type="node">
@@ -741,7 +741,7 @@
         <key key="seamark:type" value="landmark"/>
         <key key="seamark:landmark:category" value="radar_scanner"/>
         <key key="seamark:landmark:function" value="radar"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Landmarks" text="Landmarks"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Landmarks" text="Landmarks"/>
       </item>
       
       <item name="Radar Dome (E30.4)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E29.svg" type="node">
@@ -750,14 +750,14 @@
         <key key="seamark:type" value="landmark"/>
         <key key="seamark:landmark:category" value="dome"/>
         <key key="seamark:landmark:function" value="radar"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Landmarks" text="Landmarks"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Landmarks" text="Landmarks"/>
       </item>
       
       <item name="Dish Aerial (E31)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E31.svg" type="node">
         <label text="E31: Dish Aerial" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E31.svg"/>
         <key key="seamark:landmark:category" value="dish_aerial"/>
         <key key="seamark:type" value="landmark"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Landmarks" text="Landmarks"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Landmarks" text="Landmarks"/>
       </item>
       
       <item name="Tanks (E32)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E32.svg" type="node,closedway">
@@ -765,7 +765,7 @@
         <space/>
         <key key="seamark:type" value="tank"/>
         <key key="seamark:tank:category" value="tank"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Landmarks" text="Landmarks"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Landmarks" text="Landmarks"/>
       </item>
       
       <item name="Silos (E33)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E33.svg" type="node,closedway">
@@ -788,7 +788,7 @@
           <list_entry value="martello_tower"/>
           <list_entry value="redoubt"/>
         </combo>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Categories_of_Objects#Forts_.28CATFOR.29" text="Forts"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Categories_of_Objects#Forts_.28CATFOR.29" text="Forts"/>
       </item>
       
       <item name="Quarry (E35)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E36.svg" type="node,closedway">
@@ -816,7 +816,7 @@
         <item name="Harbour" de.name="Hafen" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/F/F.svg" type="node,closedway">
           <label text="F: Harbour" de.name="F: Hafen, Festmacher, Hafenelemnte" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/F/F.svg"/>
           <space/>
-          <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Harbours" de.href="http://wiki.openstreetmap.org/wiki/DE:Hafen" text="Harbours" de.text="Häfen"/>
+          <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Harbours" de.href="https://wiki.openstreetmap.org/wiki/DE:Hafen" text="Harbours" de.text="Häfen"/>
           <key key="harbour" value="yes"/>
           <key key="seamark:type" value="harbour"/>
           <text key="seamark:name" text="Name"/>
@@ -940,7 +940,7 @@
           <text key="vhf_mmsi" text="VHF MMSI" de.text="VHF/UKW Kennung (MMSI)"/>
           <space/>
           <text key="harbour:information" text="General Information" de.text="Hauptinformationen"/>
-          <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Harbours" text="Harbours" de.text="Häfen"/>
+          <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Harbours" text="Harbours" de.text="Häfen"/>
         </item>
         
         <item name="Designation of Berth (F19.1)" type="node,way,closedway">
@@ -1486,7 +1486,7 @@
         <space/>
         <key key="seamark:type" value="platform"/>
         <key key="seamark:platform:category" value="fpso"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Tag:man_made=floating_storage"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Tag:man_made=floating_storage"/>
         <text key="seamark:name" text="Name"/>
       </item>
       
@@ -1583,7 +1583,7 @@
           <list_entry value="clearing"/>
           <list_entry value="transit"/>
         </combo>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Leading_Lines" text="Leading Lines"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Leading_Lines" text="Leading Lines"/>
       </item>
       
       <item name="Recommended Track (M3-M6)" type="way">
@@ -1602,7 +1602,7 @@
           <list_entry value="two-way"/>
         </combo>
         <text key="seamark:information" text="Maximum Draft"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Leading_Lines" text="Leading Lines"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Leading_Lines" text="Leading Lines"/>
       </item>
       
       <item name="Established direction in TSS (M10)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/M/M10.svg" type="way,closedway">
@@ -1787,7 +1787,7 @@
           <reference ref="restrictions"/>
         </multiselect>
         <text key="seamark:information" text="Additional Information"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Anchorages" text="Anchorages"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Anchorages" text="Anchorages"/>
       </item>
       
       <item name="Anchor berth (N11)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/N/N12.svg" type="node">
@@ -1817,7 +1817,7 @@
           <reference ref="restrictions"/>
         </multiselect>
         <text key="seamark:information" text="Additional Information"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Anchorages" text="Anchorages"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Anchorages" text="Anchorages"/>
       </item>
       
       <item name="Seaplane operation area (N13)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/N/N13.svg" type="node,closedway">
@@ -1831,7 +1831,7 @@
         <space/>
         <key key="seamark:type" value="anchorage"/>
         <key key="seamark:anchorage:type" value="seaplane"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Anchorages" text="Anchorages"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Anchorages" text="Anchorages"/>
       </item>
       
       <item name="Anchoring prohibited (N20)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/N/N20.svg" type="closedway">
@@ -2010,7 +2010,7 @@
           <space/>
           <label text="*** Do not use on floating objects ***"/>
           <text key="seamark:light:height" text="Height"/>
-          <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Lights" text="Lights"/>
+          <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Lights" text="Lights"/>
         </item>
         
         <item name="Major and Minor Lights (P1)" type="node,closedway">
@@ -2021,7 +2021,7 @@
             <list_entry value="light_minor" display_value="Minor Light"/>
             <list_entry value="light_major" display_value="Major Light"/>
           </combo>
-          <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Lights" text="Lights"/>
+          <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Lights" text="Lights"/>
         </item>
         
       </group>
@@ -2050,7 +2050,7 @@
           <combo key="seamark:light:1:visibility" text="Visibility">
             <reference ref="lightvisis"/>
           </combo>
-          <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Lights" text="Lights"/>
+          <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Lights" text="Lights"/>
         </item>
         
         <item name="Sector 2" type="node,closedway">
@@ -2075,7 +2075,7 @@
           <combo key="seamark:light:2:visibility" text="Visibility">
             <reference ref="lightvisis"/>
           </combo>
-          <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Lights" text="Lights"/>
+          <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Lights" text="Lights"/>
         </item>
         
         <item name="Sector 3" type="node,closedway">
@@ -2100,7 +2100,7 @@
           <combo key="seamark:light:3:visibility" text="Visibility">
             <reference ref="lightvisis"/>
           </combo>
-          <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Lights" text="Lights"/>
+          <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Lights" text="Lights"/>
         </item>
         
         <item name="Sector 4" type="node,closedway">
@@ -2125,7 +2125,7 @@
           <combo key="seamark:light:4:visibility" text="Visibility">
             <reference ref="lightvisis"/>
           </combo>
-          <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Lights" text="Lights"/>
+          <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Lights" text="Lights"/>
         </item>
         
         <item name="Sector 5" type="node,closedway">
@@ -2150,7 +2150,7 @@
           <combo key="seamark:light:5:visibility" text="Visibility">
             <reference ref="lightvisis"/>
           </combo>
-          <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Lights" text="Lights"/>
+          <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Lights" text="Lights"/>
         </item>
         
       </group>
@@ -2182,7 +2182,7 @@
           <combo key="seamark:light:1:visibility" text="Visibility">
             <reference ref="lightvisis"/>
           </combo>
-          <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Lights" text="Lights"/>
+          <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Lights" text="Lights"/>
         </item>
         
         <item name="Sector 2" type="node,closedway">
@@ -2210,7 +2210,7 @@
           <combo key="seamark:light:2:visibility" text="Visibility">
             <reference ref="lightvisis"/>
           </combo>
-          <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Lights" text="Lights"/>
+          <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Lights" text="Lights"/>
         </item>
         
         <item name="Sector 3" type="node,closedway">
@@ -2238,7 +2238,7 @@
           <combo key="seamark:light:3:visibility" text="Visibility">
             <reference ref="lightvisis"/>
           </combo>
-          <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Lights" text="Lights"/>
+          <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Lights" text="Lights"/>
         </item>
         
         <item name="Sector 4" type="node,closedway">
@@ -2266,7 +2266,7 @@
           <combo key="seamark:light:4:visibility" text="Visibility">
             <reference ref="lightvisis"/>
           </combo>
-          <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Lights" text="Lights"/>
+          <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Lights" text="Lights"/>
         </item>
         
         <item name="Sector 5" type="node,closedway">
@@ -2294,7 +2294,7 @@
           <combo key="seamark:light:5:visibility" text="Visibility">
             <reference ref="lightvisis"/>
           </combo>
-          <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Lights" text="Lights"/>
+          <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Lights" text="Lights"/>
         </item>
         
         <item name="Sector 6" type="node,closedway">
@@ -2322,7 +2322,7 @@
           <combo key="seamark:light:6:visibility" text="Visibility">
             <reference ref="lightvisis"/>
           </combo>
-          <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Lights" text="Lights"/>
+          <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Lights" text="Lights"/>
         </item>
         
       </group>
@@ -2355,7 +2355,7 @@
         <text key="seamark:light:period" text="Period"/>
         <text key="seamark:light:group" text="Group"/>
         <text key="seamark:light:range" text="Range"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Lights" text="Lights"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Lights" text="Lights"/>
       </item>
       
     </group>
@@ -2451,7 +2451,7 @@
           <list_entry value="squared"/>
           <list_entry value="border"/>
         </combo>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Topmarks_and_Daymarks" text="Topmarks and Daymarks"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Topmarks_and_Daymarks" text="Topmarks and Daymarks"/>
       </chunk>
       
       <chunk id="ialas">
@@ -2894,7 +2894,7 @@
               <reference ref="patterns"/>
             </combo>
             <text key="seamark:name" text="Name"/>
-            <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
           </item>
           
           <item name="Cardinal Buoy" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/pillar/horizontal/black_yellow.svg" type="node">
@@ -2914,7 +2914,7 @@
               <reference ref="patterns"/>
             </combo>
             <text key="seamark:name" text="Name"/>
-            <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
           </item>
           
           <item name="Safe Water Buoy" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/pillar/vertical/red_white.svg" type="node">
@@ -2932,7 +2932,7 @@
               <reference ref="patterns"/>
             </combo>
             <text key="seamark:name" text="Name"/>
-            <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
           </item>
           
           <item name="Isolated Danger Buoy" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/pillar/horizontal/black_red_black.svg" type="node">
@@ -2949,7 +2949,7 @@
               <reference ref="patterns"/>
             </combo>
             <text key="seamark:name" text="Name"/>
-            <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
           </item>
           
           <item name="Special Purpose Buoy" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/pillar/yellow.svg" type="node">
@@ -2970,7 +2970,7 @@
               <reference ref="patterns"/>
             </combo>
             <text key="seamark:name" text="Name"/>
-            <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
           </item>
           
         </group>
@@ -2991,7 +2991,7 @@
               <key key="seamark:buoy_lateral:colour" value="red"/>
               <key key="seamark:buoy_lateral:colour_pattern" value=""/>
               <text key="seamark:name" text="Name"/>
-              <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
+              <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
             </item>
             
             <item name="Starboard Hand Buoy" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/pillar/green.svg" type="node">
@@ -3006,7 +3006,7 @@
               <key key="seamark:buoy_lateral:colour" value="green"/>
               <key key="seamark:buoy_lateral:colour_pattern" value=""/>
               <text key="seamark:name" text="Name"/>
-              <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
+              <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
             </item>
             
             <item name="Preferred Channel Starboard Buoy" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/pillar/horizontal/red_green_red.svg" type="node">
@@ -3021,7 +3021,7 @@
               <key key="seamark:buoy_lateral:colour" value="red;green;red"/>
               <key key="seamark:buoy_lateral:colour_pattern" value="horizontal"/>
               <text key="seamark:name" text="Name"/>
-              <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
+              <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
             </item>
             
             <item name="Preferred Channel Port Buoy" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/pillar/horizontal/green_red_green.svg" type="node">
@@ -3036,7 +3036,7 @@
               <key key="seamark:buoy_lateral:colour" value="green;red;green"/>
               <key key="seamark:buoy_lateral:colour_pattern" value="horizontal"/>
               <text key="seamark:name" text="Name"/>
-              <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
+              <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
             </item>
             
           </group>
@@ -3055,7 +3055,7 @@
               <key key="seamark:buoy_lateral:colour" value="green"/>
               <key key="seamark:buoy_lateral:colour_pattern" value=""/>
               <text key="seamark:name" text="Name"/>
-              <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
+              <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
             </item>
             
             <item name="Starboard Hand Buoy" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/pillar/red.svg" type="node">
@@ -3070,7 +3070,7 @@
               <key key="seamark:buoy_lateral:colour" value="red"/>
               <key key="seamark:buoy_lateral:colour_pattern" value=""/>
               <text key="seamark:name" text="Name"/>
-              <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
+              <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
             </item>
             
             <item name="Preferred Channel Starboard Buoy" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/pillar/horizontal/green_red_green.svg" type="node">
@@ -3085,7 +3085,7 @@
               <key key="seamark:buoy_lateral:colour" value="green;red;green"/>
               <key key="seamark:buoy_lateral:colour_pattern" value="horizontal"/>
               <text key="seamark:name" text="Name"/>
-              <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
+              <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
             </item>
             
             <item name="Preferred Channel Port Buoy" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/pillar/horizontal/red_green_red.svg" type="node">
@@ -3100,7 +3100,7 @@
               <key key="seamark:buoy_lateral:colour" value="red;green;red"/>
               <key key="seamark:buoy_lateral:colour_pattern" value="horizontal"/>
               <text key="seamark:name" text="Name"/>
-              <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
+              <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
             </item>
             
           </group>
@@ -3126,7 +3126,7 @@
               <key key="seamark:buoy_lateral:colour" value="red"/>
               <key key="seamark:buoy_lateral:colour_pattern" value=""/>
               <text key="seamark:name" text="Name"/>
-              <link href="http://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Lateral_Marks" text="CEVNI Lateral Marks"/>
+              <link href="https://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Lateral_Marks" text="CEVNI Lateral Marks"/>
             </item>
             
             <item name="Lateral Warning Buoys" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/pillar/horizontal/red_white_red_white.svg" type="node">
@@ -3146,7 +3146,7 @@
               <key key="seamark:buoy_lateral:colour" value="red;white;red;white"/>
               <key key="seamark:buoy_lateral:colour_pattern" value="horizontal"/>
               <text key="seamark:name" text="Name"/>
-              <link href="http://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Lateral_Marks" text="CEVNI Lateral Marks"/>
+              <link href="https://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Lateral_Marks" text="CEVNI Lateral Marks"/>
             </item>
             
           </group>
@@ -3168,7 +3168,7 @@
               <key key="seamark:buoy_lateral:colour" value="green"/>
               <key key="seamark:buoy_lateral:colour_pattern" value=""/>
               <text key="seamark:name" text="Name"/>
-              <link href="http://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Lateral_Marks" text="CEVNI Lateral Marks"/>
+              <link href="https://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Lateral_Marks" text="CEVNI Lateral Marks"/>
             </item>
             
             <item name="Lateral Warning Buoys" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/pillar/horizontal/green_white_green_white.svg" type="node">
@@ -3188,7 +3188,7 @@
               <key key="seamark:buoy_lateral:colour" value="green;white;green;white"/>
               <key key="seamark:buoy_lateral:colour_pattern" value="horizontal"/>
               <text key="seamark:name" text="Name"/>
-              <link href="http://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Lateral_Marks" text="CEVNI Lateral Marks"/>
+              <link href="https://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Lateral_Marks" text="CEVNI Lateral Marks"/>
             </item>
             
           </group>
@@ -3208,7 +3208,7 @@
             <key key="seamark:buoy_lateral:colour" value="red;green;red;green"/>
             <key key="seamark:buoy_lateral:colour_pattern" value="horizontal"/>
             <text key="seamark:name" text="Name"/>
-            <link href="http://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Lateral_Marks" text="CEVNI Lateral Marks"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Lateral_Marks" text="CEVNI Lateral Marks"/>
           </item>
           
           <item name="Brdge Pier Buoy" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/spherical/yellow.svg" type="node">
@@ -3223,7 +3223,7 @@
             <key key="seamark:buoy_lateral:colour" value="yellow"/>
             <key key="seamark:buoy_lateral:colour_pattern" value=""/>
             <text key="seamark:name" text="Name"/>
-            <link href="http://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Lateral_Marks" text="CEVNI Lateral Marks"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Lateral_Marks" text="CEVNI Lateral Marks"/>
           </item>
           
         </group>
@@ -3241,7 +3241,7 @@
             <key key="seamark:buoy_cardinal:colour" value="black;yellow"/>
             <key key="seamark:buoy_cardinal:colour_pattern" value="horizontal"/>
             <text key="seamark:name" text="Name"/>
-            <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
           </item>
           
           <item name="South Cardinal Buoy" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/pillar/horizontal/yellow_black.svg" type="node">
@@ -3255,7 +3255,7 @@
             <key key="seamark:buoy_cardinal:colour" value="yellow;black"/>
             <key key="seamark:buoy_cardinal:colour_pattern" value="horizontal"/>
             <text key="seamark:name" text="Name"/>
-            <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
           </item>
           
           <item name="East Cardinal Buoy" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/pillar/horizontal/black_yellow_black.svg" type="node">
@@ -3269,7 +3269,7 @@
             <key key="seamark:buoy_cardinal:colour" value="black;yellow;black"/>
             <key key="seamark:buoy_cardinal:colour_pattern" value="horizontal"/>
             <text key="seamark:name" text="Name"/>
-            <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
           </item>
           
           <item name="West Cardinal Buoy" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/pillar/horizontal/yellow_black_yellow.svg" type="node">
@@ -3283,7 +3283,7 @@
             <key key="seamark:buoy_cardinal:colour" value="yellow;black;yellow"/>
             <key key="seamark:buoy_cardinal:colour_pattern" value="horizontal"/>
             <text key="seamark:name" text="Name"/>
-            <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
           </item>
           
         </group>
@@ -3298,7 +3298,7 @@
           <key key="seamark:buoy_safe_water:colour" value="red;white"/>
           <key key="seamark:buoy_safe_water:colour_pattern" value="vertical"/>
           <text key="seamark:name" text="Name"/>
-          <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
+          <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
         </item>
         
         <item name="IALA Isolated Danger Buoys" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/pillar/horizontal/black_red_black.svg" type="node">
@@ -3311,7 +3311,7 @@
           <key key="seamark:buoy_isolated_danger:colour" value="black;red;black"/>
           <key key="seamark:buoy_isolated_danger:colour_pattern" value="horizontal"/>
           <text key="seamark:name" text="Name"/>
-          <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
+          <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
         </item>
         
         <item name="IALA Special Purpose Buoys" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/pillar/yellow.svg" type="node">
@@ -3327,7 +3327,7 @@
           <key key="seamark:buoy_special_purpose:colour" value="yellow"/>
           <key key="seamark:buoy_special_purpose:colour_pattern" value=""/>
           <text key="seamark:name" text="Name"/>
-          <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
+          <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
         </item>
         
         <item name="IALA Emergency Wreck Buoys" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/pillar/vertical/yellow_blue.svg" type="node">
@@ -3341,7 +3341,7 @@
           <key key="seamark:buoy_special_purpose:colour" value="yellow;blue"/>
           <key key="seamark:buoy_special_purpose:colour_pattern" value="vertical"/>
           <text key="seamark:name" text="Name"/>
-          <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
+          <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
         </item>
         
         <item name="Installation Buoy" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/super-buoy/generic.svg" type="node">
@@ -3366,7 +3366,7 @@
             <list_entry value="squared"/>
           </combo>
           <text key="seamark:name" text="Name"/>
-          <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
+          <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
         </item>
         
         <item name="Mooring Buoy" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q40/generic.svg" type="node">
@@ -3388,7 +3388,7 @@
             <list_entry value="squared"/>
           </combo>
           <text key="seamark:name" text="Name"/>
-          <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
+          <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Buoys" text="Buoys"/>
         </item>
         
         <item name="Minor Light Float" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q31/generic.svg" type="node">
@@ -3421,7 +3421,7 @@
           <text key="seamark:light:period" text="Period"/>
           <text key="seamark:light:group" text="Group"/>
           <text key="seamark:light:range" text="Range"/>
-          <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Lights" text="Lights"/>
+          <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Lights" text="Lights"/>
         </item>
         
       </group>
@@ -3448,7 +3448,7 @@
               <reference ref="patterns"/>
             </combo>
             <text key="seamark:name" text="Name"/>
-            <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Beacons" text="Beacons"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Beacons" text="Beacons"/>
           </item>
           
           <item name="Cardinal Beacon" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/buoyant/horizontal/black_yellow.svg" type="node">
@@ -3468,7 +3468,7 @@
               <reference ref="patterns"/>
             </combo>
             <text key="seamark:name" text="Name"/>
-            <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Beacons" text="Beacons"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Beacons" text="Beacons"/>
           </item>
           
           <item name="Safe Water Beacon" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/buoyant/vertical/red_white.svg" type="node">
@@ -3486,7 +3486,7 @@
               <reference ref="patterns"/>
             </combo>
             <text key="seamark:name" text="Name"/>
-            <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Beacons" text="Beacons"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Beacons" text="Beacons"/>
           </item>
           
           <item name="Isolated Danger Beacon" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/buoyant/horizontal/black_red_black.svg" type="node">
@@ -3503,7 +3503,7 @@
               <reference ref="patterns"/>
             </combo>
             <text key="seamark:name" text="Name"/>
-            <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Beacons" text="Beacons"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Beacons" text="Beacons"/>
           </item>
           
           <item name="Special Purpose Beacon" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/buoyant/yellow.svg" type="node">
@@ -3524,7 +3524,7 @@
               <reference ref="patterns"/>
             </combo>
             <text key="seamark:name" text="Name"/>
-            <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Beacons" text="Beacons"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Beacons" text="Beacons"/>
           </item>
           
         </group>
@@ -3545,7 +3545,7 @@
               <key key="seamark:beacon_lateral:colour" value="red"/>
               <key key="seamark:beacon_lateral:colour_pattern" value=""/>
               <text key="seamark:name" text="Name"/>
-              <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Beacons" text="Beacons"/>
+              <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Beacons" text="Beacons"/>
             </item>
             
             <item name="Starboard Hand Beacon" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/buoyant/green.svg" type="node">
@@ -3560,7 +3560,7 @@
               <key key="seamark:beacon_lateral:colour" value="green"/>
               <key key="seamark:beacon_lateral:colour_pattern" value=""/>
               <text key="seamark:name" text="Name"/>
-              <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Beacons" text="Beacons"/>
+              <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Beacons" text="Beacons"/>
             </item>
             
             <item name="Preferred Channel Starboard Beacon" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/buoyant/horizontal/red_green_red.svg" type="node">
@@ -3575,7 +3575,7 @@
               <key key="seamark:beacon_lateral:colour" value="red;green;red"/>
               <key key="seamark:beacon_lateral:colour_pattern" value="horizontal"/>
               <text key="seamark:name" text="Name"/>
-              <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Beacons" text="Beacons"/>
+              <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Beacons" text="Beacons"/>
             </item>
             
             <item name="Preferred Channel Port Beacon" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/buoyant/horizontal/green_red_green.svg" type="node">
@@ -3590,7 +3590,7 @@
               <key key="seamark:beacon_lateral:colour" value="green;red;green"/>
               <key key="seamark:beacon_lateral:colour_pattern" value="horizontal"/>
               <text key="seamark:name" text="Name"/>
-              <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Beacons" text="Beacons"/>
+              <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Beacons" text="Beacons"/>
             </item>
             
           </group>
@@ -3609,7 +3609,7 @@
               <key key="seamark:beacon_lateral:colour" value="green"/>
               <key key="seamark:beacon_lateral:colour_pattern" value=""/>
               <text key="seamark:name" text="Name"/>
-              <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Beacons" text="Beacons"/>
+              <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Beacons" text="Beacons"/>
             </item>
             
             <item name="Starboard Hand Beacon" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/buoyant/red.svg" type="node">
@@ -3624,7 +3624,7 @@
               <key key="seamark:beacon_lateral:colour" value="red"/>
               <key key="seamark:beacon_lateral:colour_pattern" value=""/>
               <text key="seamark:name" text="Name"/>
-              <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Beacons" text="Beacons"/>
+              <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Beacons" text="Beacons"/>
             </item>
             
             <item name="Preferred Channel Starboard Beacon" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/buoyant/horizontal/green_red_green.svg" type="node">
@@ -3639,7 +3639,7 @@
               <key key="seamark:beacon_lateral:colour" value="green;red;green"/>
               <key key="seamark:beacon_lateral:colour_pattern" value="horizontal"/>
               <text key="seamark:name" text="Name"/>
-              <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Beacons" text="Beacons"/>
+              <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Beacons" text="Beacons"/>
             </item>
             
             <item name="Preferred Channel Port Beacon" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/buoyant/horizontal/red_green_red.svg" type="node">
@@ -3654,7 +3654,7 @@
               <key key="seamark:beacon_lateral:colour" value="red;green;green"/>
               <key key="seamark:beacon_lateral:colour_pattern" value="horizontal"/>
               <text key="seamark:name" text="Name"/>
-              <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Beacons" text="Beacons"/>
+              <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Beacons" text="Beacons"/>
             </item>
             
           </group>
@@ -3678,7 +3678,7 @@
               <key key="seamark:topmark:shape" value="cone, point down"/>
               <key key="seamark:topmark:colour" value="red"/>
               <key key="seamark:topmark:colour_pattern" value=""/>
-              <link href="http://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Lateral_Marks" text="CEVNI Lateral Marks"/>
+              <link href="https://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Lateral_Marks" text="CEVNI Lateral Marks"/>
             </item>
             
             <item name="Lateral Warning Beacons" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/buoyant/horizontal/red_white_red_white.svg" type="node">
@@ -3696,7 +3696,7 @@
               <key key="seamark:topmark:shape" value="cone, point down"/>
               <key key="seamark:topmark:colour" value="red"/>
               <key key="seamark:topmark:colour_pattern" value=""/>
-              <link href="http://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Lateral_Marks" text="CEVNI Lateral Marks"/>
+              <link href="https://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Lateral_Marks" text="CEVNI Lateral Marks"/>
             </item>
             
           </group>
@@ -3716,7 +3716,7 @@
               <key key="seamark:topmark:shape" value="cone, point up"/>
               <key key="seamark:topmark:colour" value="green"/>
               <key key="seamark:topmark:colour_pattern" value=""/>
-              <link href="http://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Lateral_Marks" text="CEVNI Lateral Marks"/>
+              <link href="https://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Lateral_Marks" text="CEVNI Lateral Marks"/>
             </item>
             
             <item name="Lateral Warning Beacons" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/buoyant/horizontal/green_white_green_white.svg" type="node">
@@ -3734,7 +3734,7 @@
               <key key="seamark:topmark:shape" value="cone, point up"/>
               <key key="seamark:topmark:colour" value="green"/>
               <key key="seamark:topmark:colour_pattern" value=""/>
-              <link href="http://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Lateral_Marks" text="CEVNI Lateral Marks"/>
+              <link href="https://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Lateral_Marks" text="CEVNI Lateral Marks"/>
             </item>
             
           </group>
@@ -3752,7 +3752,7 @@
             <key key="seamark:topmark:shape" value="2 cones point together"/>
             <key key="seamark:topmark:colour" value="red;green"/>
             <key key="seamark:topmark:colour_pattern" value=""/>
-            <link href="http://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Lateral_Marks" text="CEVNI Lateral Marks"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Lateral_Marks" text="CEVNI Lateral Marks"/>
           </item>
           
           <group name="Channel Indicator Beacons" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/buoyant/horizontal/red_green_red_green.svg">
@@ -3769,7 +3769,7 @@
                 <key key="seamark:topmark:shape" value="square"/>
                 <key key="seamark:topmark:colour" value="white;red;white"/>
                 <key key="seamark:topmark:colour_pattern" value="horizontal"/>
-                <link href="http://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Lateral_Marks" text="CEVNI Lateral Marks"/>
+                <link href="https://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Lateral_Marks" text="CEVNI Lateral Marks"/>
               </item>
               
               <item name="(2)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q9/square/border/red_white.svg" type="node">
@@ -3782,7 +3782,7 @@
                 <key key="seamark:topmark:shape" value="square"/>
                 <key key="seamark:topmark:colour" value="red;white"/>
                 <key key="seamark:topmark:colour_pattern" value="border"/>
-                <link href="http://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Lateral_Marks" text="CEVNI Lateral Marks"/>
+                <link href="https://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Lateral_Marks" text="CEVNI Lateral Marks"/>
               </item>
               
             </group>
@@ -3799,7 +3799,7 @@
                 <key key="seamark:topmark:shape" value="rhombus"/>
                 <key key="seamark:topmark:colour" value="white;green;white"/>
                 <key key="seamark:topmark:colour_pattern" value="horizontal"/>
-                <link href="http://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Lateral_Marks" text="CEVNI Lateral Marks"/>
+                <link href="https://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Lateral_Marks" text="CEVNI Lateral Marks"/>
               </item>
               
               <item name="(2)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q9/rhombus/border/green_white.svg" type="node">
@@ -3812,7 +3812,7 @@
                 <key key="seamark:topmark:shape" value="rhombus"/>
                 <key key="seamark:topmark:colour" value="green;white"/>
                 <key key="seamark:topmark:colour_pattern" value="border"/>
-                <link href="http://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Lateral_Marks" text="CEVNI Lateral Marks"/>
+                <link href="https://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Lateral_Marks" text="CEVNI Lateral Marks"/>
               </item>
               
             </group>
@@ -3829,7 +3829,7 @@
                 <key key="seamark:topmark:shape" value="rhombus"/>
                 <key key="seamark:topmark:colour" value="yellow;black;yellow"/>
                 <key key="seamark:topmark:colour_pattern" value="vertical"/>
-                <link href="http://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Lateral_Marks" text="CEVNI Lateral Marks"/>
+                <link href="https://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Lateral_Marks" text="CEVNI Lateral Marks"/>
               </item>
               
               <item name="(2)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q9/x-shape/yellow.svg" type="node">
@@ -3842,7 +3842,7 @@
                 <key key="seamark:topmark:shape" value="x-shape"/>
                 <key key="seamark:topmark:colour" value="yellow"/>
                 <key key="seamark:topmark:colour_pattern" value=""/>
-                <link href="http://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Lateral_Marks" text="CEVNI Lateral Marks"/>
+                <link href="https://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Lateral_Marks" text="CEVNI Lateral Marks"/>
               </item>
               
             </group>
@@ -3859,7 +3859,7 @@
                 <key key="seamark:topmark:shape" value="square"/>
                 <key key="seamark:topmark:colour" value="yellow;black;yellow"/>
                 <key key="seamark:topmark:colour_pattern" value="vertical"/>
-                <link href="http://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Lateral_Marks" text="CEVNI Lateral Marks"/>
+                <link href="https://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Lateral_Marks" text="CEVNI Lateral Marks"/>
               </item>
               
               <item name="(2)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q9/cross/yellow.svg" type="node">
@@ -3872,7 +3872,7 @@
                 <key key="seamark:topmark:shape" value="cross"/>
                 <key key="seamark:topmark:colour" value="yellow"/>
                 <key key="seamark:topmark:colour_pattern" value=""/>
-                <link href="http://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Lateral_Marks" text="CEVNI Lateral Marks"/>
+                <link href="https://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Lateral_Marks" text="CEVNI Lateral Marks"/>
               </item>
               
             </group>
@@ -3890,7 +3890,7 @@
             </combo>
             <key key="seamark:beacon_lateral:colour" value="yellow"/>
             <key key="seamark:beacon_lateral:colour_pattern" value=""/>
-            <link href="http://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Lateral_Marks" text="CEVNI Lateral Marks"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Lateral_Marks" text="CEVNI Lateral Marks"/>
           </item>
           
         </group>
@@ -3908,7 +3908,7 @@
             <key key="seamark:beacon_cardinal:colour" value="black;yellow"/>
             <key key="seamark:beacon_cardinal:colour_pattern" value="horizontal"/>
             <text key="seamark:name" text="Name"/>
-            <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Beacons" text="Beacons"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Beacons" text="Beacons"/>
           </item>
           
           <item name="South Cardinal Beacon" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/buoyant/horizontal/yellow_black.svg" type="node">
@@ -3922,7 +3922,7 @@
             <key key="seamark:beacon_cardinal:colour" value="yellow;black"/>
             <key key="seamark:beacon_cardinal:colour_pattern" value="horizontal"/>
             <text key="seamark:name" text="Name"/>
-            <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Beacons" text="Beacons"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Beacons" text="Beacons"/>
           </item>
           
           <item name="East Cardinal Beacon" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/buoyant/horizontal/black_yellow_black.svg" type="node">
@@ -3936,7 +3936,7 @@
             <key key="seamark:beacon_cardinal:colour" value="black;yellow;black"/>
             <key key="seamark:beacon_cardinal:colour_pattern" value="horizontal"/>
             <text key="seamark:name" text="Name"/>
-            <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Beacons" text="Beacons"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Beacons" text="Beacons"/>
           </item>
           
           <item name="West Cardinal Beacon" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/buoyant/horizontal/yellow_black_yellow.svg" type="node">
@@ -3950,7 +3950,7 @@
             <key key="seamark:beacon_cardinal:colour" value="yellow;black;yellow"/>
             <key key="seamark:beacon_cardinal:colour_pattern" value="horizontal"/>
             <text key="seamark:name" text="Name"/>
-            <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Beacons" text="Beacons"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Beacons" text="Beacons"/>
           </item>
           
         </group>
@@ -3965,7 +3965,7 @@
           <key key="seamark:beacon_safe_water:colour" value="red;white"/>
           <key key="seamark:beacon_safe_water:colour_pattern" value="vertical"/>
           <text key="seamark:name" text="Name"/>
-          <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Beacons" text="Beacons"/>
+          <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Beacons" text="Beacons"/>
         </item>
         
         <item name="IALA Isolated Danger Beacon" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/buoyant/horizontal/black_red_black.svg" type="node">
@@ -3978,7 +3978,7 @@
           <key key="seamark:beacon_isolated_danger:colour" value="black;red;black"/>
           <key key="seamark:beacon_isolated_danger:colour_pattern" value="horizontal"/>
           <text key="seamark:name" text="Name"/>
-          <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Beacons" text="Beacons"/>
+          <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Beacons" text="Beacons"/>
         </item>
         
         <item name="IALA Special Purpose Beacon" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/buoyant/yellow.svg" type="node">
@@ -3994,7 +3994,7 @@
           <key key="seamark:beacon_special_purpose:colour" value="yellow"/>
           <key key="seamark:beacon_special_purpose:colour_pattern" value=""/>
           <text key="seamark:name" text="Name"/>
-          <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Beacons" text="Beacons"/>
+          <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Beacons" text="Beacons"/>
         </item>
         
       </group>
@@ -4005,7 +4005,7 @@
           
           <item name="Prohibition Notices" de.name="Verbotszeichen" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q126/CEVNI/no_berthing_lateral_limit.svg" type="node">
             <label text="CEVNI Prohibition Notice" de.name="CEVNI Verbotszeichen" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q126/CEVNI/no_berthing_lateral_limit.svg"/>
-            <link href="http://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Notice_Marks#Prohibitory_Signs" de.href="http://wiki.openstreetmap.org/wiki/DE:OpenSeaMap/CEVNI_Notice_Marks#Verbote"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Notice_Marks#Prohibitory_Signs" de.href="https://wiki.openstreetmap.org/wiki/DE:OpenSeaMap/CEVNI_Notice_Marks#Verbote"/>
             <space/>
             <key key="seamark:type" value="notice"/>
             <key key="seamark:notice:function" value="prohibition"/>
@@ -4048,7 +4048,7 @@
           
           <item name="Regulation Notices" de.name="Vorschreibungsschilder" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q126/CEVNI/speed_limit.svg" type="node">
             <label text="CEVNI Regulation Notice" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q126/CEVNI/speed_limit.svg"/>
-            <link href="http://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Notice_Marks#Mandatory_Signs" de.href="http://wiki.openstreetmap.org/wiki/DE:OpenSeaMap/CEVNI_Notice_Marks#Vorgeschrieben"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Seamarks/CEVNI_Notice_Marks#Mandatory_Signs" de.href="https://wiki.openstreetmap.org/wiki/DE:OpenSeaMap/CEVNI_Notice_Marks#Vorgeschrieben"/>
             <space/>
             <key key="seamark:type" value="notice"/>
             <key key="seamark:notice:function" value="regulation"/>
@@ -4477,7 +4477,7 @@
       <item name="Fog Signal (R1-R22)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/R/R1.svg" type="node">
         <label text="R1-R22: Fog Signal" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/R/R1.svg"/>
         <space/>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Fog_Signals" text="Fog Signals"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Fog_Signals" text="Fog Signals"/>
         <combo key="seamark:fog_signal:category" text="Fog Signal"  >
           <list_entry value="explosive"/>
           <list_entry value="diaphone"/>
@@ -4513,7 +4513,7 @@
         <space/>
         <key key="seamark:type" value="radar_station"/>
         <key key="seamark:radar_station:category" value="coast"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Radar_Beacons" text="Radar Beacons"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Radar_Beacons" text="Radar Beacons"/>
       </item>
       
       <item name="Ramark (S2)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/S/S1.svg" type="node">
@@ -4530,7 +4530,7 @@
           <list_entry value="0.03-X" display_value="3cm (X)"/>
           <list_entry value="0.10-S" display_value="10cm (S)"/>
         </multiselect>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Radar_Beacons" text="Radar Beacons"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Radar_Beacons" text="Radar Beacons"/>
       </item>
       
       <item name="Racon (S3.1-S3.6)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/S/S1.svg" type="node">
@@ -4546,7 +4546,7 @@
           <list_entry value="0.03-X" display_value="3cm (X)"/>
           <list_entry value="0.10-S" display_value="10cm (S)"/>
         </multiselect>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Radar_Beacons" text="Radar Beacons"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Radar_Beacons" text="Radar Beacons"/>
       </item>
       
       <item name="Radar Reflector (S4)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/S/S4.svg" type="node">
@@ -4594,7 +4594,7 @@
         <text key="seamark:radio_station:mmsi" text="MMSI"/>
         <text key="seamark:radio_station:frequency" text="Frequency (Hz)"/>
         <text key="seamark:radio_station:channel" text="VHF Channel"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Radio_Stations" text="Radio Stations"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Radio_Stations" text="Radio Stations"/>
       </item>
       
       <item name="AIS transmitter (S17.1-S17.2)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/S/S1.svg" type="node,closedway">
@@ -4602,7 +4602,7 @@
         <space/>
         <check key="seamark:radio_station:category" value_on="ais_base" value_off="ais" default="off" text="AIS Base Station"/>
         <text key="seamark:radio_station:mmsi" text="MMSI"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Radio_Stations" text="Radio Stations"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Radio_Stations" text="Radio Stations"/>
       </item>
       
       <item name="Virtual AIS transmitter (S18.1-S18.7)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/S/S1.svg" type="node,closedway">
@@ -4624,7 +4624,7 @@
           <list_entry value="wreck" display_value="Wreck"/>
         </combo>
         <text key="seamark:radio_station:mmsi" text="MMSI"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Virtual_AtoNs" text="Virtual AtoNs"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Virtual_AtoNs" text="Virtual AtoNs"/>
       </item>
       
       <item name="dGPS Correction Transmitter (S51)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/S/S1.svg" type="node,closedway">
@@ -4632,7 +4632,7 @@
         <space/>
         <key key="seamark:radio_station:category" value="dgps"/>
         <text key="seamark:radio_station:frequency" text="Frequency (Hz)"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Radio_Stations" text="Radio Stations"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Radio_Stations" text="Radio Stations"/>
       </item>
       
     </group>
@@ -4729,7 +4729,7 @@
           <list_entry value="oncoming_traffic"/>
         </multiselect>
         <text key="seamark:signal_station_traffic:channel" text="VHF Channel"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Signal_Stations" text="Signal Stations"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Signal_Stations" text="Signal Stations"/>
       </item>
       
       <item name="Signal Station - Warning (T26-T36)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/T/T20.svg" type="node">
@@ -4758,7 +4758,7 @@
           <list_entry value="current"/>
         </multiselect>
         <text key="seamark:signal_station_warning:channel" text="VHF Channel"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Signal_Stations" text="Signal Stations"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Signal_Stations" text="Signal Stations"/>
       </item>
       
     </group>
@@ -4819,7 +4819,7 @@
         </combo>
         <space/>
         <text key="harbour:information" text="General Information"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Harbours" text="Harbours"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Harbours" text="Harbours"/>
       </item>
       
       <item name="Small Craft Facilities (U2-U30)" icon="http://dev.openseamap.org/josm/icons/Marina16.png" type="node,way,closedway,relation">
@@ -4863,7 +4863,7 @@
         </multiselect>
         <space/>
         <text key="seamark:information" text="Supplimentary Information"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Small_Craft_Facilities" text="Small Craft Facilities"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Small_Craft_Facilities" text="Small Craft Facilities"/>
       </item>
       
       <item name="Marina Facilities (U32)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/U/U1.1.svg" type="node,way,closedway,relation">
@@ -4905,7 +4905,7 @@
         <text key="harbour:boat_hoist" text="Boat hoist"/>
         <text key="harbour:slipway" text="Slipway"/>
         <text key="harbour:mechanics_workshop" text="Mechanics workshop"/>
-        <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Harbours" text="Harbours"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Harbours" text="Harbours"/>
       </item>
       
     </group>
@@ -4968,12 +4968,12 @@
     <item name="README">
       <label text="Documentation of the tagging provided by this preset can be found here:" de.text="Dokumentationen worauf diese diese Vorlage basiert, finden Sie hier:"/>
       <space/>
-      <link href="http://www.iho.int/iho_pubs/standard/S-4/INT1_FR_Ed5_2012.pdf" text="IHO INT-1 (English/French)"/>
-      <link href="http://www.nauticalcharts.noaa.gov/mcd/chart1/ChartNo1.pdf" text="US NOAA INT-1"/>
-      <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Tag_Values" text="Seamark Tag Values"/>
-      <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Objects" text="Seamark Objects"/>
-      <link href="http://wiki.openstreetmap.org/wiki/Seamarks/Attributes" text="Seamark Attributes"/>
-      <link href="http://wiki.openstreetmap.org/wiki/Seamarks/INT-1_Cross_Reference" text="INT-1 Cross Reference"/>
+      <link href="https://www.iho.int/iho_pubs/standard/S-4/INT1_FR_Ed5_2012.pdf" text="IHO INT-1 (English/French)"/>
+      <link href="https://www.nauticalcharts.noaa.gov/mcd/chart1/ChartNo1.pdf" text="US NOAA INT-1"/>
+      <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Tag_Values" text="Seamark Tag Values"/>
+      <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Objects" text="Seamark Objects"/>
+      <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Attributes" text="Seamark Attributes"/>
+      <link href="https://wiki.openstreetmap.org/wiki/Seamarks/INT-1_Cross_Reference" text="INT-1 Cross Reference"/>
       <link href="https://github.com/OpenNauticalChart/josm/commits/master/INT-1-preset.xml" text="Check last update" de.text="Prüfe letztes Update"/>
       <label text="Manual update of this Preset, delet the files in:" de.text="Manuelles Update der Vorlage, Dateien löchen in:"/>
       <label text="Windows 7: \Users\[yourUSERNAME]\AppData\Roaming\JOSM\cache\"/>
