@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<presets xmlns="https://josm.openstreetmap.de/tagging-preset-1.0" author="Aun 'Skippern' Johnsen, Malcolm Herring, Translator.DE: S. 'XPcRUSHER' Heilmann" version="1.0.1" description="Seamark Tagging according to INT-1 symbols" shortdescription="Seamarks" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/png/OpenSeaMapLogo_16.png">
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" author="Aun 'Skippern' Johnsen, Malcolm Herring, Translator.DE: S. 'XPcRUSHER' Heilmann" version="1.0.1" description="Seamark Tagging according to INT-1 symbols" shortdescription="Seamarks" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/png/OpenSeaMapLogo_16.png">
   
   <chunk id="function">
     <list_entry value="harbour_master" display_value="Harbour Master" de.display_value="Haupt Hafen"/>
