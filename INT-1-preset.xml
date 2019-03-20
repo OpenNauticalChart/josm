@@ -889,7 +889,7 @@
           <space/>
           <key key="seamark:type" value="shoreline_construction"/>
           <key key="seamark:shoreline_construction:category" value="training_wall"/>
-          <combo key="shoreline_construction:water_level" text="Water Level" de.text="Wasserstand">
+          <combo key="seamark:shoreline_construction:water_level" text="Water Level" de.text="Wasserstand">
             <list_entry value="dry" display_value="Dry" de.display_value="Trocken"/>
             <list_entry value="submerged" display_value="Submeged" de.display_value="unter Wasser"/>
             <list_entry value="covers" diplay_value="Covers" de.display_value="Verdeckt"/>
