@@ -4767,8 +4767,8 @@
     
     <group name="U: Small Craft (Leisure) Facilities" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/U/U1.1.svg">
       
-      <item name="Marinas (U1.1/1.2)" icon="http://dev.openseamap.org/josm/icons/Marina16.png" type="node,way,closedway,relation">
-        <label text="General Information (U1.1/1.2)" icon="http://dev.openseamap.org/josm/icons/Marina16.png"/>
+      <item name="Marinas (U1.1/1.2)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/png/Marina16.png" type="node,way,closedway,relation">
+        <label text="General Information (U1.1/1.2)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/png/Marina16.png"/>
         <space/>
         <key key="leisure" value="marina"/>
         <key key="seamark:type" value="harbour"/>
@@ -4822,8 +4822,8 @@
         <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Harbours" text="Harbours"/>
       </item>
       
-      <item name="Small Craft Facilities (U2-U30)" icon="http://dev.openseamap.org/josm/icons/Marina16.png" type="node,way,closedway,relation">
-        <label text="Small Craft Facilities (U2-U30)" icon="http://dev.openseamap.org/josm/icons/Marina16.png"/>
+      <item name="Small Craft Facilities (U2-U30)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/png/Marina16.png" type="node,way,closedway,relation">
+        <label text="Small Craft Facilities (U2-U30)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/png/Marina16.png"/>
         <key key="seamark:type" value="small_craft_facility"/>
         <label text="Location of particular marina facilities"/>
         <space/>
