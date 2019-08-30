@@ -307,11 +307,11 @@
         </combo>
         <text key="seamark:distance_mark:distance" text="Distance (without units for nautical charts"/>
         <combo key="seamark:distance_mark:units" text="Units for nautical charts" use_last_as_default="true">
-          <list_entry value="kilometer"/>
-          <list_entry value="hectometer"/>
+          <list_entry value="kilometres"/>
+          <list_entry value="hectometres"/>
           <list_entry value="nautical_miles"/>
           <list_entry value="statute_miles"/>
-          <list_entry value="meters"/>
+          <list_entry value="metres"/>
           <list_entry value="feet"/>
         </combo>
         <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Distance_Marks" text="Distance Marks"/>
