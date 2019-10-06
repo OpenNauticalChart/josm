@@ -4970,9 +4970,9 @@
       <space/>
       <link href="https://www.iho.int/iho_pubs/standard/S-4/INT1_FR_Ed5_2012.pdf" text="IHO INT-1 (English/French)"/>
       <link href="https://www.nauticalcharts.noaa.gov/mcd/chart1/ChartNo1.pdf" text="US NOAA INT-1"/>
-      <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Tag_Values" text="Seamark Tag Values"/>
-      <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Objects" text="Seamark Objects"/>
-      <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Attributes" text="Seamark Attributes"/>
+      <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Seamark_Tag_Values" text="Seamark Tag Values"/>
+      <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Seamark_Objects" text="Seamark Objects"/>
+      <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Seamark_Attributes" text="Seamark Attributes"/>
       <link href="https://wiki.openstreetmap.org/wiki/Seamarks/INT-1_Cross_Reference" text="INT-1 Cross Reference"/>
       <link href="https://github.com/OpenNauticalChart/josm/commits/master/INT-1-preset.xml" text="Check last update" de.text="Prüfe letztes Update"/>
       <label text="Manual update of this Preset, delet the files in:" de.text="Manuelles Update der Vorlage, Dateien löchen in:"/>
