@@ -1096,7 +1096,7 @@
           <key key="seamark:type" value="crane"/>
           <combo key="seamark:crane:category" text="Crane type">
             <list_entry value="container"/>
-            <list_entry value="sheerleg"/>
+            <list_entry value="sheerlegs"/>
             <list_entry value="travelling"/>
             <list_entry value="a-frame"/>
           </combo>
