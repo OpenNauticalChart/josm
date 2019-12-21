@@ -4968,8 +4968,8 @@
     <item name="README">
       <label text="Documentation of the tagging provided by this preset can be found here:" de.text="Dokumentationen worauf diese diese Vorlage basiert, finden Sie hier:"/>
       <space/>
-      <link href="https://www.iho.int/iho_pubs/standard/S-4/INT1_FR_Ed5_2012.pdf" text="IHO INT-1 (English/French)"/>
-      <link href="https://www.nauticalcharts.noaa.gov/mcd/chart1/ChartNo1.pdf" text="US NOAA INT-1"/>
+      <link href="https://docs.iho.int/iho_pubs/standard/S-4/INT1_FR_Ed7_2019.pdf" text="IHO INT-1 (English/French)"/>
+      <link href="https://nauticalcharts.noaa.gov/publications/docs/us-chart-1/ChartNo1.pdf" text="US NOAA INT-1"/>
       <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Seamark_Tag_Values" text="Seamark Tag Values"/>
       <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Seamark_Objects" text="Seamark Objects"/>
       <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Seamark_Attributes" text="Seamark Attributes"/>
