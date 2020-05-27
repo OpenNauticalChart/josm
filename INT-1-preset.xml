@@ -416,8 +416,8 @@
           <list_entry value="telegraph"/>
           <list_entry value="optical"/>
         </combo>
-        <text key="seamark:cable_overhead:vertical:clearance_height" text="Vertical Clearance of Cable"/>
-        <text key="seamark:cable_overhead:vertical:clearance_height_safe" text="Safe Clearance of Cable"/>
+        <text key="seamark:cable_overhead:clearance_height" text="Vertical Clearance of Cable"/>
+        <text key="seamark:cable_overhead:clearance_height_safe" text="Safe Clearance of Cable"/>
         <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Categories_of_Objects#Cables_.28CATCBL.29" text="Cable Categories"/>
       </item>
       
@@ -434,7 +434,7 @@
         <combo key="seamark:pipeline_overhead:product" text="Product">
           <reference ref="product"/>
         </combo>
-        <text key="seamark:pipeline_overhead:vertical:clearance_height" text="Vertical Clearance"/>
+        <text key="seamark:pipeline_overhead:clearance_height" text="Vertical Clearance"/>
         <label text="For underwater pipelines, see L40-L44"/>
         <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Categories_of_Objects#Pipelines_.28CATPIP.29" text="Pipeline Categories"/>
       </item>
