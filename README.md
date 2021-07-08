@@ -4,6 +4,7 @@ JOSM Map Paint Styles:
 - BNIWR_MapCSS.mapcss (rendering of notice marks according to Brazilian BNIWR standard)
 - PPWBC_MapCSS.mapcss (rendering of notice marks according to Brazilian/Paraguaian PPWBC standard)
 - RIWR_MapCSS.mapcss (rendering of notice marks according to russian RIWR standard)
+see also: https://josm.openstreetmap.de/wiki/StylesSource
 
 JOSM Tagging Presets:
 - INT-1-preset.xml
