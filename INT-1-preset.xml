@@ -1218,11 +1218,13 @@
 		<label text ="Notes:" de.text ="Hinweise:"/>
 		<label text ="Distinct seamark objects are used for seaweed (macroalgae) and seagrass (marine plants)." de.text ="Für Seetang (Makroalgen) und Seegras (Meerespflanzen) werden unterschiedliche Seamarkt-Objekte verwendet." />
 		<link href="https://legacy.iho.int/mtg_docs/com_wg/NCWG/NCWG2/NCWG2-08.9A%20seagrass.pdf" text="Seaweed vs. Seagrass (IHO NCWG2-08.9A)" de.text="Seetang vs. Seegras (IHO NCWG2-08.9A)" />
-		<label text ="Consider to use additionaly seamark:type=restricted_area, e.g. category 'nature reserve' or attribute 'anchoring prohibited', if specific regulation exists for this area." de.text ="Nutze gegebenenfalls zusätzlich 'Gebiet mit Schifffahrtsbeschränkung' (seamark:type=restricted_area), z.B. Kategorie 'Naturschutzgebiete' oder Merkmal 'Ankern verboten', falls bestimmte Regeln für dieses Gebeit festgelegt sind." />
+		<label text ="Consider to use additionaly seamark:type=restricted_area, if specific regulation exists for this area," 
+		de.text ="Nutze gegebenenfalls zusätzlich 'Gebiet mit Schifffahrtsbeschränkung' falls bestimmte Regeln für dieses Gebeit festgelegt sind," />
+		<label text ="e.g. category 'nature reserve' or attribute 'anchoring prohibited'" de.text ="(seamark:type=restricted_area), z.B. Kategorie 'Naturschutzgebiete' oder Merkmal 'Ankern verboten', " />
 		<space/>
         <label text="Seaweed specification, optional tags" de.text="Seetangart, optionale Merkmale"/>
         <space/>
-		<multiselect key="genus" text="Genus" de.text="Gattung" use_last_as_default="force" readonly="false" delimiter=";">
+		<combo key="genus" text="Genus" de.text="Gattung" use_last_as_default="force" readonly="false" delimiter=";">
           <list_entry value=""/>
           <list_entry value="Caulerpa"/>
           <list_entry value="Fucus"/>
@@ -1234,24 +1236,24 @@
 		  <list_entry value="Saccharina"/>
           <list_entry value="Sargassum"/>
 		  <list_entry value="etc."/>
-        </multiselect>
+        </combo>
 		<link href="https://en.wikipedia.org/wiki/Seaweed" text="Some seaweed species" de.text="Einige Seetangarten" />
-		<multiselect key="species" text="Specie" de.text="Spezies" use_last_as_default="force" readonly="false" delimiter=";">
+		<combo key="species" text="Specie" de.text="Spezies" use_last_as_default="force" readonly="false" delimiter=";">
           <list_entry value=""/>
 		  <list_entry value="Sargassum sp."/>
 		  <list_entry value="Laminaria sp."/>
 		  <list_entry value="Saccharina sp."/>
 		  <list_entry value="Macrocystis pyrifera"/>
 		  <list_entry value="etc."/>
-        </multiselect>
-		<multiselect key="taxon" text="Taxonomy" de.text="Taxonomie" use_last_as_default="force" readonly="false" delimiter=";">
+        </combo>
+		<combo key="taxon" text="Taxonomy" de.text="Taxonomie" use_last_as_default="force" readonly="false" delimiter=";">
           <list_entry value=""/>
 		  <list_entry value="Sargassum sp."/>
 		  <list_entry value="Laminaria sp."/>
 		  <list_entry value="Saccharina sp."/>
 		  <list_entry value="Macrocystis pyrifera"/>
 		  <list_entry value="etc."/>
-        </multiselect>
+        </combo>
 		<space/>
 		<text key="source" text="Source of information" de.text="Informationsquelle"/>
 		<text key="note" text="Note" de.text="Hinweis"/>
@@ -1275,11 +1277,13 @@
 		<label text ="Notes:" de.text ="Hinweise:"/>
 		<label text ="Distinct seamark objects are used for seaweed (macroalgae) and seagrass (marine plants)." de.text ="Für Seetang (Makroalgen) und Seegras (Meerespflanzen) werden unterschiedliche Seamarkt-Objekte verwendet." />
 		<link href="https://legacy.iho.int/mtg_docs/com_wg/NCWG/NCWG2/NCWG2-08.9A%20seagrass.pdf" text="Seagrass vs. Seaweed (IHO NCWG2-08.9A)" de.text="Seegras vs. Seetang (IHO NCWG2-08.9A)" />
-		<label text ="Consider to use additionaly seamark:type=restricted_area, e.g. category 'nature reserve' or attribute 'anchoring prohibited', if specific regulation exists for this area." de.text ="Nutze gegebenenfalls zusätzlich 'Gebiet mit Schifffahrtsbeschränkung' (seamark:type=restricted_area), z.B. Kategorie 'Naturschutzgebiete' oder Merkmal 'Ankern verboten', falls bestimmte Regeln für dieses Gebeit festgelegt sind." />
+		<label text ="Consider to use additionaly seamark:type=restricted_area, if specific regulation exists for this area," 
+		de.text ="Nutze gegebenenfalls zusätzlich 'Gebiet mit Schifffahrtsbeschränkung' falls bestimmte Regeln für dieses Gebeit festgelegt sind," />
+		<label text ="e.g. category 'nature reserve' or attribute 'anchoring prohibited'" de.text ="(seamark:type=restricted_area), z.B. Kategorie 'Naturschutzgebiete' oder Merkmal 'Ankern verboten', " />
 		<space/>
         <label text="Seagrass specification, optional tags" de.text="Seegrasart, optionale Merkmale"/>
         <space/>
-		<multiselect key="genus" text="Genus" de.text="Gattung" use_last_as_default="force" readonly="false" delimiter=";">
+		<combo key="genus" text="Genus" de.text="Gattung" use_last_as_default="force" readonly="false" delimiter=";">
           <list_entry value=""/>
           <list_entry value="Phyllospadix"/>
           <list_entry value="Zostera"/>
@@ -1292,20 +1296,20 @@
           <list_entry value="Halodule"/>
           <list_entry value="Syringodium"/>
           <list_entry value="Thalassodendron"/>
-        </multiselect>
+        </combo>
 		<link href="https://en.wikipedia.org/wiki/Seagrass" text="Seagrass species" de.text="Seegrasarten" />
-		<multiselect key="species" text="Specie" de.text="Spezies" use_last_as_default="force" readonly="false" delimiter=";">
+		<combo key="species" text="Specie" de.text="Spezies" use_last_as_default="force" readonly="false" delimiter=";">
           <list_entry value=""/>
 		  <list_entry value="Zostera sp."/>
 		  <list_entry value="Posidonia oceanica"/>
 		  <list_entry value="etc."/>
-        </multiselect>
-		<multiselect key="taxon" text="Taxonomy" de.text="Taxonomie" use_last_as_default="force" readonly="false" delimiter=";">
+        </combo>
+		<combo key="taxon" text="Taxonomy" de.text="Taxonomie" use_last_as_default="force" readonly="false" delimiter=";">
           <list_entry value=""/>
 		  <list_entry value="Zostera sp."/>
 		  <list_entry value="Posidonia oceanica"/>
 		  <list_entry value="etc."/>
-        </multiselect>
+        </combo>
 		<space/>
 		<text key="source" text="Source of information" de.text="Informationsquelle"/>
 		<text key="note" text="Note" de.text="Hinweis"/>
