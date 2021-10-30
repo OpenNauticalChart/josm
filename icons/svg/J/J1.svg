@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+   width="10mm"
+   height="10mm"
+   version="1.1"
+   viewBox="0 0 6.9453 7.9736"
+   xmlns="http://www.w3.org/2000/svg"
+   baseProfile="tiny" xml:space="preserve" style="shape-rendering:geometricPrecision; fill-rule:evenodd;">
+	<title>SEABED01S</title>
+	<desc>sand</desc>
+	<metadata>
+		<!-- Sand S SVG 2013-10-29 for JOSM preset -->
+	</metadata> 
+  <g
+     transform="matrix(0.89618701,0,0,0.84015911,-2.5770109,-2.7957022)"
+     id="g6">
+    <text
+       x="3.0618553"
+       y="11.907216"
+       font-family="sans-serif"
+       font-size="10.583px"
+       font-style="italic"
+       stroke-width="0.26458"
+       style="line-height:1.25"
+       xml:space="preserve"
+       id="text4"><tspan
+         x="3.0618553"
+         y="11.907216"
+         stroke-width="0.26458"
+         id="tspan2">S</tspan></text>
+  </g>
+</svg>
