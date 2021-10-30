@@ -1165,8 +1165,8 @@
     
     <group name="J: Nature of Seabed" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J15.svg">
       
-	  <item name="Type of Seabed Surface and Quality (J1-J12)+(J30-J39)" de.name="Bodenart und Bodenbeschaffenheit (J1-J12)+(J30-J39)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J14.svg" type="node,closedway">
-        <label text="J1-J12, J30-J39: Type of Seabed Surface and Quality" de.name="J1-J12, J30-J39: Bodenart und Bodenbeschaffenheit" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J14.svg"/>
+	  <item name="Type of Seabed Surface and Quality (J1-J12)+(J30-J39)" de.name="Bodenart und Bodenbeschaffenheit (J1-J12)+(J30-J39)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J1.svg" type="node,closedway">
+        <label text="J1-J12, J30-J39: Type of Seabed Surface and Quality" de.name="J1-J12, J30-J39: Bodenart und Bodenbeschaffenheit" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J1.svg"/>
         <space/>
         <key key="seamark:type" value="seabed_area"/>
         <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Seamark_Objects" text="Seamark objects" de.text="Seekartenzeichen (Seamark-Objekte)"/>
@@ -1198,6 +1198,12 @@
           <list_entry value="calcareous" display_value="&#xA0;ca&#xA0; &#xA0; calcareous" de.display_value="&#xA0;ca&#xA0; &#xA0; kalkig"/>
           <list_entry value="hard" display_value="&#xA0;h&#xA0;&#xA0; &#xA0; hard" de.display_value="&#xA0;h&#xA0;&#xA0; &#xA0; hart"/>
         </combo>
+		<space/>
+        <label text="Seabed specification, optional tags" de.text="Bestimmung der Bodenart, optionale Merkmale"/>
+		<space/>
+		<text key="source" text="Source of information" de.text="Informationsquelle"/>
+		<text key="survey:date" text="Date of survey" de.text="Datum der Untersuchung"/>
+		<text key="note" text="Note" de.text="Hinweis"/>
       </item>
 	  
       <!---*** J13.1-2: Weed/Kelp *** icon source https://wiki.openstreetmap.org/w/images/6/67/WEDKLP03m.svg https://registry.iho.int/portrayal/view.do?itemIdentifier=737&type=3&domain=&status=2&searchValue=WEDKLP03  https://legacy.iho.int/mtg_docs/com_wg/NCWG/NCWG2/NCWG2-08.9A%20seagrass.pdf ***-->
@@ -1256,6 +1262,7 @@
         </combo>
 		<space/>
 		<text key="source" text="Source of information" de.text="Informationsquelle"/>
+		<text key="survey:date" text="Date of survey" de.text="Datum der Untersuchung"/>
 		<text key="note" text="Note" de.text="Hinweis"/>
       </item>
 
@@ -1312,6 +1319,7 @@
         </combo>
 		<space/>
 		<text key="source" text="Source of information" de.text="Informationsquelle"/>
+		<text key="survey:date" text="Date of survey" de.text="Datum der Untersuchung"/>
 		<text key="note" text="Note" de.text="Hinweis"/>
       </item>
 	  
@@ -1332,6 +1340,49 @@
         <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Seamark_Objects" text="Seamark objects" de.text="Seekartenzeichen (Seamark-Objekte)"/>
 		<link href="https://wiki.openstreetmap.org/wiki/Seamarks/INT-1_Section_J" text="Nature of the seabed (INT-1 Section J)" de.text="Grundbezeichnungen (INT-1 Kapitel J)"/>
       </item>
+	  
+	  <!---*** J20-22: Type of Seabed, Intertidel Areas ***--> 
+	  <item name="Type of Seabed, Intertidal Areas (J20-J22)" de.name="Bodenarten in Gezeitengebieten (J20-J22)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J20.svg" type="way,closedway">
+        <label text="J20-22: Type of Seabed, Intertidal Areas" de.name="J20-22: Bodenarten in Gezeitengebieten" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J20.svg"/>
+        <space/>
+		
+		<label text="&#xA0;&#xA0;&#xA0; J20 seabed area pattern, Areas with stones and gravel" de.text="&#xA0;&#xA0;&#xA0; J20 Muster für Gebiete, Signatur für Gebiete mit Steinen und Kies" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J20.svg" alt="Stones and gravel pattern" icon_size="64"/> 
+		<space/>
+		
+		<label text="&#xA0;&#xA0;&#xA0; J21 line style, Rocky area, rock edge" de.text="&#xA0;&#xA0;&#xA0; J21 Stil für Linien, Felsengebiet, -riff" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J21.svg" alt="rocky reef line style" icon_size="64"/> 
+		<space/>
+		
+		<label text="&#xA0;&#xA0;&#xA0; J22 line style, Coral reef" de.text="&#xA0;&#xA0;&#xA0; J22 Stil für Linien, Korallenriff" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J22.svg" alt="coral reef line style" icon_size="64" />
+		<space/>
+		
+		<label text="&#xA0;&#xA0;&#xA0; J21 J22 seabed area pattern, Rocky area or coral reef" de.text="&#xA0;&#xA0;&#xA0; J21 J22 Muster für Gebiete, Signatur für Felsengebiet oder Korrallenriff" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J2122.svg" alt="rocky area coral reef pattern" icon_size="64"/>
+		<space/>
+		
+        <key key="seamark:type" value="seabed_area"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Seamark_Objects" text="Seamark objects" de.text="Seekartenzeichen (Seamark-Objekte)"/>
+		<link href="https://wiki.openstreetmap.org/wiki/Seamarks/INT-1_Section_J" text="Nature of the seabed (INT-1 Section J)" de.text="Grundbezeichnungen (INT-1 Kapitel J)"/>
+		<space/>
+        <combo key="seamark:seabed_area:surface" text="Seabed type, rocky material" de.name="Bodenart, Gesteinsmaterial" use_last_as_default="force" >
+		  
+		  <list_entry value="stones;gravel" display_value="&#xA0;St-G&#xA0; &#xA0; Stones/Gravel" de.display_value="&#xA0;St-G&#xA0; &#xA0; Steine/Kies" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J20.svg" icon_size="16"/> 
+		  <list_entry value="rocky" display_value="&#xA0;R&#xA0; &#xA0; Rocky area or edge" de.display_value="&#xA0;R&#xA0; &#xA0; Felsengebiet oder -riff" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J21.svg" icon_size="16"/> 
+		  <list_entry value="coral" display_value="&#xA0;Co&#xA0; &#xA0; Coral reef" de.display_value="&#xA0;Co&#xA0; &#xA0; Korallenriff" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J22.svg" icon_size="16"/> 
+        </combo>
+		
+        <combo key="seamark:seabed_area:water_level" text="Reef and seabed surface level (water_level)" de.name="Meeresgrund und Wasserstand" use_last_as_default="true">
+          <list_entry value="submerged" text="submerged" de.text="ständig unter Wasser"/>
+          <list_entry value="covers" text="covers and uncovers" de.text="zeitweise unter Wasser und trockenfallend"/>
+          <list_entry value="awash" text="awash" de.text="in Höhe des Kartennulls (LAT)"/>
+        </combo>
+		<space/>
+        <label text="Seabed specification, optional tags" de.text="Bestimmung der Bodenart, optionale Merkmale"/>
+		<space/>
+		<text key="source" text="Source of information" de.text="Informationsquelle"/>
+		<text key="survey:date" text="Date of survey" de.text="Datum der Untersuchung"/>
+		<text key="note" text="Note" de.text="Hinweis"/>
+		
+      </item>
+	  
 
     </group>
     
