@@ -1184,11 +1184,13 @@
           <list_entry value="boulders" display_value="&#xA0;Bo&#xA0; &#xA0; Boulder(s)" de.display_value="&#xA0;Bo&#xA0; &#xA0; Findling(e)"/>
           <list_entry value="coral" display_value="&#xA0;Co&#xA0; &#xA0; Coral" de.display_value="&#xA0;Co&#xA0; &#xA0; Korallen"/>
           <list_entry value="shells" display_value="&#xA0;Sh&#xA0; &#xA0; Shells, skeletal remains" de.display_value="&#xA0;Sh&#xA0; &#xA0; Schill, Bruchstücke von Muschelschalen"/>
+
 		  <list_entry value="lava" display_value="&#xA0;Lv&#xA0; &#xA0;&#xA0;&#xA0; Lava" de.display_value="&#xA0;Lv&#xA0; &#xA0;&#xA0;&#xA0; Lava"/>
         </multiselect>
         <multiselect key="seamark:seabed_area:surface_qualification" text="Surface Quality" de.text="Bodenbeschaffenheit">
           <list_entry value="" display_value="&#xA0;&#xA0;&#xA0; &#xA0; &#xA0; none" de.display_value="&#xA0;&#xA0;&#xA0; &#xA0; &#xA0; keine"/>
 		  <list_entry value="fine" display_value="&#xA0;f&#xA0;&#xA0; &#xA0; &#xA0; fine, related to sand" de.display_value="&#xA0;f&#xA0;&#xA0; &#xA0; &#xA0; feinkörnig, bezogen auf Sand"/>
+
           <list_entry value="medium" display_value="&#xA0;m&#xA0;&#xA0; &#xA0; medium, related to sand" de.display_value="&#xA0;m&#xA0;&#xA0; &#xA0; mittelkörnig, bezogen auf Sand"/>
           <list_entry value="coarse" display_value="&#xA0;c&#xA0;&#xA0; &#xA0;&#xA0; coarse, related to sand" de.display_value="&#xA0;c&#xA0;&#xA0; &#xA0;&#xA0; grobkörnig, bezogen auf Sand"/>
           <list_entry value="broken" display_value="&#xA0;bk&#xA0; &#xA0; broken" de.display_value="&#xA0;bk&#xA0; &#xA0; zerbrochen"/>
@@ -1199,6 +1201,7 @@
           <list_entry value="calcareous" display_value="&#xA0;ca&#xA0; &#xA0; calcareous" de.display_value="&#xA0;ca&#xA0; &#xA0; kalkig"/>
           <list_entry value="hard" display_value="&#xA0;h&#xA0;&#xA0; &#xA0; hard" de.display_value="&#xA0;h&#xA0;&#xA0; &#xA0; hart"/>
         </multiselect>
+
 		<space/>
         <label text="Seabed specification, optional tags" de.text="Bestimmung der Bodenart, optionale Merkmale"/>
 		<space/>
