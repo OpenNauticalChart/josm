@@ -1171,26 +1171,24 @@
         <key key="seamark:type" value="seabed_area"/>
         <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Seamark_Objects" text="Seamark objects" de.text="Seekartenzeichen (Seamark-Objekte)"/>
 		<link href="https://wiki.openstreetmap.org/wiki/Seamarks/INT-1_Section_J" text="Nature of the seabed (INT-1 Section J)" de.text="Grundbezeichnungen (INT-1 Kapitel J)"/>
-        <multiselect key="seamark:seabed_area:surface" text="Surface Type/Material" de.text="Bodenart/Material" use_last_as_default="force" >
+        <multiselect key="seamark:seabed_area:surface" text="Surface Type/Material" de.text="Bodenart/Material">
           <list_entry value="sand" display_value="&#xA0;S&#xA0;&#xA0; &#xA0; Sand" de.display_value="&#xA0;S&#xA0;&#xA0; &#xA0; Sand"/>
           <list_entry value="mud" display_value="&#xA0;M&#xA0;&#xA0; &#xA0; Mud" de.display_value="&#xA0;M&#xA0;&#xA0; &#xA0; Schlick"/>
           <list_entry value="clay" display_value="&#xA0;Cy&#xA0; &#xA0; Clay" de.display_value="&#xA0;Cy&#xA0; &#xA0; Ton"/>
           <list_entry value="silt" display_value="&#xA0;Si&#xA0; &#xA0; Silt" de.display_value="&#xA0;Si&#xA0; &#xA0; Schluff"/>
+          <list_entry value="rocky" display_value="&#xA0;R&#xA0;&#xA0; &#xA0; Rock, rocky" de.display_value="&#xA0;R&#xA0;&#xA0; &#xA0; Fels, felsig"/>
           <list_entry value="stones" display_value="&#xA0;St&#xA0; &#xA0; Stones" de.display_value="&#xA0;St&#xA0; &#xA0; Steine"/>
           <list_entry value="gravel" display_value="&#xA0;G&#xA0;&#xA0; &#xA0; Gravel" de.display_value="&#xA0;G&#xA0;&#xA0; &#xA0; Kies"/>
           <list_entry value="pebbles" display_value="&#xA0;P&#xA0;&#xA0; &#xA0; Pebbels" de.display_value="&#xA0;P&#xA0;&#xA0; &#xA0; Kleine Steine"/>
           <list_entry value="cobbles" display_value="&#xA0;Cb&#xA0; &#xA0; Cobbles" de.display_value="&#xA0;Cb&#xA0; &#xA0; Große Steine"/>
-          <list_entry value="rocky" display_value="&#xA0;R&#xA0;&#xA0; &#xA0; Rock, rocky" de.display_value="&#xA0;R&#xA0;&#xA0; &#xA0; Fels, felsig"/>
           <list_entry value="boulders" display_value="&#xA0;Bo&#xA0; &#xA0; Boulder(s)" de.display_value="&#xA0;Bo&#xA0; &#xA0; Findling(e)"/>
           <list_entry value="coral" display_value="&#xA0;Co&#xA0; &#xA0; Coral" de.display_value="&#xA0;Co&#xA0; &#xA0; Korallen"/>
           <list_entry value="shells" display_value="&#xA0;Sh&#xA0; &#xA0; Shells, skeletal remains" de.display_value="&#xA0;Sh&#xA0; &#xA0; Schill, Bruchstücke von Muschelschalen"/>
-
 		  <list_entry value="lava" display_value="&#xA0;Lv&#xA0; &#xA0;&#xA0;&#xA0; Lava" de.display_value="&#xA0;Lv&#xA0; &#xA0;&#xA0;&#xA0; Lava"/>
         </multiselect>
         <multiselect key="seamark:seabed_area:surface_qualification" text="Surface Quality" de.text="Bodenbeschaffenheit">
           <list_entry value="" display_value="&#xA0;&#xA0;&#xA0; &#xA0; &#xA0; none" de.display_value="&#xA0;&#xA0;&#xA0; &#xA0; &#xA0; keine"/>
 		  <list_entry value="fine" display_value="&#xA0;f&#xA0;&#xA0; &#xA0; &#xA0; fine, related to sand" de.display_value="&#xA0;f&#xA0;&#xA0; &#xA0; &#xA0; feinkörnig, bezogen auf Sand"/>
-
           <list_entry value="medium" display_value="&#xA0;m&#xA0;&#xA0; &#xA0; medium, related to sand" de.display_value="&#xA0;m&#xA0;&#xA0; &#xA0; mittelkörnig, bezogen auf Sand"/>
           <list_entry value="coarse" display_value="&#xA0;c&#xA0;&#xA0; &#xA0;&#xA0; coarse, related to sand" de.display_value="&#xA0;c&#xA0;&#xA0; &#xA0;&#xA0; grobkörnig, bezogen auf Sand"/>
           <list_entry value="broken" display_value="&#xA0;bk&#xA0; &#xA0; broken" de.display_value="&#xA0;bk&#xA0; &#xA0; zerbrochen"/>
@@ -1201,7 +1199,6 @@
           <list_entry value="calcareous" display_value="&#xA0;ca&#xA0; &#xA0; calcareous" de.display_value="&#xA0;ca&#xA0; &#xA0; kalkig"/>
           <list_entry value="hard" display_value="&#xA0;h&#xA0;&#xA0; &#xA0; hard" de.display_value="&#xA0;h&#xA0;&#xA0; &#xA0; hart"/>
         </multiselect>
-
 		<space/>
         <label text="Seabed specification, optional tags" de.text="Bestimmung der Bodenart, optionale Merkmale"/>
 		<space/>
@@ -1280,9 +1277,9 @@
         <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Seamark_Objects" text="Seamark objects" de.text="Seekartenzeichen (Seamark-Objekte)"/>
 		<link href="https://wiki.openstreetmap.org/wiki/Seamarks/INT-1_Section_J" text="Nature of the seabed (INT-1 Section J)" de.text="Grundbezeichnungen (INT-1 Kapitel J)"/>
         <combo key="seamark:seagrass:category" text="Category of Seagrass" de.text="Seegras-Kategorie">
-          <list_entry value="unspecified" display_value="Sg&#xA0; Seagrass unspecified" de.display_value="Sg&#xA0; Seegras, unspezifisch"/>
-		  <list_entry value="specified" display_value="Seagrass specified" de.display_value="Seegras bestimmter Art" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J13.2.svg" icon_size="16"/>
-          <list_entry value="posidonia" display_value="Posidonia seagrass" de.display_value="Neptungras (Posidonia)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J13.2.svg" icon_size="16"/>
+          <list_entry value="unspecified" display_value="Sg&#xA0; Seagrass unspecified" de.display_value="Sg&#xA0; Seegras, unspezifisch" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J13.4.svg" icon_size="16"/>
+		  <list_entry value="specified" display_value="Seagrass specified" de.display_value="Seegras bestimmter Art" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J13.4.svg" icon_size="16"/>
+          <list_entry value="posidonia" display_value="Posidonia seagrass" de.display_value="Neptungras (Posidonia)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J13.4.svg" icon_size="16"/>
         </combo>
 		<space/>
 		<label text ="Notes:" de.text ="Hinweise:"/>
@@ -1350,16 +1347,16 @@
         <label text="J20-22: Type of Seabed, Intertidal Areas" de.text="J20-22: Bodenarten in Gezeitengebieten" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J20.svg"/>
         <space/>
 		
-		<label text="&#xA0;&#xA0;&#xA0; J20 seabed area pattern, Areas with stones and gravel" de.text="&#xA0;&#xA0;&#xA0; J20 Signatur für Gebiete mit Steinen und Kies" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J20.svg" alt="Stones and gravel pattern" icon_size="64"/> 
+		<label text="&#xA0;&#xA0;&#xA0; J20 seabed area pattern, Areas with stones and gravel" de.text="&#xA0;&#xA0;&#xA0; J20 Signatur für Gebiete mit Steinen und Kies" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J20.svg" alt="Stones and gravel pattern" icon_size="64" type="closedway"/> 
 		<space/>
 		
-		<label text="&#xA0;&#xA0;&#xA0; J21 line style, Rocky area, rock edge" de.text="&#xA0;&#xA0;&#xA0; J21 Stil für Linien, Felsengebiet, -riff" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J21.svg" alt="rocky reef line style" icon_size="64"/> 
+		<label text="&#xA0;&#xA0;&#xA0; J21 line style, Rocky area, rock edge" de.text="&#xA0;&#xA0;&#xA0; J21 Stil für Linien, Felsengebiet, -riff" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J21.svg" alt="rocky reef line style" icon_size="64" type="way"/> 
 		<space/>
 		
-		<label text="&#xA0;&#xA0;&#xA0; J22 line style, Coral reef" de.text="&#xA0;&#xA0;&#xA0; J22 Stil für Linien, Korallenriff" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J22.svg" alt="coral reef line style" icon_size="64" />
+		<label text="&#xA0;&#xA0;&#xA0; J22 line style, Coral reef" de.text="&#xA0;&#xA0;&#xA0; J22 Stil für Linien, Korallenriff" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J22.svg" alt="coral reef line style" icon_size="64" type="way"/>
 		<space/>
 		
-		<label text="&#xA0;&#xA0;&#xA0; J21 J22 seabed area pattern, Rocky area or coral reef" de.text="&#xA0;&#xA0;&#xA0; J21 J22 Signatur für Felsengebiet oder Korrallenriff" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J2122.svg" alt="rocky area coral reef pattern" icon_size="64"/>
+		<label text="&#xA0;&#xA0;&#xA0; J21 J22 seabed area pattern, Rocky area or coral reef" de.text="&#xA0;&#xA0;&#xA0; J21 J22 Signatur für Felsengebiet oder Korrallenriff" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J2122.svg" alt="rocky area coral reef pattern" icon_size="64" type="closedway"/>
 		<space/>
 		
         <key key="seamark:type" value="seabed_area"/>
