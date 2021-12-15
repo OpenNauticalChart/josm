@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" author="Aun 'Skippern' Johnsen, Malcolm Herring, Translator.DE: S. 'XPcRUSHER' Heilmann, Jo 'Josail' Ruppert" version="1.0.3" description="Seamark Tagging according to INT-1 symbols" shortdescription="Seamarks" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/png/OpenSeaMapLogo_16.png">
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" author="Aun 'Skippern' Johnsen, Malcolm Herring, Translator.DE: S. 'XPcRUSHER' Heilmann, Jo 'Josail' Ruppert" version="1.0.4" description="Seamark Tagging according to INT-1 symbols" shortdescription="Seamarks" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/png/OpenSeaMapLogo_16.png">
   
   <chunk id="function">
     <list_entry value="harbour_master" display_value="Harbour Master" de.display_value="Haupt Hafen"/>
@@ -277,7 +277,7 @@
     
     <!--***********************Section B: Positions, Distances, Directions, Compass***************************-->
     
-    <group name="B: Positions, Distances, Directions, Compass" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/B/B21.svg">
+    <group name="B: Positions, Distances, Directions, Compass" de:name="Positionen, Entfernungen, Richtungen und Missweisungen" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/B/B21.svg">
       
       <item name="Control Point (B20-B24)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/B/B20.svg" type="node">
         <label text="B20-B24: Control Point"  icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/B/B20.svg"/>
@@ -323,7 +323,7 @@
     
     <!--***********************Section D: Cultural Features***************************-->
     
-    <group name="D: Cultural Features" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/D/Db_uk.svg">
+    <group name="D: Cultural Features" de:name="Bauten" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/D/Db_uk.svg">
       
       <item name="Single Buildings (D2, D5, D6)" type="node,closedway">
         <label text="D2: Single Buildings"/>
@@ -460,7 +460,7 @@
     
     <!--***********************Section E: Landmarks***************************-->
     
-    <group name="E: Landmarks" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E10.svg">
+    <group name="E: Landmarks" de:name="E: Landmarken" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E10.svg">
       
       <item name="Landmarks in General" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E23_colour.svg" type="node,closedway">
         <label text="Landmarks in General, use appropriate categories to specify" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E23_colour.svg"/>
@@ -1147,27 +1147,27 @@
     
     <!---***********************Section I: Depths***************************-->
     
-    <group name="I: Depths">
+    <group name="I: Depths" de:name="I: Tiefen">
       
       <item name="Dredged area (I20-23)" type="closedway">
         <label text="I20-23: Dredged Area"/>
         <key key="seamark:type" value="dredged_area"/>
 		<space/>
-		<label text="In most cases, the depth of a feature in the ocean is referred to LAT (Lowest Astronomical Tide)." de.text="Für Angaben im Meer wird die Tiefe in der Regel auf LAT (Lowest Astronomical Tide) bezogen."/>
+		<label text="In most cases, the depth of a feature in the ocean is referred to LAT (Lowest Astronomical Tide)." de.text="Für Angaben im Meer wird die Tiefe in der Regel auf Kartennull (LAT, Lowest Astronomical Tide) bezogen."/>
 		<link href="https://wiki.openstreetmap.org/wiki/Key:depth" text="IHO S-57 depth source quality" de.text="IHO S-57 Qualität der Tiefenangabe"/>
 		<text key="depth" text="Depth in meters" de.text="Tiefe in Metern"/>
 		<combo key="depth:source_quality" text="Depth source quality" de.text="Qualität der Tiefenangabe" use_last_as_default="force" readonly="false" delimiter=";">
-          <list_entry value=""/>
-          <list_entry value="known"/>
-          <list_entry value="doubtful"/>
-          <list_entry value="unreliable"/>
-          <list_entry value="no_bottom"/>
-          <list_entry value="least_depth_known"/>
-          <list_entry value="least_depth_unknown"/>
-		  <list_entry value="not_surveyd"/>
-          <list_entry value="not_confirmed"/>
-		  <list_entry value="maintained"/>
-          <list_entry value="not_maintained"/>
+          <list_entry value="" display_value="no value (default)" de.display_value="keine Angabe (Vorauswahl)"/>
+          <list_entry value="known" display_value="depth known" de.display_value="Tiefe bekannt"/>
+          <list_entry value="doubtful" display_value="doubtful sounding" de.display_value="fragwürdige Tiefenangabe"/>
+          <list_entry value="unreliable" display_value="unreliable sounding" de.display_value="unzuverlässige Tiefenangabe"/>
+          <list_entry value="no_bottom" display_value="no bottom found at value shown" de.display_value="kein Grund bis zur angegebenen Tiefe"/>
+          <list_entry value="least_depth_known" display_value="least depth known" de.display_value="geringste Tiefe bekannt"/>
+          <list_entry value="least_depth_unknown" display_value="least depth unknown, safe clearance at value shown" de.display_value="geringste Tiefe nicht bekannt, sichere Schifffahrt bis zur angegebenen Tiefe"/>
+		  <list_entry value="not_surveyd" display_value="value reported (not surveyed)" de.display_value="Tiefe berichtet, nicht gemessen"/>
+          <list_entry value="not_confirmed" display_value="value reported (not confirmed)" de.display_value="Tiefe berichtet, nicht bestätigt"/>
+		  <list_entry value="maintained" display_value="maintained depth" de.display_value="Tiefe zugesichert"/>
+          <list_entry value="not_maintained" display_value="not regularly maintained" de.display_value="Tiefe nicht regelmäßig zugesicherte"/>
         </combo>
 		<space/>
 		<text key="source" text="Source of information" de.text="Informationsquelle"/>
@@ -1179,21 +1179,21 @@
         <label text="I24: Swept Area"/>
         <key key="seamark:type" value="swept_area"/>
 		<space/>
-		<label text="In most cases, the depth of a feature in the ocean is referred to LAT (Lowest Astronomical Tide)." de.text="Für Angaben im Meer wird die Tiefe in der Regel auf LAT (Lowest Astronomical Tide) bezogen."/>
+		<label text="In most cases, the depth of a feature in the ocean is referred to LAT (Lowest Astronomical Tide)." de.text="Für Angaben im Meer wird die Tiefe in der Regel auf Kartennull (LAT, Lowest Astronomical Tide) bezogen."/>
 		<link href="https://wiki.openstreetmap.org/wiki/Key:depth" text="IHO S-57 depth source quality" de.text="IHO S-57 Qualität der Tiefenangabe"/>
 		<text key="depth" text="Depth in meters" de.text="Tiefe in Metern"/>
 		<combo key="depth:source_quality" text="Depth source quality" de.text="Qualität der Tiefenangabe" use_last_as_default="force" readonly="false" delimiter=";">
-          <list_entry value=""/>
-          <list_entry value="known"/>
-          <list_entry value="doubtful"/>
-          <list_entry value="unreliable"/>
-          <list_entry value="no_bottom"/>
-          <list_entry value="least_depth_known"/>
-          <list_entry value="least_depth_unknown"/>
-		  <list_entry value="not_surveyd"/>
-          <list_entry value="not_confirmed"/>
-		  <list_entry value="maintained"/>
-          <list_entry value="not_maintained"/>
+          <list_entry value="" display_value="no value (default)" de.display_value="keine Angabe (Vorauswahl)"/>
+          <list_entry value="known" display_value="depth known" de.display_value="Tiefe bekannt"/>
+          <list_entry value="doubtful" display_value="doubtful sounding" de.display_value="fragwürdige Tiefenangabe"/>
+          <list_entry value="unreliable" display_value="unreliable sounding" de.display_value="unzuverlässige Tiefenangabe"/>
+          <list_entry value="no_bottom" display_value="no bottom found at value shown" de.display_value="kein Grund bis zur angegebenen Tiefe"/>
+          <list_entry value="least_depth_known" display_value="least depth known" de.display_value="geringste Tiefe bekannt"/>
+          <list_entry value="least_depth_unknown" display_value="least depth unknown, safe clearance at value shown" de.display_value="geringste Tiefe nicht bekannt, sichere Schifffahrt bis zur angegebenen Tiefe"/>
+		  <list_entry value="not_surveyd" display_value="value reported (not surveyed)" de.display_value="Tiefe berichtet, nicht gemessen"/>
+          <list_entry value="not_confirmed" display_value="value reported (not confirmed)" de.display_value="Tiefe berichtet, nicht bestätigt"/>
+		  <list_entry value="maintained" display_value="maintained depth" de.display_value="Tiefe zugesichert"/>
+          <list_entry value="not_maintained" display_value="not regularly maintained" de.display_value="Tiefe nicht regelmäßig zugesicherte"/>
         </combo>
 		<space/>
 		<text key="source" text="Source of information" de.text="Informationsquelle"/>
@@ -1205,7 +1205,7 @@
     
     <!---***********************Section J: Nature of Seabed***************************-->
     
-    <group name="J: Nature of Seabed" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J13.4gn.svg">
+    <group name="J: Nature of Seabed" de:name="J: Grundbezeichnungen" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J13.4gn.svg">
       
 	  <item name="Type of Seabed Surface and Quality (J1-J12)+(J30-J39)" de.name="Bodenart und Bodenbeschaffenheit (J1-J12)+(J30-J39)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J1.svg" type="node,closedway">
         <label text="J1-J12, J30-J39: Type of Seabed Surface and Quality" de.text="J1-J12, J30-J39: Bodenart und Bodenbeschaffenheit" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J1.svg"/>
@@ -1213,7 +1213,7 @@
         <key key="seamark:type" value="seabed_area"/>
         <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Seamark_Objects" text="Seamark objects" de.text="Seekartenzeichen (Seamark-Objekte)"/>
 		<link href="https://wiki.openstreetmap.org/wiki/Seamarks/INT-1_Section_J" text="Nature of the seabed (INT-1 Section J)" de.text="Grundbezeichnungen (INT-1 Kapitel J)"/>
-        <multiselect key="seamark:seabed_area:surface" text="Surface Type/Material" de.text="Bodenart/Material">
+        <multiselect key="seamark:seabed_area:surface" text="Surface Type/Material" de.text="Bodenart/Material" use_last_as_default="force" >
           <list_entry value="sand" display_value="&#xA0;S&#xA0;&#xA0; &#xA0; Sand" de.display_value="&#xA0;S&#xA0;&#xA0; &#xA0; Sand"/>
           <list_entry value="mud" display_value="&#xA0;M&#xA0;&#xA0; &#xA0; Mud" de.display_value="&#xA0;M&#xA0;&#xA0; &#xA0; Schlick"/>
           <list_entry value="clay" display_value="&#xA0;Cy&#xA0; &#xA0; Clay" de.display_value="&#xA0;Cy&#xA0; &#xA0; Ton"/>
@@ -1228,7 +1228,7 @@
           <list_entry value="shells" display_value="&#xA0;Sh&#xA0; &#xA0; Shells, skeletal remains" de.display_value="&#xA0;Sh&#xA0; &#xA0; Schill, Bruchstücke von Muschelschalen"/>
 		  <list_entry value="lava" display_value="&#xA0;Lv&#xA0; &#xA0;&#xA0;&#xA0; Lava" de.display_value="&#xA0;Lv&#xA0; &#xA0;&#xA0;&#xA0; Lava"/>
         </multiselect>
-        <multiselect key="seamark:seabed_area:surface_qualification" text="Surface Quality" de.text="Bodenbeschaffenheit">
+        <multiselect key="seamark:seabed_area:surface_qualification" text="Surface Quality" de.text="Bodenbeschaffenheit" default="">
           <list_entry value="" display_value="&#xA0;&#xA0;&#xA0; &#xA0; &#xA0; none" de.display_value="&#xA0;&#xA0;&#xA0; &#xA0; &#xA0; keine"/>
 		  <list_entry value="fine" display_value="&#xA0;f&#xA0;&#xA0; &#xA0; &#xA0; fine, related to sand" de.display_value="&#xA0;f&#xA0;&#xA0; &#xA0; &#xA0; feinkörnig, bezogen auf Sand"/>
           <list_entry value="medium" display_value="&#xA0;m&#xA0;&#xA0; &#xA0; medium, related to sand" de.display_value="&#xA0;m&#xA0;&#xA0; &#xA0; mittelkörnig, bezogen auf Sand"/>
@@ -1244,10 +1244,6 @@
 		<space/>
         <label text="Seabed specification, optional tags" de.text="Bestimmung der Bodenart, optionale Merkmale"/>
 		<space/>
-		<text key="depth" text="Estimated depth in meters" de.text="Geschätzte Tiefe in Metern"/>
-		<key key="depth:source_quality" value="unreliable"/> <!-- https://wiki.openstreetmap.org/wiki/Key:depth -->
-		<label text="Depth referring to LAT (Lowest Astronomical Tide)." de.text="Tiefe bezogen auf LAT (Lowest Astronomical Tide)."/>
-		<space/>
 		<text key="source" text="Source of information" de.text="Informationsquelle"/>
 		<text key="survey:date" text="Date of survey" de.text="Datum der Untersuchung"/>
 		<text key="note" text="Note" de.text="Hinweis"/>
@@ -1262,7 +1258,7 @@
         <key key="seamark:type" value="weed"/>
         <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Seamark_Objects" text="Seamark objects" de.text="Seekartenzeichen (Seamark-Objekte)"/>
 		<link href="https://wiki.openstreetmap.org/wiki/Seamarks/INT-1_Section_J" text="Nature of the seabed (INT-1 Section J)" de.text="Grundbezeichnungen (INT-1 Kapitel J)"/>
-        <combo key="seamark:weed:category" text="Category of Weed/Kelp" de.text="Seetang/Kelp-Kategorie">
+        <combo key="seamark:weed:category" text="Category of Weed/Kelp" de.text="Seetang/Kelp-Kategorie" use_last_as_default="force">
           <list_entry value="sea_weed" display_value="&#xA0; Wd&#xA0; &#xA0; Seeweed" de.display_value="&#xA0;Wd&#xA0; Seetang"/>
           <list_entry value="kelp" display_value="Kelp" de.display_value="Kelp" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J13.2br.svg" icon_size="32"/>
           <list_entry value="sargasso" display_value="Sargasso" de.display_value="Golftang (Sargassum)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J13.2br.svg" icon_size="32"/>
@@ -1273,7 +1269,7 @@
 		<link href="https://legacy.iho.int/mtg_docs/com_wg/NCWG/NCWG2/NCWG2-08.9A%20seagrass.pdf" text="Seaweed vs. Seagrass (IHO NCWG2-08.9A)" de.text="Seetang vs. Seegras (IHO NCWG2-08.9A)" />
 		<label text ="Consider to use additionaly seamark:type=restricted_area, if specific regulation exists for this area," 
 		de.text ="Nutze gegebenenfalls zusätzlich 'Gebiet mit Schifffahrtsbeschränkung' falls bestimmte Regeln für dieses Gebeit festgelegt sind," />
-		<label text ="e.g. category 'nature reserve' or attribute 'anchoring prohibited'" de.text ="(seamark:type=restricted_area), z.B. Kategorie 'Naturschutzgebiete' oder Merkmal 'Ankern verboten', " />
+		<label text="e.g. category 'nature reserve' or attribute 'anchoring prohibited'" de.text="(seamark:type=restricted_area), z.B. Kategorie 'Naturschutzgebiete' oder Merkmal 'Ankern verboten'" />
 		<space/>
         <label text="Seaweed specification, optional tags" de.text="Seetangart, optionale Merkmale"/>
         <space/>
@@ -1310,12 +1306,13 @@
 		<space/>
 		<text key="depth" text="Estimated depth in meters" de.text="Geschätzte Tiefe in Metern"/>
 		<key key="depth:source_quality" value="unreliable"/> <!-- https://wiki.openstreetmap.org/wiki/Key:depth -->
-		<label text="Depth referring to LAT (Lowest Astronomical Tide)." de.text="Tiefe bezogen auf LAT (Lowest Astronomical Tide)."/>
+		<label text="Depth referring to LAT (Lowest Astronomical Tide)." de.text="Tiefe bezogen auf Kartennull (LAT, Lowest Astronomical Tide)."/>
 		<space/>
 		<text key="source" text="Source of information" de.text="Informationsquelle"/>
 		<text key="survey:date" text="Date of survey" de.text="Datum der Untersuchung"/>
-		<text key="note" text="Note" de.text="Hinweis"/>
+		<text key="description" text="Description" de.text="Beschreibung"/>
 		<text key="website" text="Related website" de.text="Zugehörige Webseite"/>
+		<text key="note" text="Note" de.text="Hinweis"/>
       </item>
 
 	  <!---*** J13.3-4: Seagrass *** icon sources https://wiki.openstreetmap.org/w/images/c/c4/SEAGRA18.svg https://wiki.openstreetmap.org/w/images/e/eb/SEAGRA15.svg https://legacy.iho.int/mtg_docs/com_wg/NCWG/NCWG2/NCWG2-08.9A%20seagrass.pdf *** -->
@@ -1327,7 +1324,7 @@
         <key key="seamark:type" value="seagrass"/>
         <link href="https://wiki.openstreetmap.org/wiki/Seamarks/Seamark_Objects" text="Seamark objects" de.text="Seekartenzeichen (Seamark-Objekte)"/>
 		<link href="https://wiki.openstreetmap.org/wiki/Seamarks/INT-1_Section_J" text="Nature of the seabed (INT-1 Section J)" de.text="Grundbezeichnungen (INT-1 Kapitel J)"/>
-        <combo key="seamark:seagrass:category" text="Category of Seagrass" de.text="Seegras-Kategorie">
+        <combo key="seamark:seagrass:category" text="Category of Seagrass" de.text="Seegras-Kategorie" use_last_as_default="force">
           <list_entry value="unspecified" display_value="Sg&#xA0; Seagrass unspecified" de.display_value="Sg&#xA0; Seegras, unspezifisch" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J13.4gn.svg" icon_size="16"/>
 		  <list_entry value="specified" display_value="Seagrass specified" de.display_value="Seegras bestimmter Art" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J13.4gn.svg" icon_size="16"/>
           <list_entry value="posidonia" display_value="Posidonia seagrass" de.display_value="Neptungras (Posidonia)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J13.4gn.svg" icon_size="16"/>
@@ -1338,7 +1335,7 @@
 		<link href="https://legacy.iho.int/mtg_docs/com_wg/NCWG/NCWG2/NCWG2-08.9A%20seagrass.pdf" text="Seagrass vs. Seaweed (IHO NCWG2-08.9A)" de.text="Seegras vs. Seetang (IHO NCWG2-08.9A)" />
 		<label text ="Consider to use additionaly seamark:type=restricted_area, if specific regulation exists for this area," 
 		de.text ="Nutze gegebenenfalls zusätzlich 'Gebiet mit Schifffahrtsbeschränkung' falls bestimmte Regeln für dieses Gebeit festgelegt sind," />
-		<label text ="e.g. category 'nature reserve' or attribute 'anchoring prohibited'" de.text ="(seamark:type=restricted_area), z.B. Kategorie 'Naturschutzgebiete' oder Merkmal 'Ankern verboten', " />
+		<label text="e.g. category 'nature reserve' or attribute 'anchoring prohibited'" de.text="(seamark:type=restricted_area), z.B. Kategorie 'Naturschutzgebiete' oder Merkmal 'Ankern verboten'" />
 		<space/>
         <label text="Seagrass specification, optional tags" de.text="Seegrasart, optionale Merkmale"/>
         <space/>
@@ -1372,12 +1369,13 @@
 		<space/>
 		<text key="depth" text="Estimated depth in meters" de.text="Geschätzte Tiefe in Metern"/>
 		<key key="depth:source_quality" value="unreliable"/> <!-- https://wiki.openstreetmap.org/wiki/Key:depth -->
-		<label text="Depth referring to LAT (Lowest Astronomical Tide)." de.text="Tiefe bezogen auf LAT (Lowest Astronomical Tide)."/>
+		<label text="Depth referring to LAT (Lowest Astronomical Tide)." de.text="Tiefe bezogen auf Kartennull (LAT, Lowest Astronomical Tide)."/>
 		<space/>
 		<text key="source" text="Source of information" de.text="Informationsquelle"/>
 		<text key="survey:date" text="Date of survey" de.text="Datum der Untersuchung"/>
-		<text key="note" text="Note" de.text="Hinweis"/>
+		<text key="description" text="Description" de.text="Beschreibung"/>
 		<text key="website" text="Related website" de.text="Zugehörige Webseite"/>
+		<text key="note" text="Note" de.text="Hinweis"/>
       </item>
 	  
 	  <!---*** J14: Sandwaves ***-->   
@@ -1441,7 +1439,7 @@
     
     <!---***********************Section K: Rocks, Wrecks, Obstructions***************************-->
     
-    <group name="K: Rocks, Wrecks, Obstructions" de.name="Felsen, Wracks und Schifffahrtshindernisse" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/K/K12.svg">
+    <group name="K: Rocks, Wrecks, Obstructions" de.name="K: Felsen, Wracks und Schifffahrtshindernisse" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/K/K12.svg">
       
       <item name="Rock (K10-K15)" de.name="Felsen (K10-K15)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/K/K11.svg" type="node">
         <label text="K10-K15: Rock" de.text="K10-K15: Felsen" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/K/K11.svg"/>
@@ -1452,6 +1450,27 @@
           <list_entry value="covers"  display_value="covers and uncovers" de.display_value="zeitweise unter Wasser und trockenfallend" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/K/K11.svg" icon_size="16"/>
           <list_entry value="awash"  display_value="awash" de.display_value="in Höhe des Kartennulls (LAT)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/K/K12.svg" icon_size="16"/>
         </combo>
+		<space/>
+		<label text="In most cases, the depth of a feature in the ocean is referred to LAT (Lowest Astronomical Tide)." de.text="Für Angaben im Meer wird die Tiefe in der Regel auf Kartennull (LAT, Lowest Astronomical Tide) bezogen."/>
+		<link href="https://wiki.openstreetmap.org/wiki/Key:depth" text="IHO S-57 depth source quality" de.text="IHO S-57 Qualität der Tiefenangabe"/>
+		<text key="depth" text="Depth in meters" de.text="Tiefe in Metern"/>
+		<combo key="depth:source_quality" text="Depth source quality" de.text="Qualität der Tiefenangabe" use_last_as_default="force" readonly="false" delimiter=";">
+          <list_entry value="" display_value="no value (default)" de.display_value="keine Angabe (Vorauswahl)"/>
+          <list_entry value="known" display_value="depth known" de.display_value="Tiefe bekannt"/>
+          <list_entry value="doubtful" display_value="doubtful sounding" de.display_value="fragwürdige Tiefenangabe"/>
+          <list_entry value="unreliable" display_value="unreliable sounding" de.display_value="unzuverlässige Tiefenangabe"/>
+          <list_entry value="no_bottom" display_value="no bottom found at value shown" de.display_value="kein Grund bis zur angegebenen Tiefe"/>
+          <list_entry value="least_depth_known" display_value="least depth known" de.display_value="geringste Tiefe bekannt"/>
+          <list_entry value="least_depth_unknown" display_value="least depth unknown, safe clearance at value shown" de.display_value="geringste Tiefe nicht bekannt, sichere Schifffahrt bis zur angegebenen Tiefe"/>
+		  <list_entry value="not_surveyd" display_value="value reported (not surveyed)" de.display_value="Tiefe berichtet, nicht gemessen"/>
+          <list_entry value="not_confirmed" display_value="value reported (not confirmed)" de.display_value="Tiefe berichtet, nicht bestätigt"/>
+		  <list_entry value="maintained" display_value="maintained depth" de.display_value="Tiefe zugesichert"/>
+          <list_entry value="not_maintained" display_value="not regularly maintained" de.display_value="Tiefe nicht regelmäßig zugesicherte"/>
+        </combo>
+		<space/>
+		<text key="source" text="Source of information" de.text="Informationsquelle"/>
+		<text key="survey:date" text="Date of survey" de.text="Datum der Untersuchung"/>
+		<text key="note" text="Note" de.text="Hinweis"/>
       </item>
       
       <item name="Wreck (K20-K30)" de.name="Wrack (K20-K30)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/K/K24.svg" type="node,closedway">
@@ -1471,6 +1490,29 @@
           <list_entry value="covers" display_value="covers and uncovers" de.display_value="zeitweise unter Wasser und trockenfallend"/>
           <list_entry value="awash" display_value="awash" de.display_value="in Höhe des Kartennulls (LAT)"/>
         </combo>
+		<space/>
+		<label text="In most cases, the depth of a feature in the ocean is referred to LAT (Lowest Astronomical Tide)." de.text="Für Angaben im Meer wird die Tiefe in der Regel auf Kartennull (LAT, Lowest Astronomical Tide) bezogen."/>
+		<link href="https://wiki.openstreetmap.org/wiki/Key:depth" text="IHO S-57 depth source quality" de.text="IHO S-57 Qualität der Tiefenangabe"/>
+		<text key="depth" text="Depth in meters" de.text="Tiefe in Metern"/>
+		<combo key="depth:source_quality" text="Depth source quality" de.text="Qualität der Tiefenangabe" use_last_as_default="force" readonly="false" delimiter=";">
+          <list_entry value="" display_value="no value (default)" de.display_value="keine Angabe (Vorauswahl)"/>
+          <list_entry value="known" display_value="depth known" de.display_value="Tiefe bekannt"/>
+          <list_entry value="doubtful" display_value="doubtful sounding" de.display_value="fragwürdige Tiefenangabe"/>
+          <list_entry value="unreliable" display_value="unreliable sounding" de.display_value="unzuverlässige Tiefenangabe"/>
+          <list_entry value="no_bottom" display_value="no bottom found at value shown" de.display_value="kein Grund bis zur angegebenen Tiefe"/>
+          <list_entry value="least_depth_known" display_value="least depth known" de.display_value="geringste Tiefe bekannt"/>
+          <list_entry value="least_depth_unknown" display_value="least depth unknown, safe clearance at value shown" de.display_value="geringste Tiefe nicht bekannt, sichere Schifffahrt bis zur angegebenen Tiefe"/>
+		  <list_entry value="not_surveyd" display_value="value reported (not surveyed)" de.display_value="Tiefe berichtet, nicht gemessen"/>
+          <list_entry value="not_confirmed" display_value="value reported (not confirmed)" de.display_value="Tiefe berichtet, nicht bestätigt"/>
+		  <list_entry value="maintained" display_value="maintained depth" de.display_value="Tiefe zugesichert"/>
+          <list_entry value="not_maintained" display_value="not regularly maintained" de.display_value="Tiefe nicht regelmäßig zugesicherte"/>
+        </combo>
+		<space/>
+		<text key="source" text="Source of information" de.text="Informationsquelle"/>
+		<text key="survey:date" text="Date of survey" de.text="Datum der Untersuchung"/>
+		<text key="description" text="Description" de.text="Beschreibung"/>
+		<text key="website" text="Related website" de.text="Zugehörige Webseite"/>
+		<text key="note" text="Note" de.text="Hinweis"/>
       </item>
       
       <item name="Foul Ground (K31)" de.name="Unreiner Grund (K31)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/K/K31.svg" type="node,closedway">
@@ -1478,50 +1520,95 @@
         <space/>
         <key key="seamark:type" value="obstruction"/>
         <key key="seamark:obstruction:category" value="foul_ground"/>
-      </item>
-      
-	  <!-- completion of translation to German required -->
-      <item name="Obstruction (K40-K43)" de.name="Schifffahrtshindernisse (K40-K43)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/K/K40.svg" type="node,closedway">
+		<space/>
+		<label text="In most cases, the depth of a feature in the ocean is referred to LAT (Lowest Astronomical Tide)." de.text="Für Angaben im Meer wird die Tiefe in der Regel auf Kartennull (LAT, Lowest Astronomical Tide) bezogen."/>
+		<link href="https://wiki.openstreetmap.org/wiki/Key:depth" text="IHO S-57 depth source quality" de.text="IHO S-57 Qualität der Tiefenangabe"/>
+		<text key="depth" text="Depth in meters" de.text="Tiefe in Metern"/>
+		<combo key="depth:source_quality" text="Depth source quality" de.text="Qualität der Tiefenangabe" use_last_as_default="force" readonly="false" delimiter=";">
+          <list_entry value="" display_value="no value (default)" de.display_value="keine Angabe (Vorauswahl)"/>
+          <list_entry value="known" display_value="depth known" de.display_value="Tiefe bekannt"/>
+          <list_entry value="doubtful" display_value="doubtful sounding" de.display_value="fragwürdige Tiefenangabe"/>
+          <list_entry value="unreliable" display_value="unreliable sounding" de.display_value="unzuverlässige Tiefenangabe"/>
+          <list_entry value="no_bottom" display_value="no bottom found at value shown" de.display_value="kein Grund bis zur angegebenen Tiefe"/>
+          <list_entry value="least_depth_known" display_value="least depth known" de.display_value="geringste Tiefe bekannt"/>
+          <list_entry value="least_depth_unknown" display_value="least depth unknown, safe clearance at value shown" de.display_value="geringste Tiefe nicht bekannt, sichere Schifffahrt bis zur angegebenen Tiefe"/>
+		  <list_entry value="not_surveyd" display_value="value reported (not surveyed)" de.display_value="Tiefe berichtet, nicht gemessen"/>
+          <list_entry value="not_confirmed" display_value="value reported (not confirmed)" de.display_value="Tiefe berichtet, nicht bestätigt"/>
+		  <list_entry value="maintained" display_value="maintained depth" de.display_value="Tiefe zugesichert"/>
+          <list_entry value="not_maintained" display_value="not regularly maintained" de.display_value="Tiefe nicht regelmäßig zugesicherte"/>
+        </combo>
+		<space/>
+		<text key="source" text="Source of information" de.text="Informationsquelle"/>
+		<text key="survey:date" text="Date of survey" de.text="Datum der Untersuchung"/>
+		<text key="description" text="Description" de.text="Beschreibung"/>
+		<text key="note" text="Note" de.text="Hinweis"/>
+	  </item>
+	  
+      <item name="Obstruction (K40-K43, L18-L21, L43)" de.name="Schifffahrtshindernisse (K40-K43, L18-L21, L43)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/K/K40.svg" type="node,closedway">
         <label text="K40-K43: Obstruction" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/K/K40.svg"/>
         <space/>
+		<link href="https://wiki.openstreetmap.org/wiki/Seamarks/Categories_of_Objects#Obstructions_.28CATOBS.29" text="Obstruction categories (CATOBS)" de.text="Kategorien an Schiffahrtshindernissen (CATOBS)"/>
         <key key="seamark:type" value="obstruction"/>
         <combo key="seamark:obstruction:category" text="Category" default="">
           <list_entry value="" display_value="default"/>
-          <list_entry value="stump"/>
-          <list_entry value="wellhead"/>
-          <list_entry value="diffuser"/>
-          <list_entry value="crib"/>
-          <list_entry value="fish_haven"/>
-          <list_entry value="foul_area"/>
-          <list_entry value="foul_ground"/>
-          <list_entry value="ice_boom"/>
-          <list_entry value="ground_tackle"/>
-          <list_entry value="boom"/>
+          <list_entry value="stump" display_value="K43.2 submerged pile, stake, snag or stump" de.display_value="K43.2 Pfahl, Stange, Stamm oder Stumpf unter Wasser"/>
+          <list_entry value="wellhead" display_value="L20, L21: Wellhead" de.display_value="L20, L21 Bohrkopfrohr"/>
+          <list_entry value="diffuser"display_value="L43 Diffuser" de.display_value="L43 Diffuser/>
+          <list_entry value="crib" display_value="L43 Crib" de.display_value="L43 Auslaufkopf"/>
+          <list_entry value="fish_haven" display_value="K46.1 Fish haven" de.display_value="K46.1 Fischschutzgebiet"/>
+          <list_entry value="foul_area" display_value="K31 Foul area" de.display_value="K31 Unreines Gebiet"/>
+          <list_entry value="foul_ground" display_value="K31, L22 Foul ground" de.display_value="K31, L22 Unreiner Grund"/>
+          <list_entry value="ice_boom" display_value="Floating barriers for deflecting ice, anchored" de.display_value="Schwimmende Barrieren zum Ablenken von treibendem Eis, festgemacht"/>
+          <list_entry value="ground_tackle" display_value="L18 Ground tackle" de.display_value="L 18 Ankerkette"/>
+          <list_entry value="boom" display_value="Boom, floating barrier" de.display_value="Sperre, schwimmende Barriere"/>
         </combo>
-        <combo key="seamark:obstruction:water_level" text="Water Level" default="">
-          <list_entry value="" display_value="default"/>
-          <list_entry value="part-submerged"/>
-          <list_entry value="dry"/>
-          <list_entry value="submerged"/>
-          <list_entry value="covers"/>
-          <list_entry value="awash"/>
-          <list_entry value="floods"/>
-          <list_entry value="floating"/>
-          <list_entry value="above_mwl"/>
-          <list_entry value="below_mwl"/>
+		
+		<link href="https://wiki.openstreetmap.org/wiki/Seamarks/General_Attributes#Water_level_effect_.28WATLEV.29" text="Water level effect (WATLEV)" de.text="Auswirkung der Wasserstände (WATLEV)"/>
+        <combo key="seamark:obstruction:water_level" text="Water Level" de.text="Wasserstände" default="">
+          <list_entry value="" display_value="no value (default)" de.display_value="keine Angabe (Vorauswahl)"/>
+          <list_entry value="part-submerged" display_value="part submerged" de.display_value="x"/>
+          <list_entry value="dry" display_value="dry" de.display_value="trocken"/>
+          <list_entry value="submerged" display_value="submerged" de.display_value="ständig unter Wasser"/>
+          <list_entry value="covers" display_value="covers and uncovers" de.display_value="zeitweise unter Wasser und trockenfallend"/>
+          <list_entry value="awash" display_value="awash" de.display_value="in Höhe des Kartennulls (LAT)"/>
+          <list_entry value="floods" display_value="floods" de.display_value="überflutet"/>
+          <list_entry value="floating" display_value="floating" de.display_value="schwimmend"/>
+          <list_entry value="above_mwl" display_value="above mean water level" de.display_value="über dem mittleren Wasserstand"/>
+          <list_entry value="below_mwl" display_value="below mean water level" de.display_value="unter dem mittleren Wasserstand"/>
         </combo>
+		<label text="In most cases, the depth of a feature in the ocean is referred to LAT (Lowest Astronomical Tide)." de.text="Für Angaben im Meer wird die Tiefe in der Regel auf das Kartennull (LAT, Lowest Astronomical Tide) bezogen."/>
+		<link href="https://wiki.openstreetmap.org/wiki/Key:depth" text="IHO S-57 depth source quality" de.text="IHO S-57 Qualität der Tiefenangabe"/>
+		<text key="depth" text="Depth in meters" de.text="Tiefe in Metern"/>
+		<combo key="depth:source_quality" text="Depth source quality" de.text="Qualität der Tiefenangabe" use_last_as_default="force" readonly="false" delimiter=";">
+          <list_entry value="" display_value="no value (default)" de.display_value="keine Angabe (Vorauswahl)"/>
+          <list_entry value="known" display_value="depth known" de.display_value="Tiefe bekannt"/>
+          <list_entry value="doubtful" display_value="doubtful sounding" de.display_value="fragwürdige Tiefenangabe"/>
+          <list_entry value="unreliable" display_value="unreliable sounding" de.display_value="unzuverlässige Tiefenangabe"/>
+          <list_entry value="no_bottom" display_value="no bottom found at value shown" de.display_value="kein Grund bis zur angegebenen Tiefe"/>
+          <list_entry value="least_depth_known" display_value="least depth known" de.display_value="geringste Tiefe bekannt"/>
+          <list_entry value="least_depth_unknown" display_value="least depth unknown, safe clearance at value shown" de.display_value="geringste Tiefe nicht bekannt, sichere Schifffahrt bis zur angegebenen Tiefe"/>
+		  <list_entry value="not_surveyd" display_value="value reported (not surveyed)" de.display_value="Tiefe berichtet, nicht gemessen"/>
+          <list_entry value="not_confirmed" display_value="value reported (not confirmed)" de.display_value="Tiefe berichtet, nicht bestätigt"/>
+		  <list_entry value="maintained" display_value="maintained depth" de.display_value="Tiefe zugesichert"/>
+          <list_entry value="not_maintained" display_value="not regularly maintained" de.display_value="Tiefe nicht regelmäßig zugesicherte"/>
+        </combo>
+		<space/>
+		<text key="source" text="Source of information" de.text="Informationsquelle"/>
+		<text key="survey:date" text="Date of survey" de.text="Datum der Untersuchung"/>
+		<text key="description" text="Description" de.text="Beschreibung"/>
+		<text key="note" text="Note" de.text="Hinweis"/>
       </item>
       
       <item name="Fish Stakes, Traps, Net (K44.*, K45)" de.name="Fischereianlagen (K44.*, K45)" type="node,closedway">
-        <label text="K44.*: Fish Stakes, Traps"/>
-        <label text="K45: Tunny net"/>
+        <label text="K44.*: Fish Stakes, Traps" text="K44.*: Fischstaken, -reusen"/>
+        <label text="K45: Tunny net" de.text="K44.*: Fischeusengebiet, Tunfischnetze"/>
         <space/>
         <key key="seamark:type" value="fishing_facility"/>
-        <combo key="seamark:fishing_facility:category" text="Type"  use_last_as_default="true">
-          <list_entry value="stake"/>
-          <list_entry value="trap"/>
-          <list_entry value="weir"/>
-          <list_entry value="tunny"/>
+        <combo key="seamark:fishing_facility:category" text="Type"  de.text="Typ" use_last_as_default="true">
+          <list_entry value="stake" display_value="K44.1: Stake" de.display_value="K44.1: Fischstaken"/>
+          <list_entry value="trap" display_value="K44.2: Trap" de.display_value="K44.2: Fischreusen, Tunfischnetz"/>
+          <list_entry value="weir" display_value="K44.2: Weir" de.display_value="K44.2: Fischwehr"/>
+          <list_entry value="tunny" display_value="K45: Tunny net" de.display_value="K45: Fischeusengebiet, Tunfischnetzgebiet"/>
         </combo>
       </item>
       
@@ -1533,33 +1620,34 @@
       </item>
       
       <item name="Shellfish Beds (K47)" de.name="Muschelkultur (K47)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/K/K48.1.svg" type="node,closedway">
-        <label text="K47: Shellfish Beds" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/K/K48.1.svg"/>
+        <label text="K47: Shellfish Beds" de.text="K47: Muschelkultur" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/K/K48.1.svg"/>
         <space/>
         <key key="seamark:type" value="marine_farm"/>
         <combo key="seamark:marine_farm:category" text="Type">
-          <list_entry value="crustaceans"/>
-          <list_entry value="oysters_mussels"/>
+          <list_entry value="crustaceans" display_value="Crustaceans" de.display_value="Schalentiere"/>
+          <list_entry value="oysters_mussels" display_value="Mussels, oysters" de.display_value="Muschelkultur, Austernkultur"/>
         </combo>
       </item>
       
       <item name="Marine Farms (K48.*)" de.name="Fischzuchtgebiet (K48.*)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/K/K48.1.svg" type="node,closedway">
-        <label text="K48: Marine farms" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/K/K48.1.svg"/>
+        <label text="K48: Marine farms" de.text="K48: Fischzuchtgebiet" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/K/K48.1.svg"/>
         <space/>
         <key key="seamark:type" value="marine_farm"/>
-        <combo key="seamark:marine_farm:category" text="Type">
-          <list_entry value="crustaceans"/>
-          <list_entry value="oysters_mussels"/>
-          <list_entry value="fish"/>
-          <list_entry value="seaweed"/>
-          <list_entry value="pearl_culture"/>
+        <combo key="seamark:marine_farm:category" text="Type" de.text="Typ">
+          <list_entry value="crustaceans" display_value="Crustaceans" de.display_value="Schalentiere"/>
+          <list_entry value="oysters_mussels" display_value="Mussels, oysters" de.display_value="Muschelkultur, Austernkultur"/>
+          <list_entry value="fish" display_value="Fish" de.display_value="Fisch"/>
+          <list_entry value="seaweed" display_value="Seeweed" de.display_value="Seetang, Meeresalgen"/>
+          <list_entry value="pearl_culture"  display_value="Pearl culture" de.display_value="Perlenzucht"/>
         </combo>
       </item>
       
     </group>
     
     <!---***********************Section L: Offshore Installations***************************-->
-    
-    <group name="L: Offshore Installations" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/L/L17.svg">
+	<!-- completion of translation to German required --> 
+	
+    <group name="L: Offshore Installations" de:name="L: Offshore-Anlagen" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/L/L17.svg">
       
       <item name="Offshore Oil and Gas Field (L1)" type="closedway,node">
         <label text="L1: Offshore Oil and Gas Field"/>
@@ -1783,7 +1871,7 @@
     
     <!---***********************Section M: Tracks, Routes***************************-->
     
-    <group name="M: Tracks, Routes" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/M/M10.svg">
+    <group name="M: Tracks, Routes" de:name="M: Schifffahrtswege" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/M/M10.svg">
       
       <item name="Navigation Lines (M1, M2)" type="way">
         <label text="M1-2: Navigation Lines"/>
@@ -1938,7 +2026,7 @@
     
     <!---***********************Section N: Areas, Limits***************************-->
     
-    <group name="N: Areas, Limits" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/N/N21.svg">
+    <group name="N: Areas, Limits" de:name="N: Gebiete und Grenzen" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/N/N21.svg">
       
       <item name="Restricted Area (N2)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/N/N2.1.svg" type="closedway">
         <label text="N2.1: Limit of Restricted Area" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/N/N2.1.svg"/>
@@ -2194,7 +2282,7 @@
     
     <!---***********************Section P: Lights***************************-->
     
-    <group name="P: Lights" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/P/P1.major.svg">
+    <group name="P: Lights" de:name="P: Leuchtfeuer" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/P/P1.major.svg">
       
       <group name="Single non-directional Lights (P1-P16)" type="node,closedway" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/P/P1.minor.svg">
         <item name="Lights in General" type="node,closedway" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/P/P1.minor.svg">
@@ -4684,7 +4772,7 @@
     
     <!---***********************Section R: Fog Signals***************************-->
     
-    <group name="R: Fog Signals" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/R/R1.svg">
+    <group name="R: Fog Signals" de:name="R: Nebelschallsignale" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/R/R1.svg">
       
       <item name="Fog Signal (R1-R22)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/R/R1.svg" type="node">
         <label text="R1-R22: Fog Signal" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/R/R1.svg"/>
@@ -4718,7 +4806,7 @@
     
     <!---***********************Section S: Electronic Position-Fixing Systems***************************-->
     
-    <group name="S: Electronic Position-Fixing Systems" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/S/S1.svg">
+    <group name="S: Electronic Position-Fixing Systems" de:name="S: Radar, funktechnische Stationen und Satellitennavigation" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/S/S1.svg">
       
       <item name="Coast Radar Station (S1)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/S/S1.svg" type="node">
         <label text="S1: Cost Radar Station" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/S/S1.svg"/>
@@ -4851,7 +4939,7 @@
     
     <!---***********************Section T: Services***************************-->
     
-    <group name="T: Services" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/T/T1.1.svg">
+    <group name="T: Services" de:name="T: Dienste und Einrichtungen" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/T/T1.1.svg">
       
       <item name="Pilot Boarding Position (T1.1-T1.4)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/T/T1.1.svg" type="node">
         <label text="T1.1-T1.4: Pilot Boarding Position" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/T/T1.1.svg"/>
@@ -4977,7 +5065,7 @@
     
     <!---***********************Section U: Small Craft (Leisure) Facilities***************************-->
     
-    <group name="U: Small Craft (Leisure) Facilities" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/U/U1.1.svg">
+    <group name="U: Small Craft (Leisure) Facilities" de:name="U: Einrichtungen für die Sportschifffahrt" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/U/U1.1.svg">
       
       <item name="Marinas (U1.1/1.2)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/png/Marina16.png" type="node,way,closedway,relation">
         <label text="General Information (U1.1/1.2)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/png/Marina16.png"/>
