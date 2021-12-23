@@ -1,0 +1,239 @@
+
+ meta {
+    title: "european-waterways-classification-style";
+    description: "visualisation of navigable waterways in Europe for recreational boating";
+    version: "2021-12-23";
+    author: "kannix";
+    link: "http://wiki.openstreetmap.org/wiki/User:kannix";
+ }
+ 
+ /* thin lines for Key:boat */
+
+ /* LightSkyBlue */
+ way[boat=yes],way[boat=permissive]
+ {
+    width:2;
+    color:LightSkyBlue;
+ }
+
+ /* DodgerBlue */
+ way[canoe=yes],way[canoe=permissive]
+ {
+    width:2;
+    color:DodgerBlue;
+ }
+
+
+ /* some decoration for motorboat=yes/no */
+ /* Green */
+ way[motorboat=yes]
+ {
+    casing-width:2;
+    casing-color:green;
+    casing-dashes:10,20;
+ }
+ 
+ /* Red */
+ way[motorboat=no]
+ {
+    casing-width:2;
+    casing-color:red;
+    casing-dashes:10,20;
+ }
+ 
+ /* CEMT NL color-scheme (rijkswaterstaat.nl) */
+ /* Yellow */
+ way[cemt="0"],way[CEMT="0"]
+ {
+    width:4;
+    color:#FFFF00;
+ }
+ 
+ /* ~Purple */
+ way[cemt=I],way[CEMT=I]
+ {
+    width:4;
+    color:#8400A8;
+ }
+ 
+ /* ~Fuchsia */
+ way[cemt=II],way[CEMT=II]
+ {
+    width:4;
+    color:#E600A9;
+ }
+ 
+ /* ~MediumBlue */
+ way[cemt=III],way[CEMT=III]
+ {
+    width:4;
+    color:#005CE6;
+ }
+ 
+ /* ~GreenYellow */
+ way[cemt=IV],way[CEMT=IV]
+ {
+    width:4;
+    color:#AAFF00;
+ }
+ 
+ /* ~OliveDrab */
+ way[cemt=Va],way[CEMT=Va]
+ {
+    width:4;
+    color:#4C7300;
+ }
+ 
+ /* ~Cyan */
+ way[cemt=Vb],way[CEMT=Vb]
+ {
+    width:4;
+    color:#73FFDF;
+ }
+ 
+ /* ~Brown */
+ way[cemt=VIa],way[CEMT=VIa]
+ {
+    width:4;
+    color:#A83800;
+ }
+ 
+ /* ~DarkGray */
+ way[cemt=VIb],way[CEMT=VIb]
+ {
+    width:4;
+    color:#9C9C9C;
+ }
+ 
+ /* ~OrangeRed */
+ way[cemt=VIc],way[CEMT=VIc]
+ {
+    width:4;
+    color:#FF5500;
+ }
+ 
+ /* DarkRed */
+ way[cemt=VII],way[CEMT=VII]
+ {
+    width:4;
+    color:#8B0000;
+ }
+
+
+
+ /* seamark:type=bridge image @ http://wiki.openstreetmap.org/wiki/File:Clear_V.png */
+
+ /* seamark:type=bridge ANWB-large-scale-style */
+ node|z-19[seamark:type=bridge]
+ {
+    icon-image: (eval(
+      (has_tag_key("seamark:bridge:clearance_height")?
+        (eval(
+          ((tag("seamark:bridge:clearance_height")<2.4)?
+              "https://raw.githubusercontent.com/OpenNauticalChart/josm/master/european-waterways-classification-style/closed.png"
+          :
+            ((tag("seamark:bridge:clearance_height")<=2.75)?
+              "https://raw.githubusercontent.com/OpenNauticalChart/josm/master/european-waterways-classification-style/triangle.png"
+            :
+              ((tag("seamark:bridge:clearance_height")<=3.4)?
+                "https://raw.githubusercontent.com/OpenNauticalChart/josm/master/european-waterways-classification-style/square.png"
+              :
+                ((tag("seamark:bridge:clearance_height")<=8.5)?
+                  "https://raw.githubusercontent.com/OpenNauticalChart/josm/master/european-waterways-classification-style/star.png"
+                :
+                  ((tag("seamark:bridge:clearance_height")<12)?
+                    "circle.png"
+                  :
+                    ((tag("seamark:bridge:clearance_height")>=12)?
+                      "https://raw.githubusercontent.com/OpenNauticalChart/josm/master/european-waterways-classification-style/rectangle.png"
+                    :
+                      "https://raw.githubusercontent.com/OpenNauticalChart/josm/master/european-waterways-classification-style/none.png"
+                    )
+                  )
+                )
+              )
+            )
+          )
+        ))
+      :
+
+        ((has_tag_key("seamark:bridge:clearance_height_open"))?
+          (eval(
+            ((tag("seamark:bridge:clearance_height_open")<2.4)?
+                "https://raw.githubusercontent.com/OpenNauticalChart/josm/master/european-waterways-classification-style/closed.png"
+            :
+              ((tag("seamark:bridge:clearance_height_open")<=2.75)?
+                "https://raw.githubusercontent.com/OpenNauticalChart/josm/master/european-waterways-classification-style/triangle.png"
+              :
+                ((tag("seamark:bridge:clearance_height_open")<=3.4)?
+                  "https://raw.githubusercontent.com/OpenNauticalChart/josm/master/european-waterways-classification-style/square.png"
+                :
+                  ((tag("seamark:bridge:clearance_height_open")<=8.5)?
+                    "https://raw.githubusercontent.com/OpenNauticalChart/josm/master/european-waterways-classification-style/star.png"
+                  :
+                    ((tag("seamark:bridge:clearance_height_open")<12)?
+                      "https://raw.githubusercontent.com/OpenNauticalChart/josm/master/european-waterways-classification-style/circle.png"
+                    :
+                      ((tag("seamark:bridge:clearance_height_open")>=12)?
+                        "https://raw.githubusercontent.com/OpenNauticalChart/josm/master/european-waterways-classification-style/rectangle.png"
+                      :
+                        "https://raw.githubusercontent.com/OpenNauticalChart/josm/master/european-waterways-classification-style/none.png"
+                      )
+                    )
+                  )
+                )
+              )
+            )
+          ))
+        :
+            "https://raw.githubusercontent.com/OpenNauticalChart/josm/master/european-waterways-classification-style/none.png"
+         )
+
+      )
+    ));
+    icon-width: 15;
+    icon-height: 15;
+    icon-opacity: 1;
+ }
+
+ /* [seamark:name]/[seamark:bridge:category]/[seamark:bridge:clearance_height]OR[seamark:bridge:clearance_height_closed]/[seamark:bridge:clearance_height_open]*/
+node|z19-[seamark:type=bridge]
+ {
+    icon-image: "https://raw.githubusercontent.com/OpenNauticalChart/josm/master/european-waterways-classification-style/Clear_V.png";
+    icon-width: 25;
+    icon-height: 25;
+    icon-opacity: 1;
+    text: eval
+    (
+        concat
+        (
+           (has_tag_key("seamark:name")?
+             tag("seamark:name")
+           :
+             "name?")
+           ,"/",
+           (has_tag_key("seamark:bridge:category")?
+             tag("seamark:bridge:category")
+           :
+             "cat?")
+           ,"/",
+           (has_tag_key("seamark:bridge:clearance_height")?
+             tag("seamark:bridge:clearance_height")
+           :
+             (has_tag_key("seamark:bridge:clearance_height_closed")?
+               tag("seamark:bridge:clearance_height_closed")
+             :
+               "-"
+             )
+           )
+           ,"/", 
+           (has_tag_key("seamark:bridge:clearance_height_open")?
+             tag("seamark:bridge:clearance_height_open")
+           :
+             "-")
+         )
+     );
+    text-position: line;
+    text-offset: 18;
+    font-size: 18;
+ }
