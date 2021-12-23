@@ -142,7 +142,7 @@
                   "https://raw.githubusercontent.com/OpenNauticalChart/josm/master/european-waterways-classification-style/star.png"
                 :
                   ((tag("seamark:bridge:clearance_height")<12)?
-                    "circle.png"
+                    "https://raw.githubusercontent.com/OpenNauticalChart/josm/master/european-waterways-classification-style/circle.png"
                   :
                     ((tag("seamark:bridge:clearance_height")>=12)?
                       "https://raw.githubusercontent.com/OpenNauticalChart/josm/master/european-waterways-classification-style/rectangle.png"
