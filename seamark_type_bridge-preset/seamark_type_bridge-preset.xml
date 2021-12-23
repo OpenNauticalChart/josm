@@ -3,10 +3,10 @@
     author="kannix" 
     shortdescription="seamark:type=bridge/gate" 
     description="presets for adding bridge- or gate-objects to waterways for routing purpose" 
-    version="2021-12-23"
+    version="2019-08-15"
     xmlns="http://josm.openstreetmap.de/tagging-preset-1.0">
     <group name="seamark:type=bridge/gate" icon="presets/transport/bridge/bridge.svg">
-      <item name="fixed bridge" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/seamark_type_bridge-preset/fixedbridge.png" type="node">
+      <item name="fixed bridge" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/seamark_type_bridge-preset/fixedbridge.png" type="node">
         <label text="use decimal point:" />
         <space />
         <label text="OpenSeaMap flavor:" />
@@ -31,7 +31,7 @@
         <space />
         <link text="Tag:seamark:type=bridge @ osm-Wiki" href="https://wiki.openstreetmap.org/wiki/Tag:seamark:type%3Dbridge" />
       </item>
-      <item name="opening bridge" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/seamark_type_bridge-preset/drawbridge.png" type="node">
+      <item name="opening bridge" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/seamark_type_bridge-preset/drawbridge.png" type="node">
         <label text="use decimal point:" />
         <space />
         <label text="OpenSeaMap flavor:" />
@@ -61,7 +61,7 @@
         <link text="Key:opening_hours @ osm-Wiki" href="https://wiki.openstreetmap.org/wiki/Key:opening_hours" />	
         <link text="Tag:seamark:type=bridge @ osm-Wiki" href="https://wiki.openstreetmap.org/wiki/Tag:seamark:type%3Dbridge" />
       </item>
-          <item name="lifting bridge" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/seamark_type_bridge-preset/liftingbridge.png" type="node">
+          <item name="lifting bridge" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/seamark_type_bridge-preset/liftingbridge.png" type="node">
         <label text="use decimal point:" />
         <space />
         <label text="OpenSeaMap flavor:" />
@@ -91,7 +91,7 @@
         <link text="Key:opening_hours @ osm-Wiki" href="https://wiki.openstreetmap.org/wiki/Key:opening_hours" />	
         <link text="Tag:seamark:type=bridge @ osm-Wiki" href="https://wiki.openstreetmap.org/wiki/Tag:seamark:type%3Dbridge" />
       </item>
-      <item name="lock gate" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/seamark_type_bridge-preset/lock_gate.png" type="node">
+      <item name="lock gate" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/seamark_type_bridge-preset/lock_gate.png" type="node">
         <label text="use decimal point:" />
         <space />
         <label text="OpenSeaMap flavor:" />
@@ -116,7 +116,7 @@
         <space />
         <link text="Tag:seamark:type=gate @ osm-Wiki" href="https://wiki.openstreetmap.org/wiki/Tag:seamark:type%3Dgate" />
       </item>
-      <item name="flood barrage" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/seamark_type_bridge-preset/lock_gate.png" type="node">
+      <item name="flood barrage" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/seamark_type_bridge-preset/lock_gate.png" type="node">
         <label text="use decimal point:" />
         <space />
         <label text="OpenSeaMap flavor:" />
