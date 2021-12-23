@@ -3,7 +3,7 @@
     author="kannix" 
     shortdescription="seamark:type=bridge/gate" 
     description="presets for adding bridge- or gate-objects to waterways for routing purpose" 
-    version="2019-08-15"
+    version="2021-12-23"
     xmlns="http://josm.openstreetmap.de/tagging-preset-1.0">
     <group name="seamark:type=bridge/gate" icon="presets/transport/bridge/bridge.svg">
       <item name="fixed bridge" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/seamark_type_bridge-preset/fixedbridge.png" type="node">
