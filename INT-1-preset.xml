@@ -11,8 +11,8 @@
     <list_entry value="railway_station" display_value="Railway Station" de.display_value="Bahnstation"/>
     <list_entry value="police_station" display_value="Police Station" de.display_value="Polizeirevier"/>
     <list_entry value="water-police_station" display_value="Water-Police Station" de.display_value="Wasserpolizeistation"/>
-    <list_entry value="pilot_office" display_value="Pilot Office" de.display_value="Pilot Office"/> <!--INT-1 T3 DE:Lotsenstelle-->
-    <list_entry value="pilot_lookout" display_value="Pilot Lookout" de.display_value="Pilot Lookout"/> <!--INT-1 T2 DE:Lotsenausguck-->
+    <list_entry value="pilot_office" display_value="Pilot Office" de.display_value="Lotsenstelle"/> <!--INT-1 T3 DE:Lotsenstelle-->
+    <!-- <list_entry value="pilot_lookout" display_value="Pilot Lookout" de.display_value="Pilot Lookout"/> <!--INT-1 T2 obsolecent, DE:Lotsenstelle mit Ausguck, veraltete-->
     <list_entry value="bank" display_value="Bank" de.display_value="Geldinstitut"/>
     <list_entry value="district_control" display_value="District Control" de.display_value="Distgrict Control"/>
     <list_entry value="transit_shed" display_value="Transit Shed"/>
@@ -1091,7 +1091,7 @@
         </item>
         
         <item name="Crane (F53)" type="node,closedway">
-          <label text="F53: Crane"/>
+          <label text="F53: Crane" de.text="F53: Kran"/>
           <space/>
           <key key="seamark:type" value="crane"/>
           <combo key="seamark:crane:category" text="Crane type">
@@ -1107,35 +1107,35 @@
       <group name="Public buildings (F60-63)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/F/F.svg">
         
         <item name="Harbour Master's Office (F60)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/F/F60.svg" type="node,closedway">
-          <label text="F60: Harbour Master's Office" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/F/F60.svg"/>
+          <label text="F60: Harbour Master's Office" de.text="F60: Hafenmeister" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/F/F60.svg"/>
           <space/>
           <key key="seamark:type" value="building"/>
           <key key="seamark:building:function" value="harbour_master"/>
         </item>
         
         <item name="Customs Office (F61)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/F/F61.svg" type="node,closedway">
-          <label text="F61: Customs Office" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/F/F61.svg"/>
+          <label text="F61: Customs Office" de.text="F61: Zoll" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/F/F61.svg"/>
           <space/>
           <key key="seamark:type" value="building"/>
           <key key="seamark:building:function" value="customs"/>
         </item>
         
         <item name="Quarantine Office, Health Officers Office (F62.1)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/F/F62.1.svg" type="node,closedway">
-          <label text="F62.1: Quarantine Office, Health Officers Office" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/F/F62.1.svg"/>
+          <label text="F62.1: Quarantine Office, Health Officers Office" de.text="F62.1: Gesundheitsamt, Quarantaine Station" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/F/F62.1.svg"/>
           <space/>
           <key key="seamark:type" value="building"/>
           <key key="seamark:building:function" value="health"/>
         </item>
         
         <item name="Hospital (F62.2)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/F/F62.1.svg" type="node,closedway">
-          <label text="F62.2: Hospital" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/F/F62.1.svg"/>
+          <label text="F62.2: Hospital" de.text="F62.2: Krankenhaus" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/F/F62.1.svg"/>
           <space/>
           <key key="seamark:type" value="building"/>
           <key key="seamark:building:function" value="hospital"/>
         </item>
         
         <item name="Post Office (F63)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/F/F63.svg" type="node,closedway">
-          <label text="F63: Post Office" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/F/F63.svg"/>
+          <label text="F63: Post Office" de.text="F63: Post" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/F/F63.svg"/>
           <space/>
           <key key="seamark:type" value="building"/>
           <key key="seamark:building:function" value="post_office"/>
