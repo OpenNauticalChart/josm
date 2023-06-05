@@ -267,7 +267,7 @@ node["seamark:landmark:category"=flagstaff].landmark::int1_landmark {
 }
 
 /* F: Ports */
-node["seamark:type"=mooring]::int1_mooring {
+node["seamark:type"=mooring]["seamark:mooring:category"!=buoy]::int1_mooring { /* mooring buoys see section Q: Buoys */
 	symbol-shape:	circle;
 	color:			black;
 	symbol-size:	8;
@@ -312,10 +312,143 @@ node["depth"]::int1_depth {
     font-family:    TimesNewRoman;
     text-color:     black;
     text-anchor-vertical:   below;
+	text-halo-colour: white;
+	text-halo-radius: 2;
+	text-halo-opacity: 0.5;
 }
 /* J: Nature of seabed */
+/* reference in https://wiki.openstreetmap.org/wiki/Seamarks/INT-1_Section_J */
+*["seamark:seabed_area:surface"] {set seabed_surface;
+    text:
+	eval(
+		replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(
+		replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(		
+		/* 1st, 2nd, and 3rd seabad types and their qualification according to INT-1 12.2 syntax, reference in https://wiki.openstreetmap.org/wiki/Seamarks/INT-1_Section_J */
+		concat(
+			/* 1st element of seabed qualtifying and type values */
+			concat( 
+				cond(count(split(";", tag("seamark:seabed_area:surface_qualification")))=0, /* equal to single value, no list */
+					tag("seamark:seabed_area:surface_qualiication"),
+					get(split(";", tag("seamark:seabed_area:surface_qualification")), 0) /* list element 0 is the 1st element from the list */
+				),		
+				cond(count(split(";", tag("seamark:seabed_area:surface")))=0, /* equal to single value, no list */
+					tag("seamark:seabed_area:surface"),
+					get(split(";", tag("seamark:seabed_area:surface")), 0) /* list element 0 is the 1st element from the list */
+				)				
+			),
+			/* 2nd element of seabed type appended, if available */
+			cond(count(split(";", tag("seamark:seabed_area:surface_qualification")))>1 || count(split(";", tag("seamark:seabed_area:surface")))>1, 
+				concat( eval("."),		
+					get(split(";", tag("seamark:seabed_area:surface_qualification")), 1), /* list element 1 is the 2nd element from the list */			
+					get(split(";", tag("seamark:seabed_area:surface")), 1) /* list element 1 is the 2nd element from the list */					
+				),
+				eval("") /* dummy required for completion of cond-function */
+			),
+			/* 3rd element of seabed type appended, if available */
+			cond(count(split(";", tag("seamark:seabed_area:surface_qualification")))>2 || count(split(";", tag("seamark:seabed_area:surface")))>2, 
+				concat( eval("."),		
+					get(split(";", tag("seamark:seabed_area:surface_qualification")), 2), /* list element 2 is the 3rd element from the list */			
+					get(split(";", tag("seamark:seabed_area:surface")), 2) /* list element 2 is the 3rd element from the list */					
+				),
+				eval("") /* dummy required for completion of cond-function */
+			)			
+		),
+		/* transform seabed qualification to letters, reference in https://wiki.openstreetmap.org/wiki/Seamarks/INT-1_Section_J */	
+		fine, "f"), medium, "m"), coarse, "c"), broken, "bk"), sticky, "sy"), soft, "so"), stiff, "sf"), 
+		volcanic, "v"), calcareous, "ca"), hard, "h"),
+		
+		/* transform seabed type to letters, reference in https://wiki.openstreetmap.org/wiki/Seamarks/INT-1_Section_J */		
+		sand, "S"), mud, "M"), clay, "Cy"), silt, "Si"), stones, "St"), gravel, "G"), pebbles, "P"), 
+		cobbles, "Cb"), rocky, "R"), boulders, "Bo"), coral, "Co"), shells, "Sh"), lava, "Lv")
+	);
+}
+node|z15-["seamark:type"=seabed_area].seabed_surface { 
+	set             seabed_text;
+	text-anchor-horizontal: center;
+	text-anchor-vertical: center;
+}
+area|z15-["seamark:type"=seabed_area].seabed_surface { 
+	set             seabed_text;
+	text-position: 	center; 
+}
+way|z11-["seamark:seabed_area:surface"=rocky]  { 
+	repeat-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J21.svg";
+}
+way|z11-["seamark:seabed_area:surface"=coral]  { 
+	repeat-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J22.svg";
+}
+area|z15-["seamark:seabed_area:surface"~=stones], area|z15-["seamark:seabed_area:surface"~=gravel]  { 
+	fill-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J20.svg";
+}
+area|z11-["seamark:seabed_area:surface"~=rocky], area|z15-["seamark:seabed_area:surface"~=coral]  { 
+	fill-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J2122_rockycoral.MapCSS.shader.svg";
+	/* backup fill-image:		"https://raw.githubusercontent.com/osmandapp/OsmAnd-resources/master/icons/svg/shaders_int1/h_seamark_j2122_rockycoral.svg"; */
+}
+node["seamark:type"=weed] {
+    set             seabed_text;
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J13.2br.svg";
+	icon-width:		16;
+	text: 			eval("Wd");
+	text-anchor-horizontal: center;
+	text-anchor-vertical: below;
+}
+area["seamark:type"=weed] {
+    set             seabed_text;
+	fill-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J13.2br.weedkelp.MapCSS.shader.svg";
+	/* backup fill-image:		"https://raw.githubusercontent.com/osmandapp/OsmAnd-resources/master/icons/svg/shaders_int1/h_seamark_j132_weedkelp_shader.svg"; */
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J13.2br.svg";
+	icon-width:		16;
+	text: 			eval("Wd");
+	text-position: center;
+}
+node["seamark:type"=seagrass] {
+    set             seabed_text;
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J13.4gn.svg";
+	icon-width:		16;
+	text: 			eval("Sg");
+	text-anchor-horizontal: center;
+	text-anchor-vertical: below;
+}	
+area["seamark:type"=seagrass] {
+	set             seabed_text;
+	fill-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J134gnMapCSSshader.svg";
+	/* backup fill-image:		"https://raw.githubusercontent.com/osmandapp/OsmAnd-resources/master/icons/svg/shaders_int1/h_seamark_j134_seagrass_shader.svg"; */
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J13.4gn.svg";
+	icon-width:		16;
+	text: 			eval("Sg");
+	text-position: center;
+}
+*|z15-["seamark:type"=seabed_area].seabed_text, *|z15-["seamark:type"=weed].seabed_text, *|z15-["seamark:type"=seagrass].seabed_text {
+	font-family:    SansSerif; 
+	font-size:      11; 
+	font-style: 	italic;
+    text-halo-colour: white;
+	text-halo-radius: 2;
+	text-halo-opacity: 0.5;
+}
+node["seamark:type"=sand_waves] {
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J14.svg";
+}
+area["seamark:type"=sand_waves] {
+	fill-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J14.sand_waves.MapCSS.shader.svg";
+	/* backup fill-image:		"https://raw.githubusercontent.com/osmandapp/OsmAnd-resources/master/icons/svg/shaders_int1/h_seamark_j14_sand_waves.svg"; */
+}
+node["seamark:type"=spring] {
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J15.svg";
+}
+
 /* K: Rocks, Wrecks, Obstructions */
 node["seamark:type"=obstruction]::int1_obstruction {
+	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/K/K40.svg";
+	icon-width:		16;
+}
+node["seamark:type"=rock]::rock_shade {
+	symbol-shape: 	circle;
+	symbol-size: 	16;
+	symbol-fill-color: skyblue;
+	symbol-fill-opacity: 0.7;
+}
+node["seamark:type"=rock]::rock_obstruction {
 	icon-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/K/K40.svg";
 	icon-width:		16;
 }
@@ -373,6 +506,31 @@ node["seamark:type"=restricted_area]["seamark:restricted_area:category"=foul_gro
     text:           eval("foul");
     text-color:     black;
     text-anchor-vertical:    center;
+	text-anchor-horizontal:  center;
+	text-halo-colour: white;
+	text-halo-radius: 2;
+	text-halo-opacity: 0.5;
+}
+node["seamark:type"=obstruction]["seamark:obstruction:category"=foul_ground]::int1_obstruction {
+	icon-image:     "https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/K/K31.svg";
+    text:           eval("foul");
+    text-color:     black;
+    text-anchor-vertical:    below;
+	text-anchor-horizontal:  center;
+	text-halo-colour: white;
+	text-halo-radius: 2;
+	text-halo-opacity: 0.5;
+}
+area["seamark:type"=obstruction]["seamark:obstruction:category"=foul_ground]::int1_obstruction {
+    text:           eval("foul");
+    text-color:     black;
+    text-position:    center;
+	text-halo-colour: white;
+	text-halo-radius: 2;
+	text-halo-opacity: 0.5;
+	width:			1;
+	dashes:			list(10, 5);
+	color:			black;
 }
 
 /* L: Offshore Installations */
@@ -571,6 +729,16 @@ node["seamark:type"=beacon_special_purpose]::int1_buoy {
 	text-color:		black;
 }
 
+node|z15-["seamark:type"=mooring]["seamark:mooring:category"=buoy]::int1_buoy {
+	icon-image:		eval(concat("https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q40/", cond(has_tag_key(concat("seamark:",tag("seamark:type"),":colour_pattern")),concat(tag(concat("seamark:",tag("seamark:type"),":colour_pattern")),"/"), ""), any(replace(tag(concat("seamark:",tag("seamark:type"),":colour")),";","_"), "generic"), ".svg" ));
+	icon-height:	16;
+	icon-opacity:	1;
+    icon-offset-x:  1;
+    icon-offset-y:  -6;
+	text:			"seamark:name";
+	text-color:		black;	
+}
+
 /* Topmarks */
 node["seamark:type"=buoy_lateral]["seamark:topmark:shape"]::int1_topmark,
 node["seamark:type"=buoy_cardinal]["seamark:topmark:shape"]::int1_topmark,
@@ -601,7 +769,6 @@ node["seamark:beacon_special_purpose:shape"=lattice]::int1_buoy{
     icon-image:     "https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q111/generic.svg";
     icon-height:    16;
 }
-
 
 node["seamark:type"=notice]::int1_notice {
     z-index:        1;
