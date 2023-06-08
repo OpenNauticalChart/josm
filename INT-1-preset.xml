@@ -12,7 +12,6 @@
     <list_entry value="police_station" display_value="Police Station" de.display_value="Polizeirevier"/>
     <list_entry value="water-police_station" display_value="Water-Police Station" de.display_value="Wasserpolizeistation"/>
     <list_entry value="pilot_office" display_value="Pilot Office" de.display_value="Lotsenstelle"/> <!--INT-1 T3 DE:Lotsenstelle-->
-    <!-- <list_entry value="pilot_lookout" display_value="Pilot Lookout" de.display_value="Pilot Lookout"/> <!--INT-1 T2 obsolecent, DE:Lotsenstelle mit Ausguck, veraltete-->
     <list_entry value="bank" display_value="Bank" de.display_value="Geldinstitut"/>
     <list_entry value="district_control" display_value="District Control" de.display_value="Distgrict Control"/>
     <list_entry value="transit_shed" display_value="Transit Shed"/>
