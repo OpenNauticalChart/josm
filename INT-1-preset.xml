@@ -276,10 +276,8 @@
     
     <!--***********************Section B: Positions, Distances, Directions, Compass***************************-->
     
-<!--    <group name="B: Positions, Distances, Directions, Compass" de:name="Positionen, Entfernungen, Richtungen und 
-Missweisungen" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/B/B21.svg">
--->    <group name="B: Positions, Distances, Directions, Compass" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/B/B21.svg">
-      
+    <group name="B: Positions, Distances, Directions, Compass" de.name="Positionen, Entfernungen, Richtungen und Missweisungen" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/B/B21.svg">
+     
       <item name="Control Point (B20-B24)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/B/B20.svg" type="node">
         <label text="B20-B24: Control Point"  icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/B/B20.svg"/>
         <space/>
@@ -324,9 +322,7 @@ Missweisungen" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/ma
     
     <!--***********************Section D: Cultural Features***************************-->
     
-<!--    <group name="D: Cultural Features" de:name="Bauten" 
-icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/D/Db_uk.svg">
--->    <group name="D: Cultural Features" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/D/Db_uk.svg">
+    <group name="D: Cultural Features" de.name="Bauten" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/D/Db_uk.svg">
       
       <item name="Single Buildings (D2, D5, D6)" type="node,closedway">
         <label text="D2: Single Buildings"/>
@@ -463,8 +459,7 @@ icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/
     
     <!--***********************Section E: Landmarks***************************-->
     
-<!--    <group name="E: Landmarks" de:name="E: Landmarken" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E10.svg">
--->    <group name="E: Landmarks" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E10.svg">
+    <group name="E: Landmarks" de.name="E: Landmarken" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E10.svg">
       
       <item name="Landmarks in General" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E23_colour.svg" type="node,closedway">
         <label text="Landmarks in General, use appropriate categories to specify" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/E/E23_colour.svg"/>
@@ -1151,8 +1146,7 @@ icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/
     
     <!---***********************Section I: Depths***************************-->
     
-<!--    <group name="I: Depths" de:name="I: Tiefen">
--->    <group name="I: Depths">
+    <group name="I: Depths" de.name="I: Tiefen">
       
       <item name="Dredged area (I20-23)" type="closedway">
         <label text="I20-23: Dredged Area"/>
@@ -1210,8 +1204,7 @@ icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/
     
     <!---***********************Section J: Nature of Seabed***************************-->
     
-<!--    <group name="J: Nature of Seabed" de:name="J: Grundbezeichnungen" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J13.4gn.svg">
--->    <group name="J: Nature of Seabed" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J13.4gn.svg">
+    <group name="J: Nature of Seabed" de.name="J: Grundbezeichnungen" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J13.4gn.svg">
       
 	  <item name="Type of Seabed Surface and Quality (J1-J12)+(J30-J39)" de.name="Bodenart und Bodenbeschaffenheit (J1-J12)+(J30-J39)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J1.svg" type="node,closedway">
         <label text="J1-J12, J30-J39: Type of Seabed Surface and Quality" de.text="J1-J12, J30-J39: Bodenart und Bodenbeschaffenheit" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J1.svg"/>
@@ -1607,8 +1600,7 @@ icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/
       </item>
       
       <item name="Fish Stakes, Traps, Net (K44.*, K45)" de.name="Fischereianlagen (K44.*, K45)" type="node,closedway">
-<!--        <label text="K44.*: Fish Stakes, Traps" de:text="K44.*: Fischstaken, -reusen"/>
--->        <label text="K44.*: Fish Stakes, Traps"/>
+        <label text="K44.*: Fish Stakes, Traps" de.text="K44.*: Fischstaken, -reusen"/>
         <label text="K45: Tunny net" de.text="K44.*: Fischeusengebiet, Tunfischnetze"/>
         <space/>
         <key key="seamark:type" value="fishing_facility"/>
@@ -1655,8 +1647,7 @@ icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/
     <!---***********************Section L: Offshore Installations***************************-->
 	<!-- completion of translation to German required --> 
 	
-<!--    <group name="L: Offshore Installations" de:name="L: Offshore-Anlagen" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/L/L17.svg">
--->    <group name="L: Offshore Installations" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/L/L17.svg">
+    <group name="L: Offshore Installations" de.name="L: Offshore-Anlagen" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/L/L17.svg">
       
       <item name="Offshore Oil and Gas Field (L1)" type="closedway,node">
         <label text="L1: Offshore Oil and Gas Field"/>
@@ -1880,8 +1871,7 @@ icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/
     
     <!---***********************Section M: Tracks, Routes***************************-->
     
-<!--    <group name="M: Tracks, Routes" de:name="M: Schifffahrtswege" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/M/M10.svg">
--->    <group name="M: Tracks, Routes" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/M/M10.svg">
+    <group name="M: Tracks, Routes" de.name="M: Schifffahrtswege" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/M/M10.svg">
       
       <item name="Navigation Lines (M1, M2)" type="way">
         <label text="M1-2: Navigation Lines"/>
@@ -2036,8 +2026,7 @@ icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/
     
     <!---***********************Section N: Areas, Limits***************************-->
     
-<!--    <group name="N: Areas, Limits" de:name="N: Gebiete und Grenzen" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/N/N21.svg">
--->    <group name="N: Areas, Limits" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/N/N21.svg">
+    <group name="N: Areas, Limits" de.name="N: Gebiete und Grenzen" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/N/N21.svg">
       
       <item name="Restricted Area (N2)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/N/N2.1.svg" type="closedway">
         <label text="N2.1: Limit of Restricted Area" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/N/N2.1.svg"/>
@@ -2293,8 +2282,7 @@ icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/
     
     <!---***********************Section P: Lights***************************-->
     
-<!--    <group name="P: Lights" de:name="P: Leuchtfeuer" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/P/P1.major.svg">
--->    <group name="P: Lights" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/P/P1.major.svg">
+    <group name="P: Lights" de.name="P: Leuchtfeuer" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/P/P1.major.svg">
       
       <group name="Single non-directional Lights (P1-P16)" type="node,closedway" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/P/P1.minor.svg">
         <item name="Lights in General" type="node,closedway" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/P/P1.minor.svg">
@@ -4784,8 +4772,7 @@ icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/
     
     <!---***********************Section R: Fog Signals***************************-->
     
-<!--    <group name="R: Fog Signals" de:name="R: Nebelschallsignale" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/R/R1.svg">
--->    <group name="R: Fog Signals" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/R/R1.svg">
+    <group name="R: Fog Signals" de.name="R: Nebelschallsignale" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/R/R1.svg">
       
       <item name="Fog Signal (R1-R22)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/R/R1.svg" type="node">
         <label text="R1-R22: Fog Signal" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/R/R1.svg"/>
@@ -4819,8 +4806,7 @@ icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/
     
     <!---***********************Section S: Electronic Position-Fixing Systems***************************-->
     
-<!--    <group name="S: Electronic Position-Fixing Systems" de:name="S: Radar, funktechnische Stationen und Satellitennavigation" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/S/S1.svg">
--->    <group name="S: Electronic Position-Fixing Systems" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/S/S1.svg">
+    <group name="S: Electronic Position-Fixing Systems" de.name="S: Radar, funktechnische Stationen und Satellitennavigation" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/S/S1.svg">
       
       <item name="Coast Radar Station (S1)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/S/S1.svg" type="node">
         <label text="S1: Cost Radar Station" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/S/S1.svg"/>
@@ -4953,8 +4939,7 @@ icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/
     
     <!---***********************Section T: Services***************************-->
     
-<!--    <group name="T: Services" de:name="T: Dienste und Einrichtungen" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/T/T1.1.svg">
--->    <group name="T: Services" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/T/T1.1.svg">
+    <group name="T: Services" de.name="T: Dienste und Einrichtungen" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/T/T1.1.svg">
       
       <item name="Pilot Boarding Position (T1.1-T1.4)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/T/T1.1.svg" type="node">
         <label text="T1.1-T1.4: Pilot Boarding Position" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/T/T1.1.svg"/>
@@ -5080,8 +5065,7 @@ icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/
     
     <!---***********************Section U: Small Craft (Leisure) Facilities***************************-->
     
-<!--    <group name="U: Small Craft (Leisure) Facilities" de:name="U: Einrichtungen f??r die Sportschifffahrt" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/U/U1.1.svg">
--->    <group name="U: Small Craft (Leisure) Facilities" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/U/U1.1.svg">
+    <group name="U: Small Craft (Leisure) Facilities" de.name="U: Einrichtungen f??r die Sportschifffahrt" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/U/U1.1.svg">
       
       <item name="Marinas (U1.1/1.2)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/png/Marina16.png" type="node,way,closedway,relation">
         <label text="General Information (U1.1/1.2)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/png/Marina16.png"/>
