@@ -5279,7 +5279,7 @@
 		</item>
 
 		<item name="Update preset" de.name="Vorlage Aktualisieren">		
-		  <label text="Manual update of this Preset, delet the files in:" de.text="Manuelles Update der Vorlage, Dateien löschen in:"/>
+		  <label text="Manual update of this Preset, delet the files in:" de.text="Manuelles Update dieser Vorlage, Dateien löschen in:"/>
 		  <label text="Windows 7: \Users\[yourUSERNAME]\AppData\Roaming\JOSM\cache\"/>
 		  <!-- Please check foldername "ApplicationData", my Windows is in German -->
 		  <label text="Windows XP: \Documents and Settings\[yourUSERNAME]\ApplicationData\JOSM\cache\" de.text="Windows XP: \Dokumente und Einstellungen\[deinBENUTZERNAME]\Anwendungsdaten\JOSM\cache\"/>
