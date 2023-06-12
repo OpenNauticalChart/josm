@@ -5208,12 +5208,12 @@
       
     </group>
 
-    <!-- *********************** Supplementory Information (OpenSeaMap, not in INT-1) ****************** -->
+    <!-- *********************** Supplementary Information (OpenSeaMap, not in INT-1) ****************** -->
     
-    <group name="&#xA0; &#xA0; &#xA0;Supplementory Information" de.name="&#xA0; &#xA0; &#xA0;Zusätzliche Informationen">
+    <group name="&#xA0; &#xA0; &#xA0;Supplementary Information" de.name="&#xA0; &#xA0; &#xA0;Zusätzliche Informationen">
          
-		<item name="Supplimentary Information" type="node,way,closedway,relation">
-		  <label text="Supplimentary Information"/>
+		<item name="Seamark Status Information" type="node,way,closedway,relation">
+		  <label text="Seamark Status Information"/>
 		  <space/>
 		  <text key="seamark:name" text="Name"/>
 		  <text key="seamark:information" text="Information"/>
