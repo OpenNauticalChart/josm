@@ -4378,7 +4378,7 @@
           </item>
           
           <item name="Restriction Notices" de.name="Beschränkungsschilder" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q126/CEVNI/navigation_restrictions.svg" type="node">
-            <label text="CEVNI Restriction Notice" de.text="CEVNI Beschränkungs Schilder" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q126/CEVNI/navigation_restrictions.svg"/>
+            <label text="CEVNI Restriction Notice" de.text="CEVNI Beschränkungsschilder" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/Q/Q126/CEVNI/navigation_restrictions.svg"/>
             <space/>
             <key key="seamark:type" value="notice"/>
             <key key="seamark:notice:function" value="restriction"/>
@@ -5063,7 +5063,7 @@
     
     <!-- ***********************Section U: Small Craft (Leisure) Facilities***************************-->
     
-    <group name="U: Small Craft (Leisure) Facilities" de.name="U: Einrichtungen fär die Sportschifffahrt" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/U/U1.1.svg">
+    <group name="U: Small Craft (Leisure) Facilities" de.name="U: Einrichtungen für die Sportschifffahrt" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/U/U1.1.svg">
       
       <item name="Marinas (U1.1/1.2)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/png/Marina16.png" type="node,way,closedway,relation">
         <label text="General Information (U1.1/1.2)" icon="https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/png/Marina16.png"/>
