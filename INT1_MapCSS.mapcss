@@ -371,10 +371,16 @@ area|z15-["seamark:type"=seabed_area].seabed_surface {
 	set             seabed_text;
 	text-position: 	center; 
 }
-way|z11-["seamark:seabed_area:surface"=rocky]  { 
+way|z11-["seamark:seabed_area:surface"=rocky]:clockwise  { 
+	repeat-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J21clockwise.svg";
+}
+way|z11-["seamark:seabed_area:surface"=rocky]:anticlockwise  { 
 	repeat-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J21.svg";
 }
-way|z11-["seamark:seabed_area:surface"=coral]  { 
+way|z11-["seamark:seabed_area:surface"=coral]:clockwise  { 
+	repeat-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J22clockwise.svg";
+}
+way|z11-["seamark:seabed_area:surface"=coral]:anticlockwise  { 
 	repeat-image:		"https://raw.githubusercontent.com/OpenNauticalChart/josm/master/icons/svg/J/J22.svg";
 }
 area|z15-["seamark:seabed_area:surface"~=stones], area|z15-["seamark:seabed_area:surface"~=gravel]  { 

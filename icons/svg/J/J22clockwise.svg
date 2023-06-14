@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="9.3mm" height="3.8mm" fill-rule="evenodd" shape-rendering="geometricPrecision" version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <title>CORLDG06L</title>
+ <desc>coralledge</desc>
+ <metadata>
+  <!-- Created as line-style for Openseamap, CC BY-SA 2.0, 2021-10-27, josail, coralledge simplified SVG based on INT-1 J22 -->
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:title>CORLDG06L</dc:title>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="rotate(180 14.532 5.4898)">
+  <g transform="translate(-5.7201,-4.1176)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="1px">
+   <path d="m4.2803 3.6103-3.2202 5.7804"/>
+   <path d="m1.0601 9.3907v3.2202"/>
+   <path d="m1.0601 12.611 1.9301 1.2801"/>
+   <path d="m2.9902 13.891 1.2901-3.2102"/>
+   <path d="m4.2803 10.681 1.9301 3.8603"/>
+   <path d="m6.2104 14.541v-3.2202"/>
+   <path d="m6.2104 11.321 2.5702 2.5702"/>
+   <path d="m8.7806 13.891-.65005-8.9906"/>
+   <path d="m11.351 4.9003-.65004 3.2102"/>
+   <path d="m10.701 8.1106h3.2202"/>
+   <path d="m13.921 8.1106-.65004 4.1803"/>
+   <path d="m13.271 12.291 6.4304-8.0406"/>
+   <path d="m15.201 12.291 3.2102-1.6101"/>
+   <path d="m18.411 10.681-1.2801 3.2102"/>
+   <path d="m17.131 13.891 2.5702-2.4102"/>
+   <path d="m19.701 11.481 1.2801 3.0602"/>
+   <path d="m20.981 14.541 2.5802-7.7205"/>
+   <path d="m23.562 6.8205-.65004-5.1404"/>
+   <path d="m27.412 2.9702-1.2801 6.4204"/>
+   <path d="m26.132 9.3907 3.2102-2.8902"/>
+   <path d="m29.342 6.5005-1.2901 4.9803"/>
+   <path d="m28.052 11.481 2.5702-2.4902"/>
+   <path d="m30.622 8.9906 2.5702 5.5504"/>
+   <path d="m33.192 14.541-.64004-11.571"/>
+  </g>
+ </g>
+</svg>
